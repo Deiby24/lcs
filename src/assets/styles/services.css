@@ -1,0 +1,71 @@
+/* Estilos para la sección de servicios */
+.services {
+    padding: 80px 20px; /* Espaciado superior e inferior */
+    background-color: #ffffff; /* Fondo blanco */
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    color: #1a2a3a; /* Azul marino */
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas responsivas */
+    gap: 30px; /* Espacio entre las tarjetas */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
+  
+  .service-card {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px); /* Efecto de levantar la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  }
+  
+  .service-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem; /* Tamaño del título de la tarjeta */
+    color: #1a2a3a; /* Azul marino */
+    margin-bottom: 15px;
+  }
+  
+  .service-card p {
+    font-family: 'Lora', serif;
+    font-size: 1rem; /* Tamaño del texto */
+    color: #444; /* Gris oscuro */
+    line-height: 1.6; /* Espaciado entre líneas */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .services h2 {
+      font-size: 2rem; /* Tamaño más pequeño para móviles */
+    }
+  
+    .services-grid {
+      grid-template-columns: 1fr; /* Una columna en móviles */
+    }
+  
+    .service-card {
+      padding: 20px; /* Menos padding en móviles */
+    }
+  
+    .service-card h3 {
+      font-size: 1.3rem;
+    }
+  
+    .service-card p {
+      font-size: 0.9rem;
+    }
+  }

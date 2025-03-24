@@ -1,0 +1,9 @@
+.hero {
+  background: url('/src/assets/images/hero-bg.jpg') center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

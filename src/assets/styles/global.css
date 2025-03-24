@@ -1,0 +1,136 @@
+/* Importar Playfair Display y Lora desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  color: #333; 
+  background-color: #ffffff;
+}
+
+
+h1, h2, h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700; 
+  color: #dddddd; 
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem; 
+}
+
+h2 {
+  font-size: 2rem; 
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Párrafos */
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400; 
+  color: #444; 
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.cta-button:hover {
+  background-color: #b38f2b;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-list a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #1a2a3a; 
+}
+
+.nav-list a:hover {
+  color: #d4af37; 
+}
+
+
+.hero {
+  background-image: url('/src/assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+ 
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .cta {
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
