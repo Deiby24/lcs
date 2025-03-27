@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -16,18 +17,18 @@ const Footer = () => {
               {t('footer.description')}
             </p>
             <div className="flex justify-start space-x-4 mt-6">
-              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              <Link to="/services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaFacebookF />
-              </a>
-              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              </Link>
+              <Link to="/services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaTwitter />
-              </a>
-              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              </Link>
+              <Link to="/services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaInstagram />
-              </a>
-              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              </Link>
+              <Link to="/services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaLinkedinIn />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -39,9 +40,9 @@ const Footer = () => {
             <ul className="space-y-2">
               {t('footer.services.items', { returnObjects: true }).map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-amber-500 transition text-sm">
+                  <Link to="/services" className="text-gray-300 hover:text-amber-500 transition text-sm">
                     {item}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -81,13 +82,13 @@ const Footer = () => {
           />
           <div className="flex space-x-4">
             {t('footer.legal.links', { returnObjects: true }).map((link, index) => (
-              <a 
+              <Link 
                 key={index} 
-                href="#" 
+                to="/legal" 
                 className="text-gray-400 hover:text-amber-500 transition text-xs"
               >
                 {link}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

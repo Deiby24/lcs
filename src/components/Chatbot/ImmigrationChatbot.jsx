@@ -57,7 +57,7 @@ const SmartChatbot = () => {
         }));
       }, 500);
     }
-  }, [state.searchEngine]);
+  }, [state.isOpen, state.searchEngine]);
 
   // Función para extraer contenido estructurado de la página
   const extractPageContent = () => {
