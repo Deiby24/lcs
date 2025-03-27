@@ -16,16 +16,16 @@ const Footer = () => {
               {t('footer.description')}
             </p>
             <div className="flex justify-start space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaFacebookF />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaTwitter />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaInstagram />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
+              <a href="/Services" className="text-gray-400 hover:text-amber-500 transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-amber-500">
                 <FaLinkedinIn />
               </a>
             </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import serviceBG from '../assets/images/serviceBG.jpg';
 
@@ -9,7 +8,7 @@ const Services = () => {
   const { t } = useTranslation();
   const [scrollY, setScrollY] = useState(0);
   const [activeTab, setActiveTab] = useState("all");
-  const navigate = useNavigate();
+
 
   useEffect(() => {
     const handleScroll = () => {
