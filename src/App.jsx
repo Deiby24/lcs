@@ -2,9 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Para la navegación
 import Header from "./components/Header";
 import Home from "./pages/Home";
-// import Servicios from "./pages/Servicios";
-import SobreMi from "./pages/About";
-// import Contacto from "./pages/Contacto";
+import Footer from "./components/Footer";
+import Appointment from "./pages/Appointment";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+import ImmigrationChatbot from "./components/Chatbot/ImmigrationChatbot";
 // import AgendarCita from "./pages/AgendarCita";
 
 const App = () => {
@@ -13,11 +15,13 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/servicios" element={<Servicios />} /> */}
-        <Route path="/sobre-mi" element={<SobreMi />} />
-        {/* <Route path="/contacto" element={<Contacto />} />
-        <Route path="/agendar-cita" element={<AgendarCita />} /> */}
+        <Route path="/Services" element={<Services />} />
+        {/* <Route path="/sobre-mi" element={<SobreMi />} /> */}
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Appointment" element={<Appointment />} />
       </Routes>
+      <ImmigrationChatbot />
+      <Footer />
     </Router>
   );
 };

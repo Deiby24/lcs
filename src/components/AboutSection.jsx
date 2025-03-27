@@ -1,13 +1,24 @@
 import React from 'react';
+import { useTranslation } from "react-i18next"; // Importar i18next
+import "../i18n";
 
 const AboutSection = () => {
+    const { t } = useTranslation();
     return (
-        <section className="py-10 bg-gray-100 text-center">
-            <h2 className="text-3xl font-bold mb-4">¿Quiénes Somos?</h2>
-            <p className="text-gray-700 max-w-2xl mx-auto">
-                Somos un equipo de abogados especializados en derecho migratorio. Te ayudamos a 
-                hacer realidad tu sueño de vivir y trabajar legalmente en [país destino].
-            </p>
+        <section className="py-16 bg-gray-100 text-gray-900">
+            <div className="container mx-auto px-4 text-center" style={{ display:"contents" }}>
+                <h2 className="text-4xl font-bold text-gray-800 mb-8 relative pb-4">
+                    {t("about_title")}
+                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-amber-500"></span>
+                </h2>
+                
+                <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm border-t-4 border-amber-500">
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                        <span className="font-semibold text-amber-600">Libertas Consulting Services LLC</span>, 
+                        {t("about_description")}
+                    </p>
+                </div>
+            </div>
         </section>
     );
 };

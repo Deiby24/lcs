@@ -1,17 +1,37 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next"; // Importar i18next
+import "../i18n";
 
-const services = [
-  { number: "01", title: "Visas de Trabajo", description: "Te ayudamos a obtener la visa laboral que necesitas." },
-  { number: "02", title: "Residencia Permanente", description: "Asesoría para conseguir tu residencia legalmente." },
-  { number: "03", title: "Ciudadanía", description: "Te guiamos en el proceso de naturalización." },
-  { number: "04", title: "Defensa Migratoria", description: "Protegemos tus derechos en casos de deportación." },
-];
+
 
 const ServicesSummary = () => {
+  const { t } = useTranslation();
+  const services = [
+    { 
+      number: "01", 
+      title: t("title_visa"),
+      description: t("description_visa")
+    },
+    { 
+      number: "02",
+      title: t("title_Residency"),
+      description: t("description_Residency")
+    },
+    { 
+      number: "03",
+      title: t("title_Citizenship"),
+      description: t("description_Citizenship")
+    },
+    { 
+      number: "04",
+      title: t("title_Immigration"),
+      description: t("description_Immigration"),
+     },
+  ];
   return (
     <motion.section 
-      className="py-20 text-center bg-gradient-to-b from-gray-100 to-gray-200"
+      className="py-20 text-center bg-gray-100 text-gray-900"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -23,10 +43,10 @@ const ServicesSummary = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        Nuestros Servicios
+       {t("services_title")}
       </motion.h2>
       <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-12">
-        Soluciones legales para visas, residencia y ciudadanía con asesoría experta.
+        {t("services_description")}
       </p>
 
       {/* Tarjetas de Servicios */}
@@ -47,7 +67,7 @@ const ServicesSummary = () => {
             <p className="text-gray-600 text-sm leading-relaxed">
               {service.description}
             </p>
-            <a href="#" className="mt-4 inline-block text-yellow-600 font-medium text-sm hover:underline">
+            <a href="/Services" className="mt-4 inline-block text-yellow-600 font-medium text-sm hover:underline">
               Leer más →
             </a>
           </motion.div>

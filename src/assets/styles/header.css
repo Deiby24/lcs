@@ -55,3 +55,66 @@
 .cta-button:hover {
   background: #a88b5f;
 }
+
+/* Cuando el header tiene scroll (hasBackground = true) */
+.header.scrolled {
+  color: black !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Links - Prioridad máxima */
+.header.scrolled a:not(.cta-button) {
+  color: black !important;
+}
+
+.mobile-menu-button {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.mobile-menu-button .bar {
+  width: 25px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+.mobile-menu-button .bar.open {
+  background: gold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-button {
+    display: flex;
+  }
+
+  .nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .cta-button {
+    font-size: 10px!important;
+  }
+}

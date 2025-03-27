@@ -1,15 +1,31 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
+import { useTranslation } from "react-i18next"; // Importar i18next
+import "../i18n";
 
-const steps = [
-  { step: "Evaluación", description: "Revisamos tu caso y te damos la mejor opción migratoria." },
-  { step: "Documentación", description: "Te ayudamos a reunir todos los documentos necesarios." },
-  { step: "Aplicación", description: "Presentamos tu solicitud ante las autoridades migratorias." },
-  { step: "Resultado", description: "Te acompañamos hasta obtener una respuesta." },
-];
+
 
 const ProcessSteps = () => {
+  const { t } = useTranslation();
+  const steps = [
+    { 
+      step: t("step1"), 
+      description: t("description1") 
+    },
+    { 
+      step: t("step2"), 
+      description:  t("description2") 
+    },
+    { 
+      step: t("step3"), 
+      description: t("description3")
+    },
+    { 
+      step: t("step4"), 
+      description: t("description4")
+    },
+  ];
   return (
     <section className="py-16 bg-black text-white">
       <div className="max-w-5xl mx-auto text-center">
@@ -19,7 +35,7 @@ const ProcessSteps = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Nuestro Proceso
+          {t("process_title")}
         </motion.h2>
 
         {/* Línea de tiempo */}

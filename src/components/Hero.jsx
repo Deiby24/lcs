@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../assets/styles/hero.css";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next"; // Importar i18next
+import "../i18n";
 
 
 // Ejemplo de hero con fondo oscuro y acentos dorados
 const Hero = () => {
+  const { t } = useTranslation();
   const [scrollY, setScrollY] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,8 +25,9 @@ const Hero = () => {
     };
   }, []);
 
+
   return (
-    <section className="relative h-screen bg-black bg-opacity-50  text-white overflow-hidden">
+    <section className="relative h-screen bg-black bg-opacity-50  text-white overflow-hidden hro">
       <div
         className="hero absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
         style={{ transform: `translateY(${scrollY * 0.5}px)` }} // Efecto parallax
@@ -41,7 +47,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Expertos en Derecho Migratorio
+            {t("hero_title")} 
           </motion.h1>
 
           <motion.p
@@ -50,7 +56,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Brindamos soluciones legales y asesoría personalizada para tus necesidades migratorias.
+            {t("hero_subtitle")}
           </motion.p>
 
           <motion.button
@@ -58,8 +64,9 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
+            onClick={() => navigate("/appointment")}
           >
-            Agendar Cita
+            {t("hero_button")}
           </motion.button>
         </motion.div>
       </div>
