@@ -29,7 +29,7 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-50" />
 
-      <div className="relative z-10 flex items-center justify-center h-full px-6">
+      <div className="relative z-0 flex items-center justify-center h-full px-6">
         <motion.div
           className="max-w-3xl text-center"
           initial={{ opacity: 0, y: 30 }}

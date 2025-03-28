@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -15,11 +15,12 @@ const Footer = () => {
             <h2 className="text-2xl font-bold text-[#D4AF37] mb-4">{t('footer.companyName')}</h2>
             <p className="text-[#E0E0E0] text-sm leading-relaxed">{t('footer.description')}</p>
             <div className="flex justify-start space-x-4 mt-6">
-              {[FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn].map((Icon, index) => (
-                <Link key={index} to="/services" className="text-gray-400 hover:text-[#C99E4D] transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-[#C99E4D]">
-                  <Icon />
-                </Link>
-              ))}
+              <a href="https://www.facebook.com/profile.php?id=61574561734460&locale=es_LA" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#C99E4D] transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-[#C99E4D]">
+                <FaFacebookF />
+              </a>
+              <a href="https://www.instagram.com/libertaslcs/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#C99E4D] transition text-lg w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 hover:border-[#C99E4D]">
+                <FaInstagram />
+              </a>
             </div>
           </div>
 
@@ -45,11 +46,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaPhone className="text-[#C99E4D] mr-3" />
-                <a href="tel:+19015551234" className="hover:text-[#C99E4D] transition">{t('footer.contact.phone')}</a>
+                <a href="tel:+1 5308637124" className="hover:text-[#C99E4D] transition">{t('footer.contact.phone')}</a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-[#C99E4D] mr-3" />
-                <a href="mailto:info@libertasconsulting.com" className="hover:text-[#C99E4D] transition">{t('footer.contact.email')}</a>
+                <a href="mailto:marketing.libertaslcs@gmail.com" className="hover:text-[#C99E4D] transition">{t('footer.contact.email')}</a>
               </li>
             </ul>
           </div>

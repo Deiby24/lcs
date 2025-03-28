@@ -52,13 +52,13 @@ i18n
             cards: {
               phone: {
                 title: "Call Us",
-                description: "Available Monday to Friday from 9am to 6pm",
-                number: "(901) 555-1234"
+                description: "Available Monday to Friday from 9am to 4:30pm",
+                number: "+1 5308637124"
               },
               email: {
                 title: "Email Us",
                 description: "We'll respond within 24 hours",
-                address: "info@libertasconsulting.com"
+                address: "marketing.libertaslcs@gmail.com"
               },
               appointment: {
                 title: "Schedule Consultation",
@@ -66,14 +66,14 @@ i18n
                 button: "Request Appointment"
               },
               location: {
-                title: "Office in Jacksonville, FL",
-                address: "123 Main Street, Suite 456",
-                hours: "Hours: Monday to Friday 9am-6pm"
+                title: "Office in Jacksonville, FL 32216",
+                address: "4063 Salisbury Road, Suite 110",
+                hours: "Hours: Monday to Friday 9am-4:30pm"
               }
             }
           },
           footer: {
-            companyName: "Libertas Consulting Services LLC",
+            companyName: "Libertas Consulting Services  LCS",
             description: "Immigration law experts with 20 years of experience, providing reliable and personalized advice for your future in the United States. Main offices in Jacksonville, FL.",
             services: {
               title: "Services",
@@ -87,12 +87,12 @@ i18n
             },
             contact: {
               title: "Contact",
-              address: "123 Main Street, Suite 456<br />Jacksonville, FL 32256",
-              phone: "(901) 555-1234",
-              email: "info@libertasconsulting.com"
+              address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+              phone: "+1 5308637124",
+              email: "marketing.libertaslcs@gmail.com"
             },
             legal: {
-              copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. All rights reserved.`,
+              copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. All rights reserved.`,
               links: [
                 "Terms of Service",
                 "Privacy Policy",
@@ -231,15 +231,15 @@ i18n
             info: {
               title: "Our Office",
               addressTitle: "Address",
-              address: "123 Immigration Way<br />Suite 400<br />New York, NY 10001",
+              address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
               phoneTitle: "Phone",
-              phone: "Main: (212) 555-1000<br />Fax: (212) 555-1001",
+              phone: "+1 5308637124",
               emailTitle: "Email",
-              email: "info@immigrationservices.com<br />support@immigrationservices.com",
+              email: "marketing.libertaslcs@gmail.com",
               hoursTitle: "Hours",
-              hours: "Monday - Friday: 9am - 6pm<br />Saturday: 10am - 2pm<br />Sunday: Closed",
+              hours: "Monday - Friday: 9am - 4:30pm<br />Saturday: Closed<br />Sunday: Closed",
               emergencyTitle: "Emergency Contact",
-              emergencyText: "For urgent immigration matters outside business hours, please call our emergency line at <span class='font-semibold'>(212) 555-9111</span>."
+              emergencyText: "For urgent immigration matters outside business hours, please call our emergency line at <span class='font-semibold'>+1 5308637124</span>."
             },
             form: {
               title: "Send Us a Message",
@@ -358,13 +358,13 @@ i18n
               cards: {
                 phone: {
                   title: "Llámanos",
-                  description: "Disponibles de lunes a viernes de 9am a 6pm",
-                  number: "(901) 555-1234"
+                  description: "Disponibles de lunes a viernes de 9am a 4:30pm",
+                  number: "+1 5308637124"
                 },
                 email: {
                   title: "Escríbenos",
                   description: "Responderemos en menos de 24 horas",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "Agenda Consulta",
@@ -372,14 +372,14 @@ i18n
                   button: "Solicitar Cita"
                 },
                 location: {
-                  title: "Oficina en Jacksonville, FL",
-                  address: "123 Calle Principal, Suite 456",
-                  hours: "Horario: Lunes a Viernes 9am-6pm"
+                  title: "Oficina en Jacksonville, FL 32216",
+                  address: "4063 Salisbury Road, Suite 110",
+                  hours: "Horario: Lunes a Viernes 9am-4:30pm"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services  LCS",
               description: "Expertos en leyes migratorias con 20 años de experiencia, brindando asesoría confiable y personalizada para tu futuro en Estados Unidos. Oficinas principales en Jacksonville, FL.",
               services: {
                 title: "Servicios",
@@ -393,12 +393,12 @@ i18n
               },
               contact: {
                 title: "Contacto",
-                address: "123 Calle Principal, Suite 456<br />Jacksonville, FL 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Todos los derechos reservados.`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Todos los derechos reservados.`,
                 links: [
                   "Términos de Servicio",
                   "Política de Privacidad",
@@ -537,15 +537,15 @@ i18n
               info: {
                 title: "Nuestra Oficina",
                 addressTitle: "Dirección",
-                address: "123 Avenida Inmigración<br />Suite 400<br />Nueva York, NY 10001",
+                address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
                 phoneTitle: "Teléfono",
-                phone: "Principal: (212) 555-1000<br />Fax: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "Correo Electrónico",
-                email: "info@serviciosinmigracion.com<br />soporte@serviciosinmigracion.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Horario",
-                hours: "Lunes - Viernes: 9am - 6pm<br />Sábado: 10am - 2pm<br />Domingo: Cerrado",
+                hours: "Lunes - Viernes: 9am - 4:30pm <br />Sábado: Cerrado<br />Domingo: Cerrado",
                 emergencyTitle: "Contacto de Emergencia",
-                emergencyText: "Para asuntos migratorios urgentes fuera del horario laboral, llame a nuestra línea de emergencia al <span class='font-semibold'>(212) 555-9111</span>."
+                emergencyText: "Para asuntos migratorios urgentes fuera del horario laboral, llame a nuestra línea de emergencia al <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envíenos un Mensaje",
@@ -664,12 +664,12 @@ i18n
                 phone: {
                   title: "Appelez-nous",
                   description: "Disponible du lundi au vendredi de 9h à 18h",
-                  number: "(901) 555-1234"
+                  number: "+1 5308637124"
                 },
                 email: {
                   title: "Écrivez-nous",
                   description: "Nous répondrons dans les 24 heures",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "Prendre Rendez-vous",
@@ -677,14 +677,14 @@ i18n
                   button: "Demander un Rendez-vous"
                 },
                 location: {
-                  title: "Bureau à Jacksonville, FL",
-                  address: "123 Rue Principale, Suite 456",
-                  hours: "Heures d'ouverture : Lundi au Vendredi 9h-18h"
+                  title: "Bureau à Jacksonville, FL 32216",
+                  address: "4063 Salisbury Road, Suite 110",
+                  hours: "Heures d'ouverture : Lundi au Vendredi 9h-16:30h"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services LCS",
               description: "Experts en droit de l'immigration avec 20 ans d'expérience, fournissant des conseils fiables et personnalisés pour votre avenir aux États-Unis. Bureaux principaux à Jacksonville, FL.",
               services: {
                 title: "Services",
@@ -698,12 +698,12 @@ i18n
               },
               contact: {
                 title: "Contact",
-                address: "123 Rue Principale, Suite 456<br />Jacksonville, FL 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Tous droits réservés.`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Tous droits réservés.`,
                 links: [
                   "Conditions d'Utilisation",
                   "Politique de Confidentialité",
@@ -842,15 +842,15 @@ i18n
               info: {
                 title: "Notre Bureau",
                 addressTitle: "Adresse",
-                address: "123 Avenue Immigration<br />Suite 400<br />New York, NY 10001",
+                address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
                 phoneTitle: "Téléphone",
-                phone: "Principal: (212) 555-1000<br />Fax: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "Email",
-                email: "info@servicesimmigration.com<br />support@servicesimmigration.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Heures d'ouverture",
-                hours: "Lundi - Vendredi: 9h - 18h<br />Samedi: 10h - 14h<br />Dimanche: Fermé",
+                hours: "Lundi - Vendredi: 9h - 16:30h<br />Samedi: Fermé<br />Dimanche: Fermé",
                 emergencyTitle: "Contact d'urgence",
-                emergencyText: "Pour les questions d'immigration urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'urgence au <span class='font-semibold'>(212) 555-9111</span>."
+                emergencyText: "Pour les questions d'immigration urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'urgence au <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envoyez-nous un message",
@@ -969,13 +969,13 @@ i18n
               cards: {
                 phone: {
                   title: "电话联系",
-                  description: "周一至周五上午9点至下午6点可用",
-                  number: "(901) 555-1234"
+                  description: "周一至周五上午9点至下午4:30可用",
+                  number: "+1 530-863-7124"
                 },
                 email: {
                   title: "发送邮件",
                   description: "我们将在24小时内回复",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "预约咨询",
@@ -984,13 +984,13 @@ i18n
                 },
                 location: {
                   title: "佛罗里达州杰克逊维尔办公室",
-                  address: "主街123号，456套房",
-                  hours: "营业时间：周一至周五 上午9点至下午6点"
+                  address: "4063 Salisbury Road  Suite 110  Jacksonville FL 32216",
+                  hours: "营业时间：周一至周五 上午9点至下午4:30"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services  LCS",
               description: "拥有20年经验的移民法律专家，为您的美国未来提供可靠和个性化的建议。主要办事处位于佛罗里达州杰克逊维尔。",
               services: {
                 title: "服务项目",
@@ -1004,12 +1004,12 @@ i18n
               },
               contact: {
                 title: "联系方式",
-                address: "主街123号，456套房<br />佛罗里达州杰克逊维尔 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road,Suite 110 <br />Jacksonville FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC。保留所有权利。`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS。保留所有权利。`,
                 links: [
                   "服务条款",
                   "隐私政策",
@@ -1148,15 +1148,15 @@ i18n
               info: {
                 title: "我们的办公室",
                 addressTitle: "地址",
-                address: "移民路123号<br />400室<br />纽约, NY 10001",
+                address: "4063 萨利斯伯里路 <br/> 110 室 <br /> 佛罗里达州杰克逊维尔 32216",
                 phoneTitle: "电话",
-                phone: "主电话: (212) 555-1000<br />传真: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "电子邮件",
-                email: "info@immigrationservices.com<br />support@immigrationservices.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "营业时间",
-                hours: "周一 - 周五: 上午9点 - 下午6点<br />周六: 上午10点 - 下午2点<br />周日: 休息",
+                hours: "周一 - 周五: 上午9点 - 下午4:30 <br /> 周六 - 周日: 休息",
                 emergencyTitle: "紧急联系",
-                emergencyText: "对于工作时间以外的紧急移民事务，请拨打我们的紧急热线 <span class='font-semibold'>(212) 555-9111</span>。"
+                emergencyText: "对于工作时间以外的紧急移民事务，请拨打我们的紧急热线 <span class='font-semibold'>+1 5308637124</span>。"
               },
               form: {
                 title: "发送消息给我们",
@@ -1191,9 +1191,9 @@ i18n
             },
             news: {
               info: {
-                blog_title: "最新消息",
-                blog_description: "了解美国移民法律和变化的最新动态。",
-                read_more: "阅读更多 →"
+                blog_title: "暂无新闻",
+                blog_description: "当前语言不支持新闻内容。",
+                read_more: "返回首页 →"
               }
             },
             "Solicitud de Cita por WhatsApp": "通过WhatsApp预约",

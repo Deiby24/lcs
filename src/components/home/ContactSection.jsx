@@ -22,19 +22,19 @@ const ContactSection = () => {
             icon: <FaPhoneAlt className="text-amber-600 text-xl" />, 
             title: t('contact.cards.phone.title'), 
             description: t('contact.cards.phone.description'), 
-            link: "tel:+19015551234", 
+            link: "tel:+1 5308637124", 
             linkText: t('contact.cards.phone.number')
           }, {
             icon: <FaEnvelope className="text-amber-600 text-xl" />, 
             title: t('contact.cards.email.title'), 
             description: t('contact.cards.email.description'), 
-            link: "mailto:info@libertasconsulting.com", 
+            link: "mailto:marketing.libertaslcs@gmail.com", 
             linkText: t('contact.cards.email.address')
           }, {
             icon: <FaCalendarAlt className="text-amber-600 text-xl" />, 
             title: t('contact.cards.appointment.title'), 
             description: t('contact.cards.appointment.description'), 
-            link: "/contacto", 
+            link: "/appointment", 
             linkText: t('contact.cards.appointment.button'), 
             isButton: true
           }].map((card, index) => (

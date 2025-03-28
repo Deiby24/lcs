@@ -148,7 +148,7 @@ const Services = () => {
             <p className="text-sm sm:text-base text-gray-700 mb-4 flex-grow">
               {service.description}
             </p>
-            <a href="#" className="text-sm font-medium text-yellow-600 hover:underline hover:text-yellow-700">
+            <a href="/services" className="text-sm font-medium text-yellow-600 hover:underline hover:text-yellow-700">
               {service.form}
             </a>
           </motion.div>
@@ -257,13 +257,13 @@ const Services = () => {
     </div>
     <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-auto sm:mt-0">
       <Link
-        to="/contact"
+        to="/appointment"
         className="bg-white text-blue-800 px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-base sm:text-lg font-semibold shadow-lg hover:bg-blue-100 transition"
       >
         {t('services.cta.buttons.0')}
       </Link>
       <Link
-        to="/services"
+        to="/appointment"
         className="bg-transparent border-2 border-white text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-white hover:text-blue-800 transition"
       >
         {t('services.cta.buttons.1')}

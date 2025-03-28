@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import Appointment from "./pages/Appointment";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import ImmigrationChatbot from "./components/Chatbot/ImmigrationChatbot";
+import FloatingButtons from "./components/FloatingButtons";
+
 // import AgendarCita from "./pages/AgendarCita";
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Appointment" element={<Appointment />} />
       </Routes>
-      <ImmigrationChatbot />
+      <FloatingButtons />
       <Footer />
     </Router>
   );
