@@ -1,11 +1,14 @@
 .header {
   background: rgba(255, 255, 255, 0);
-  padding: 15px 30px;
+  padding: 10px 30px; /* Reducimos el padding superior e inferior */
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000;
+  height: 80px; /* Ajustamos la altura del navbar */
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -17,11 +20,14 @@
 }
 
 .logo img {
-  height: 50px;
+  height: 120px!important; /* Agrandamos el logo */
+  width: auto; /* Mantenemos la proporción */
+  display: block; /* Evita que el logo afecte la alineación */
 }
 
-.nav{
-  display:  flex;
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -45,7 +51,7 @@
 .cta-button {
   background: #c9a56d;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 16px; /* Ajustamos padding para reducir el tamaño */
   border-radius: 20px;
   text-decoration: none;
   font-weight: 700;
@@ -57,14 +63,16 @@
 }
 
 /* Cuando el header tiene scroll (hasBackground = true) */
-.header.scrolled {
-  color: black !important;
-  background: rgba(255, 255, 255, 0.9) !important;
-}
+@media (min-width: 769px) {
+  .header.scrolled {
+    color: black !important;
+    background: #1C1F2A;
+  }
 
-/* Links - Prioridad máxima */
-.header.scrolled a:not(.cta-button) {
-  color: black !important;
+  .header.scrolled a:not(.cta-button) {
+    color: rgb(255, 255, 255) !important;
+  }
+  
 }
 
 .mobile-menu-button {
@@ -94,6 +102,20 @@
 }
 
 @media (max-width: 768px) {
+
+  .header{
+  
+    justify-content: center!important;
+  }
+
+  .header.scrolled {
+    background: #1C1F2A;
+  }
+
+  .header.scrolled .mobile-menu-button .bar {
+    background: rgb(255, 255, 255) !important; 
+  }
+
   .mobile-menu-button {
     display: flex;
   }
@@ -103,11 +125,12 @@
     top: 60px;
     right: 0;
     width: 200px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(34, 46, 73);
     display: none;
     flex-direction: column;
     padding: 10px;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
   }
 
   .nav.open {
@@ -117,4 +140,12 @@
   .cta-button {
     font-size: 10px!important;
   }
+
+  .logo img {
+    height: 60px!important; /* Agrandamos el logo */
+    width: auto; /* Mantenemos la proporción */
+    display: block; /* Evita que el logo afecte la alineación */
+  }
 }
+
+

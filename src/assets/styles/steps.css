@@ -1,0 +1,63 @@
+/* Estilos para tabletas (pantallas de hasta 1024px) */
+@media (max-width: 1024px) {
+    .steps-container {
+      flex-direction: column; /* Disposición en columna */
+    }
+  
+    .step-card {
+      width: 100%; /* Asegura que los pasos ocupen todo el ancho disponible */
+      text-align: center;
+    }
+  
+    .step-title {
+      font-size: 1.25rem; /* Ajustar tamaño de título */
+    }
+  
+    .step-description {
+      font-size: 0.875rem; /* Ajustar tamaño de descripción */
+    }
+  
+    .step-number {
+      font-size: 0.75rem; /* Reducir tamaño del número */
+      top: -0.5rem; /* Ajustar la posición del número */
+      right: -0.5rem; /* Ajustar la posición del número */
+    }
+  
+    .step-icon {
+      width: 2.5rem; /* Reducir tamaño del icono */
+      height: 2.5rem; /* Reducir tamaño del icono */
+    }
+  }
+  
+  /* Estilos para celulares (pantallas de hasta 640px) */
+  @media (max-width: 640px) {
+    .steps-container {
+      flex-direction: column; /* Disposición en columna */
+    }
+  
+    .step-card {
+      width: 100%; /* Asegura que los pasos ocupen todo el ancho disponible */
+      text-align: center;
+      margin-bottom: 2rem; /* Separar los pasos en móviles */
+    }
+  
+    .step-title {
+      font-size: 1.125rem; /* Ajustar tamaño de título */
+    }
+  
+    .step-description {
+      font-size: 0.875rem; /* Ajustar tamaño de descripción */
+    }
+  
+    .step-number {
+      font-size: 0.75rem; /* Reducir tamaño del número */
+      top: -0.5rem; /* Ajustar la posición del número */
+      right: -0.5rem; /* Ajustar la posición del número */
+    }
+  
+    .step-icon {
+      width: 2.5rem; /* Reducir tamaño del icono */
+      height: 2.5rem; /* Reducir tamaño del icono */
+    }
+  }
+  

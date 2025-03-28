@@ -115,7 +115,8 @@ i18n
               citizenship: "Citizenship",
               employment: "Employment",
               greenCard: "Green Card",
-              visas: "Visas"
+              visas: "Visas",
+              family: "Family",
             },
             servicesTitle: "Our Immigration Services",
             serviceItems: [
@@ -277,7 +278,40 @@ i18n
               blog_description: "Stay informed about immigration laws and changes in the United States.",
               read_more: "Read more →"
             }
-          }
+          },
+          "Solicitud de Cita por WhatsApp": "Appointment Request via WhatsApp",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "Fill out the form and you'll be redirected to WhatsApp to confirm",
+      "Nombre completo": "Full name",
+      "Correo electrónico": "Email",
+      "Número de teléfono": "Phone number",
+      "Ciudad de residencia": "City of residence",
+      "Número de identificación": "ID number",
+      "Seleccione un servicio": "Select a service",
+      "Fecha deseada": "Desired date",
+      "Hora deseada": "Desired time",
+      "Enviar por WhatsApp": "Send via WhatsApp",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "When submitting this form, you'll be redirected to WhatsApp to confirm your appointment.",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "Form completed! You'll be redirected to WhatsApp.",
+      "Nueva Solicitud de Cita": "New Appointment Request",
+      "Nombre": "Name",
+      "Email": "Email",
+      "Teléfono": "Phone",
+      "Ciudad": "City",
+      "Identificación": "ID",
+      "Motivo de la cita": "Appointment reason",
+      "Por favor confirmar disponibilidad": "Please confirm availability",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "U.S. Citizenship (Form N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "Certificate of Citizenship (Form N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renew Certificate of Citizenship (Form N-565)",
+      "Renovación de Green Card (Formulario I-90)": "Green Card Renewal (Form I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "Remove Conditions for Residence (Form I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "Adjustment of Status (Form I-485)",
+      "Green Card para familiar (Formulario I-130)": "Green Card for Family Member (Form I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "Employment Authorization (Form I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "Deferred Action for Childhood Arrivals (DACA) (Form I-821D)",
+      "Lotería de Green Card (DV)": "Green Card Lottery (DV)"
         },
       },
         es: {
@@ -387,7 +421,8 @@ i18n
                 citizenship: "Ciudadanía",
                 employment: "Empleo",
                 greenCard: "Green Card",
-                visas: "Visados"
+                visas: "Visados",
+                family: "Familiar",
               },
               servicesTitle: "Nuestros Servicios Migratorios",
               serviceItems: [
@@ -549,7 +584,39 @@ i18n
                 blog_description: "Manténgase informado sobre las leyes y cambios en materia de inmigración en Estados Unidos.",
                 read_more: "Leer más →"
               }
-            }
+            },
+            "Solicitud de Cita por WhatsApp": "Solicitud de Cita por WhatsApp",
+            "Complete el formulario y será redirigido a WhatsApp para confirmar": "Complete el formulario y será redirigido a WhatsApp para confirmar",
+            "Nombre completo": "Nombre completo",
+            "Correo electrónico": "Correo electrónico",
+            "Número de teléfono": "Número de teléfono",
+            "Ciudad de residencia": "Ciudad de residencia",
+            "Número de identificación": "Número de identificación",
+            "Seleccione un servicio": "Seleccione un servicio",
+            "Fecha deseada": "Fecha deseada",
+            "Hora deseada": "Hora deseada",
+            "Enviar por WhatsApp": "Enviar por WhatsApp",
+            "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.",
+            "¡Formulario completado! Será redirigido a WhatsApp.": "¡Formulario completado! Será redirigido a WhatsApp.",
+            "Nueva Solicitud de Cita": "Nueva Solicitud de Cita",
+            "Nombre": "Nombre",
+            "Email": "Email",
+            "Teléfono": "Teléfono",
+            "Ciudad": "Ciudad",
+            "Identificación": "Identificación",
+            "Motivo de la cita": "Motivo de la cita",
+            "Por favor confirmar disponibilidad": "Por favor confirmar disponibilidad",
+
+            "Ciudadanía Americana (Formulario N-400)": "Ciudadanía Americana (Formulario N-400)",
+            "Certificado de Ciudadanía (Formulario N-600)": "Certificado de Ciudadanía (Formulario N-600)",
+            "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renovar Certificado de Ciudadanía (Formulario N-565)",
+            "Renovación de Green Card (Formulario I-90)": "Renovación de Green Card (Formulario I-90)",
+            "Eliminar condiciones de residencia (Formulario I-751)": "Eliminar condiciones de residencia (Formulario I-751)",
+            "Ajuste de Estatus (Formulario I-485)": "Ajuste de Estatus (Formulario I-485)",
+            "Green Card para familiar (Formulario I-130)": "Green Card para familiar (Formulario I-130)",
+            "Permiso de Trabajo (Formulario I-765)": "Permiso de Trabajo (Formulario I-765)",
+            "Acción Diferida (DACA) (Formulario I-821D)": "Acción Diferida (DACA) (Formulario I-821D)",
+            "Lotería de Green Card (DV)": "Lotería de Green Card (DV)"
           },
         },
         fr: {
@@ -657,9 +724,10 @@ i18n
               filter: {
                 all: "Tous les Services",
                 citizenship: "Citoyenneté",
-                employment: "Emploi",
+                employment: "Travail",
                 greenCard: "Carte Verte",
-                visas: "Visas"
+                visas: "Visas",
+                family: "Familial",
               },
               servicesTitle: "Nos Services d'Immigration",
               serviceItems: [
@@ -822,6 +890,39 @@ i18n
                 read_more: "En savoir plus →",
               }
             },
+            "Solicitud de Cita por WhatsApp": "Demande de rendez-vous via WhatsApp",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "Remplissez le formulaire et vous serez redirigé vers WhatsApp pour confirmer",
+      "Nombre completo": "Nom complet",
+      "Correo electrónico": "Email",
+      "Número de teléfono": "Numéro de téléphone",
+      "Ciudad de residencia": "Ville de résidence",
+      "Número de identificación": "Numéro d'identification",
+      "Seleccione un servicio": "Sélectionnez un service",
+      "Fecha deseada": "Date souhaitée",
+      "Hora deseada": "Heure souhaitée",
+      "Enviar por WhatsApp": "Envoyer via WhatsApp",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "En soumettant ce formulaire, vous serez redirigé vers WhatsApp pour confirmer votre rendez-vous.",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "Formulaire complété! Vous serez redirigé vers WhatsApp.",
+      "Nueva Solicitud de Cita": "Nouvelle demande de rendez-vous",
+      "Nombre": "Nom",
+      "Email": "Email",
+      "Teléfono": "Téléphone",
+      "Ciudad": "Ville",
+      "Identificación": "Identification",
+      "Motivo de la cita": "Motif du rendez-vous",
+      "Por favor confirmar disponibilidad": "Veuillez confirmer la disponibilité",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "Citoyenneté américaine (Formulaire N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "Certificat de citoyenneté (Formulaire N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renouveler le certificat de citoyenneté (Formulaire N-565)",
+      "Renovación de Green Card (Formulario I-90)": "Renouvellement de la carte verte (Formulaire I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "Supprimer les conditions de résidence (Formulaire I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "Ajustement de statut (Formulaire I-485)",
+      "Green Card para familiar (Formulario I-130)": "Carte verte pour un membre de la famille (Formulaire I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "Autorisation de travail (Formulaire I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "Action différée (DACA) (Formulaire I-821D)",
+      "Lotería de Green Card (DV)": "Loterie de la carte verte (DV)"
           },
         },
         zh: {
@@ -929,9 +1030,10 @@ i18n
               filter: {
                 all: "所有服务",
                 citizenship: "公民身份",
-                employment: "工作许可",
+                employment: "工作授权",
                 greenCard: "绿卡",
-                visas: "签证"
+                visas: "签证",
+                family: "家庭担保",
               },
               servicesTitle: "我们的移民服务",
               serviceItems: [
@@ -1093,8 +1195,40 @@ i18n
                 blog_description: "了解美国移民法律和变化的最新动态。",
                 read_more: "阅读更多 →"
               }
-            }
-          
+            },
+            "Solicitud de Cita por WhatsApp": "通过WhatsApp预约",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "填写表格后，您将被重定向到WhatsApp进行确认",
+      "Nombre completo": "全名",
+      "Correo electrónico": "电子邮件",
+      "Número de teléfono": "电话号码",
+      "Ciudad de residencia": "居住城市",
+      "Número de identificación": "身份证号码",
+      "Seleccione un servicio": "选择服务",
+      "Fecha deseada": "期望日期",
+      "Hora deseada": "期望时间",
+      "Enviar por WhatsApp": "通过WhatsApp发送",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "提交此表格后，您将被重定向到WhatsApp确认您的预约。",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "表格已完成！您将被重定向到WhatsApp。",
+      "Nueva Solicitud de Cita": "新的预约请求",
+      "Nombre": "姓名",
+      "Email": "电子邮件",
+      "Teléfono": "电话",
+      "Ciudad": "城市",
+      "Identificación": "身份证",
+      "Motivo de la cita": "预约原因",
+      "Por favor confirmar disponibilidad": "请确认可用性",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "美国公民身份 (表格 N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "公民证书 (表格 N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "更新公民证书 (表格 N-565)",
+      "Renovación de Green Card (Formulario I-90)": "绿卡更新 (表格 I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "取消居住条件 (表格 I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "身份调整 (表格 I-485)",
+      "Green Card para familiar (Formulario I-130)": "家庭成员绿卡 (表格 I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "工作许可 (表格 I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "童年入境暂缓遣返 (DACA) (表格 I-821D)",
+      "Lotería de Green Card (DV)": "绿卡抽签 (DV)"
           }
         }
     },

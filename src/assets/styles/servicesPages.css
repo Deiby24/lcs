@@ -1,0 +1,53 @@
+/* Estilo para móvil */
+@media (max-width: 639px) {
+    .services-title {
+      font-size: 1.5rem; /* Título más pequeño en móviles */
+    }
+    .service-card {
+      width: 100%; /* Asegura que las tarjetas ocupen el 100% del ancho */
+    }
+    .filter-button {
+      padding: 0.5rem 1rem; /* Ajuste de tamaño de botones */
+    }
+  }
+  
+  /* Estilo para tabletas (pantallas entre 640px y 1023px) */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .services-title {
+        font-size: 1.5rem; /* Título más pequeño en móviles */
+      }
+      .service-card {
+        width: 100%; /* Asegura que las tarjetas ocupen el 100% del ancho */
+      }
+      .filter-button {
+        padding: 0.5rem 1rem; /* Ajuste de tamaño de botones */
+    }
+  }
+  
+
+  /* Estilos para pantallas móviles */
+@media (max-width: 639px) {
+    .title-section {
+      order: 1; /* El título aparece primero */
+      margin-bottom: 16px; /* Añadido para un espacio adecuado entre el título y las tarjetas */
+    }
+  
+    .service-card {
+      order: 2; /* Las tarjetas se colocan debajo del título */
+    }
+  }
+  
+  /* Estilos para tabletas (pantallas entre 640px y 1023px) */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .title-section {
+        order: 1; /* El título aparece primero */
+        margin-bottom: 16px; /* Añadido para un espacio adecuado entre el título y las tarjetas */
+      }
+    
+      .service-card {
+        order: 2; /* Las tarjetas se colocan debajo del título */
+      }
+  }
+
+  
+  

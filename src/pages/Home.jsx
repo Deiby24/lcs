@@ -1,12 +1,11 @@
 import React from 'react';
-import Hero from '../components/Hero';
-
-import ServicesSummary from '../components/ServicesSummary';
-import ProcessSteps from '../components/ProcessSteps';
-import Testimonials from '../components/Testimonials';
-import ContactSection from '../components/ContactSection';
-import BlogSection from '../components/BlogSection';
-import AboutSection from '../components/AboutSection';
+import Hero from '../components/home/Hero';
+import ServicesSummary from '../components/home/ServicesSummary';
+import ProcessSteps from '../components/home/ProcessSteps';
+import Testimonials from '../components/home/Testimonials';
+import ContactSection from '../components/home/ContactSection';
+import BlogSection from '../components/home/BlogSection';
+import AboutSection from '../components/home/AboutSection';
 
 
 const Home = () => {

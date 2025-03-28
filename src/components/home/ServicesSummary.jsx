@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next"; // Importar i18next
-import "../i18n";
-
-
+import { useTranslation } from "react-i18next";
+import "../../i18n";
+import "../../assets/styles/serviceHome.css"; // Importar los estilos
 
 const ServicesSummary = () => {
   const { t } = useTranslation();
@@ -27,8 +26,9 @@ const ServicesSummary = () => {
       number: "04",
       title: t("title_Immigration"),
       description: t("description_Immigration"),
-     },
+    },
   ];
+
   return (
     <motion.section 
       className="py-20 text-center bg-gray-100 text-gray-900"
@@ -36,38 +36,39 @@ const ServicesSummary = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      {/* Título */}
       <motion.h2 
-        className="text-4xl font-semibold text-gray-800 mb-6 tracking-wide"
+        className="text-4xl font-bold text-gray-800 mb-6 tracking-wide"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-       {t("services_title")}
+        {t("services_title")}
       </motion.h2>
       <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-12">
         {t("services_description")}
       </p>
 
-      {/* Tarjetas de Servicios */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
+      <div className="services-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto px-6">
         {services.map((service, index) => (
           <motion.div 
             key={index} 
-            className="p-8 bg-white shadow-md rounded-lg border border-gray-200 transition-all transform hover:shadow-lg hover:border-yellow-600"
+            className="service-card p-8 bg-white shadow-lg rounded-2xl border border-gray-200 transition-all transform hover:shadow-xl hover:border-yellow-600"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            whileHover={{ scale: 1.02 }}
+            whileHover={{ scale: 1.05 }}
           >
-            <span className="text-3xl font-semibold text-yellow-600">{service.number}.</span>
-            <h3 className="text-xl font-medium text-gray-800 mt-2 mb-3">
+            <span className="text-4xl font-bold text-yellow-600">{service.number}.</span>
+            <h3 className="service-title text-2xl font-semibold text-gray-800 mt-3 mb-4">
               {service.title}
             </h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="service-description text-gray-600 text-md leading-relaxed">
               {service.description}
             </p>
-            <a href="/Services" className="mt-4 inline-block text-yellow-600 font-medium text-sm hover:underline">
+            <a 
+              href="/Services" 
+              className="service-button mt-6 inline-block text-yellow-600 font-semibold text-md hover:underline hover:text-yellow-700 transition-all"
+            >
               Leer más →
             </a>
           </motion.div>
