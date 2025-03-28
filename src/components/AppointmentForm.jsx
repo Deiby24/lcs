@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaCalendarAlt, FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt, FaIdCard, FaClock, FaClipboardList } from "react-icons/fa";
+import { FaWhatsapp,  FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt, FaIdCard, FaClipboardList } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import "../i18n";
 

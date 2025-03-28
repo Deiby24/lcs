@@ -264,16 +264,14 @@ i18n
               successMessage: "Your message has been sent successfully. Our team will get back to you within 24 hours."
             },
             map: {
-              title: "Office Location"
+              title: "Office Location",
+              button:'See on google maps'
             },
             cta: {
               title: "Schedule a Free Consultation",
               subtitle: "Book a 30-minute consultation with one of our immigration experts to discuss your specific needs.",
               button: "Book Now"
             },
-            map:{
-              button:'See on google maps',
-            }
           },
           news: {
             info: {
@@ -573,16 +571,14 @@ i18n
                 successMessage: "Su mensaje ha sido enviado con éxito. Nuestro equipo se comunicará con usted dentro de 24 horas."
               },
               map: {
-                title: "Ubicación de la Oficina"
+                title: "Ubicación de la Oficina",
+                button:'Ver en google maps',
               },
               cta: {
                 title: "Programe una Consulta Gratuita",
                 subtitle: "Reserve una consulta de 30 minutos con uno de nuestros expertos en inmigración para discutir sus necesidades específicas.",
                 button: "Reservar Ahora"
               },
-              map:{
-                button:'Ver en google maps',
-              }
             },
             news: {
               info: {
@@ -881,16 +877,14 @@ i18n
                 successMessage: "Votre message a été envoyé avec succès. Notre équipe vous répondra dans les 24 heures."
               },
               map: {
-                title: "Emplacement du bureau"
+                title: "Emplacement du bureau",
+                button:'Voir sur google maps',
               },
               cta: {
                 title: "Planifier une consultation gratuite",
                 subtitle: "Réservez une consultation de 30 minutes avec l'un de nos experts en immigration pour discuter de vos besoins spécifiques.",
                 button: "Réserver maintenant"
               },
-              map:{
-                button:'Voir sur google maps',
-              }
             },
             news: {
               info:{
@@ -1190,16 +1184,14 @@ i18n
                 successMessage: "您的消息已成功发送。我们的团队将在24小时内回复您。"
               },
               map: {
-                title: "办公室位置"
+                title: "办公室位置",
+                button:'在谷歌地图上查看',
               },
               cta: {
                 title: "安排免费咨询",
                 subtitle: "预约30分钟的咨询与我们的一位移民专家讨论您的具体需求。",
                 button: "立即预约"
               },
-              map:{
-                button:'在谷歌地图上查看',
-              }
             },
             news: {
               info: {
