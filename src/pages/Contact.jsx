@@ -248,13 +248,14 @@ const Contact = () => {
                       required
                     />
                   </div>
-
-                  <button
-                    type="submit"
-                    className="w-full py-4 px-6 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold text-xl rounded-lg transition duration-300 shadow-md whitespace-nowrap"
-                  >
-                    {t("contact_pages.form.submitButton")}
-                  </button>
+                  <a
+  href={`mailto:destino@example.com?subject=Nuevo mensaje de ${formData.name}&body=${encodeURIComponent(
+    `Nombre: ${formData.name}\nEmail: ${formData.email}\nTeléfono: ${formData.phone}\nMensaje: ${formData.message}`
+  )}`}
+  className="w-full py-4 px-6 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold text-xl rounded-lg transition duration-300 shadow-md whitespace-nowrap text-center block"
+>
+  {t("contact_pages.form.submitButton")}
+</a>
                 </form>
               )}
             </div>
@@ -265,16 +266,16 @@ const Contact = () => {
                 {t('contact_pages.map.title')}
               </h2>
               <iframe
-                title={t('contact_pages.map.title')}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291234!2d-73.9878449242398!3d40.74844097138986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689879321413!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="min-h-[400px]"
-              ></iframe>
+  title={t('contact_pages.map.title')}
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.103509212077!2d-81.59103098487849!3d30.25227898181248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b61b5fdf5b6b%3A0xe8e54e5b3f9279!2s4063%20Salisbury%20Rd%20Suite%20110%2C%20Jacksonville%2C%20FL%2032216%2C%20EE.%20UU.!5e0!3m2!1ses!2sus!4v1711651281091!5m2!1ses!2sus"
+  width="100%"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="min-h-[400px]"
+></iframe>
               <div className="p-6 bg-gray-100 text-center">
                 <a 
                   href="https://goo.gl/maps/2v5y3" 

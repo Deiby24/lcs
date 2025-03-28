@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
 import juanImage from "../../assets/images/juan.jpg";
 import mariaImage from "../../assets/images/maria.jpg";
-import carlosImage from "../../assets/images/juan.jpg";
+import carlosImage from "../../assets/images/carlos.jpg";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import "../../assets/styles/testimonial.css"; // Importar los estilos
