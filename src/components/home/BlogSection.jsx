@@ -47,7 +47,7 @@ const BlogSection = () => {
 
   return (
     <motion.section 
-      className="py-20 text-center bg-gradient-to-b from-gray-100 to-gray-200"
+      className="py-20 text-center bg-gradient-to-b from-gray-100 to-gray-100"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}

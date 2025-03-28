@@ -1,0 +1,73 @@
+/* Estilos para tabletas (pantallas de hasta 1024px) */
+@media (max-width: 1024px) {
+    .testimonial-card {
+      padding: 6rem 4rem; /* Reducir el padding */
+    }
+  
+    .testimonial-number {
+      top: -5px;
+      left: -5px;
+      font-size: 1rem; /* Ajustar tamaño del número */
+      width: 35px;
+      height: 35px;
+    }
+  
+    .testimonial-image {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  
+    .testimonial-name {
+      font-size: 1rem; /* Reducir tamaño del nombre */
+    }
+  
+    .testimonial-comment {
+      font-size: 1rem; /* Reducir tamaño del comentario */
+    }
+  
+    .testimonial-date {
+      font-size: 0.875rem; /* Reducir tamaño de la fecha */
+    }
+  
+    .testimonial-stars {
+      font-size: 1rem; /* Reducir tamaño de las estrellas */
+    }
+  }
+  
+  /* Estilos para celulares (pantallas de hasta 640px) */
+  @media (max-width: 640px) {
+    .testimonial-card {
+      padding: 4rem 2rem; /* Reducir más el padding */
+      margin-bottom: 2rem; /* Separar las tarjetas */
+    }
+  
+    .testimonial-number {
+      top: -5px;
+      left: -5px;
+      font-size: 0.875rem; /* Ajustar tamaño del número */
+      width: 30px;
+      height: 30px;
+    }
+  
+    .testimonial-image {
+      width: 3rem;
+      height: 3rem;
+    }
+  
+    .testimonial-name {
+      font-size: 0.875rem; /* Reducir tamaño del nombre */
+    }
+  
+    .testimonial-comment {
+      font-size: 1rem; /* Reducir tamaño del comentario */
+    }
+  
+    .testimonial-date {
+      font-size: 0.75rem; /* Reducir tamaño de la fecha */
+    }
+  
+    .testimonial-stars {
+      font-size: 1rem; /* Reducir tamaño de las estrellas */
+    }
+  }
+  

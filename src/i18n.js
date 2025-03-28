@@ -52,13 +52,13 @@ i18n
             cards: {
               phone: {
                 title: "Call Us",
-                description: "Available Monday to Friday from 9am to 6pm",
-                number: "(901) 555-1234"
+                description: "Available Monday to Friday from 9am to 4:30pm",
+                number: "+1 5308637124"
               },
               email: {
                 title: "Email Us",
                 description: "We'll respond within 24 hours",
-                address: "info@libertasconsulting.com"
+                address: "marketing.libertaslcs@gmail.com"
               },
               appointment: {
                 title: "Schedule Consultation",
@@ -66,14 +66,14 @@ i18n
                 button: "Request Appointment"
               },
               location: {
-                title: "Office in Jacksonville, FL",
-                address: "123 Main Street, Suite 456",
-                hours: "Hours: Monday to Friday 9am-6pm"
+                title: "Office in Jacksonville, FL 32216",
+                address: "4063 Salisbury Road, Suite 110",
+                hours: "Hours: Monday to Friday 9am-4:30pm"
               }
             }
           },
           footer: {
-            companyName: "Libertas Consulting Services LLC",
+            companyName: "Libertas Consulting Services  LCS",
             description: "Immigration law experts with 20 years of experience, providing reliable and personalized advice for your future in the United States. Main offices in Jacksonville, FL.",
             services: {
               title: "Services",
@@ -87,12 +87,12 @@ i18n
             },
             contact: {
               title: "Contact",
-              address: "123 Main Street, Suite 456<br />Jacksonville, FL 32256",
-              phone: "(901) 555-1234",
-              email: "info@libertasconsulting.com"
+              address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+              phone: "+1 5308637124",
+              email: "marketing.libertaslcs@gmail.com"
             },
             legal: {
-              copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. All rights reserved.`,
+              copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. All rights reserved.`,
               links: [
                 "Terms of Service",
                 "Privacy Policy",
@@ -115,7 +115,8 @@ i18n
               citizenship: "Citizenship",
               employment: "Employment",
               greenCard: "Green Card",
-              visas: "Visas"
+              visas: "Visas",
+              family: "Family",
             },
             servicesTitle: "Our Immigration Services",
             serviceItems: [
@@ -230,15 +231,15 @@ i18n
             info: {
               title: "Our Office",
               addressTitle: "Address",
-              address: "123 Immigration Way<br />Suite 400<br />New York, NY 10001",
+              address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
               phoneTitle: "Phone",
-              phone: "Main: (212) 555-1000<br />Fax: (212) 555-1001",
+              phone: "+1 5308637124",
               emailTitle: "Email",
-              email: "info@immigrationservices.com<br />support@immigrationservices.com",
+              email: "marketing.libertaslcs@gmail.com",
               hoursTitle: "Hours",
-              hours: "Monday - Friday: 9am - 6pm<br />Saturday: 10am - 2pm<br />Sunday: Closed",
+              hours: "Monday - Friday: 9am - 4:30pm<br />Saturday: Closed<br />Sunday: Closed",
               emergencyTitle: "Emergency Contact",
-              emergencyText: "For urgent immigration matters outside business hours, please call our emergency line at <span class='font-semibold'>(212) 555-9111</span>."
+              emergencyText: "For urgent immigration matters outside business hours, please call our emergency line at <span class='font-semibold'>+1 5308637124</span>."
             },
             form: {
               title: "Send Us a Message",
@@ -269,6 +270,9 @@ i18n
               title: "Schedule a Free Consultation",
               subtitle: "Book a 30-minute consultation with one of our immigration experts to discuss your specific needs.",
               button: "Book Now"
+            },
+            map:{
+              button:'See on google maps',
             }
           },
           news: {
@@ -277,7 +281,40 @@ i18n
               blog_description: "Stay informed about immigration laws and changes in the United States.",
               read_more: "Read more →"
             }
-          }
+          },
+          "Solicitud de Cita por WhatsApp": "Appointment Request via WhatsApp",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "Fill out the form and you'll be redirected to WhatsApp to confirm",
+      "Nombre completo": "Full name",
+      "Correo electrónico": "Email",
+      "Número de teléfono": "Phone number",
+      "Ciudad de residencia": "City of residence",
+      "Número de identificación": "ID number",
+      "Seleccione un servicio": "Select a service",
+      "Fecha deseada": "Desired date",
+      "Hora deseada": "Desired time",
+      "Enviar por WhatsApp": "Send via WhatsApp",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "When submitting this form, you'll be redirected to WhatsApp to confirm your appointment.",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "Form completed! You'll be redirected to WhatsApp.",
+      "Nueva Solicitud de Cita": "New Appointment Request",
+      "Nombre": "Name",
+      "Email": "Email",
+      "Teléfono": "Phone",
+      "Ciudad": "City",
+      "Identificación": "ID",
+      "Motivo de la cita": "Appointment reason",
+      "Por favor confirmar disponibilidad": "Please confirm availability",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "U.S. Citizenship (Form N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "Certificate of Citizenship (Form N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renew Certificate of Citizenship (Form N-565)",
+      "Renovación de Green Card (Formulario I-90)": "Green Card Renewal (Form I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "Remove Conditions for Residence (Form I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "Adjustment of Status (Form I-485)",
+      "Green Card para familiar (Formulario I-130)": "Green Card for Family Member (Form I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "Employment Authorization (Form I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "Deferred Action for Childhood Arrivals (DACA) (Form I-821D)",
+      "Lotería de Green Card (DV)": "Green Card Lottery (DV)"
         },
       },
         es: {
@@ -324,13 +361,13 @@ i18n
               cards: {
                 phone: {
                   title: "Llámanos",
-                  description: "Disponibles de lunes a viernes de 9am a 6pm",
-                  number: "(901) 555-1234"
+                  description: "Disponibles de lunes a viernes de 9am a 4:30pm",
+                  number: "+1 5308637124"
                 },
                 email: {
                   title: "Escríbenos",
                   description: "Responderemos en menos de 24 horas",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "Agenda Consulta",
@@ -338,14 +375,14 @@ i18n
                   button: "Solicitar Cita"
                 },
                 location: {
-                  title: "Oficina en Jacksonville, FL",
-                  address: "123 Calle Principal, Suite 456",
-                  hours: "Horario: Lunes a Viernes 9am-6pm"
+                  title: "Oficina en Jacksonville, FL 32216",
+                  address: "4063 Salisbury Road, Suite 110",
+                  hours: "Horario: Lunes a Viernes 9am-4:30pm"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services  LCS",
               description: "Expertos en leyes migratorias con 20 años de experiencia, brindando asesoría confiable y personalizada para tu futuro en Estados Unidos. Oficinas principales en Jacksonville, FL.",
               services: {
                 title: "Servicios",
@@ -359,12 +396,12 @@ i18n
               },
               contact: {
                 title: "Contacto",
-                address: "123 Calle Principal, Suite 456<br />Jacksonville, FL 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Todos los derechos reservados.`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Todos los derechos reservados.`,
                 links: [
                   "Términos de Servicio",
                   "Política de Privacidad",
@@ -387,7 +424,8 @@ i18n
                 citizenship: "Ciudadanía",
                 employment: "Empleo",
                 greenCard: "Green Card",
-                visas: "Visados"
+                visas: "Visados",
+                family: "Familiar",
               },
               servicesTitle: "Nuestros Servicios Migratorios",
               serviceItems: [
@@ -502,15 +540,15 @@ i18n
               info: {
                 title: "Nuestra Oficina",
                 addressTitle: "Dirección",
-                address: "123 Avenida Inmigración<br />Suite 400<br />Nueva York, NY 10001",
+                address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
                 phoneTitle: "Teléfono",
-                phone: "Principal: (212) 555-1000<br />Fax: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "Correo Electrónico",
-                email: "info@serviciosinmigracion.com<br />soporte@serviciosinmigracion.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Horario",
-                hours: "Lunes - Viernes: 9am - 6pm<br />Sábado: 10am - 2pm<br />Domingo: Cerrado",
+                hours: "Lunes - Viernes: 9am - 4:30pm <br />Sábado: Cerrado<br />Domingo: Cerrado",
                 emergencyTitle: "Contacto de Emergencia",
-                emergencyText: "Para asuntos migratorios urgentes fuera del horario laboral, llame a nuestra línea de emergencia al <span class='font-semibold'>(212) 555-9111</span>."
+                emergencyText: "Para asuntos migratorios urgentes fuera del horario laboral, llame a nuestra línea de emergencia al <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envíenos un Mensaje",
@@ -541,6 +579,9 @@ i18n
                 title: "Programe una Consulta Gratuita",
                 subtitle: "Reserve una consulta de 30 minutos con uno de nuestros expertos en inmigración para discutir sus necesidades específicas.",
                 button: "Reservar Ahora"
+              },
+              map:{
+                button:'Ver en google maps',
               }
             },
             news: {
@@ -549,7 +590,39 @@ i18n
                 blog_description: "Manténgase informado sobre las leyes y cambios en materia de inmigración en Estados Unidos.",
                 read_more: "Leer más →"
               }
-            }
+            },
+            "Solicitud de Cita por WhatsApp": "Solicitud de Cita por WhatsApp",
+            "Complete el formulario y será redirigido a WhatsApp para confirmar": "Complete el formulario y será redirigido a WhatsApp para confirmar",
+            "Nombre completo": "Nombre completo",
+            "Correo electrónico": "Correo electrónico",
+            "Número de teléfono": "Número de teléfono",
+            "Ciudad de residencia": "Ciudad de residencia",
+            "Número de identificación": "Número de identificación",
+            "Seleccione un servicio": "Seleccione un servicio",
+            "Fecha deseada": "Fecha deseada",
+            "Hora deseada": "Hora deseada",
+            "Enviar por WhatsApp": "Enviar por WhatsApp",
+            "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.",
+            "¡Formulario completado! Será redirigido a WhatsApp.": "¡Formulario completado! Será redirigido a WhatsApp.",
+            "Nueva Solicitud de Cita": "Nueva Solicitud de Cita",
+            "Nombre": "Nombre",
+            "Email": "Email",
+            "Teléfono": "Teléfono",
+            "Ciudad": "Ciudad",
+            "Identificación": "Identificación",
+            "Motivo de la cita": "Motivo de la cita",
+            "Por favor confirmar disponibilidad": "Por favor confirmar disponibilidad",
+
+            "Ciudadanía Americana (Formulario N-400)": "Ciudadanía Americana (Formulario N-400)",
+            "Certificado de Ciudadanía (Formulario N-600)": "Certificado de Ciudadanía (Formulario N-600)",
+            "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renovar Certificado de Ciudadanía (Formulario N-565)",
+            "Renovación de Green Card (Formulario I-90)": "Renovación de Green Card (Formulario I-90)",
+            "Eliminar condiciones de residencia (Formulario I-751)": "Eliminar condiciones de residencia (Formulario I-751)",
+            "Ajuste de Estatus (Formulario I-485)": "Ajuste de Estatus (Formulario I-485)",
+            "Green Card para familiar (Formulario I-130)": "Green Card para familiar (Formulario I-130)",
+            "Permiso de Trabajo (Formulario I-765)": "Permiso de Trabajo (Formulario I-765)",
+            "Acción Diferida (DACA) (Formulario I-821D)": "Acción Diferida (DACA) (Formulario I-821D)",
+            "Lotería de Green Card (DV)": "Lotería de Green Card (DV)"
           },
         },
         fr: {
@@ -597,12 +670,12 @@ i18n
                 phone: {
                   title: "Appelez-nous",
                   description: "Disponible du lundi au vendredi de 9h à 18h",
-                  number: "(901) 555-1234"
+                  number: "+1 5308637124"
                 },
                 email: {
                   title: "Écrivez-nous",
                   description: "Nous répondrons dans les 24 heures",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "Prendre Rendez-vous",
@@ -610,14 +683,14 @@ i18n
                   button: "Demander un Rendez-vous"
                 },
                 location: {
-                  title: "Bureau à Jacksonville, FL",
-                  address: "123 Rue Principale, Suite 456",
-                  hours: "Heures d'ouverture : Lundi au Vendredi 9h-18h"
+                  title: "Bureau à Jacksonville, FL 32216",
+                  address: "4063 Salisbury Road, Suite 110",
+                  hours: "Heures d'ouverture : Lundi au Vendredi 9h-16:30h"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services LCS",
               description: "Experts en droit de l'immigration avec 20 ans d'expérience, fournissant des conseils fiables et personnalisés pour votre avenir aux États-Unis. Bureaux principaux à Jacksonville, FL.",
               services: {
                 title: "Services",
@@ -631,12 +704,12 @@ i18n
               },
               contact: {
                 title: "Contact",
-                address: "123 Rue Principale, Suite 456<br />Jacksonville, FL 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Tous droits réservés.`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Tous droits réservés.`,
                 links: [
                   "Conditions d'Utilisation",
                   "Politique de Confidentialité",
@@ -657,9 +730,10 @@ i18n
               filter: {
                 all: "Tous les Services",
                 citizenship: "Citoyenneté",
-                employment: "Emploi",
+                employment: "Travail",
                 greenCard: "Carte Verte",
-                visas: "Visas"
+                visas: "Visas",
+                family: "Familial",
               },
               servicesTitle: "Nos Services d'Immigration",
               serviceItems: [
@@ -774,15 +848,15 @@ i18n
               info: {
                 title: "Notre Bureau",
                 addressTitle: "Adresse",
-                address: "123 Avenue Immigration<br />Suite 400<br />New York, NY 10001",
+                address: "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
                 phoneTitle: "Téléphone",
-                phone: "Principal: (212) 555-1000<br />Fax: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "Email",
-                email: "info@servicesimmigration.com<br />support@servicesimmigration.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Heures d'ouverture",
-                hours: "Lundi - Vendredi: 9h - 18h<br />Samedi: 10h - 14h<br />Dimanche: Fermé",
+                hours: "Lundi - Vendredi: 9h - 16:30h<br />Samedi: Fermé<br />Dimanche: Fermé",
                 emergencyTitle: "Contact d'urgence",
-                emergencyText: "Pour les questions d'immigration urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'urgence au <span class='font-semibold'>(212) 555-9111</span>."
+                emergencyText: "Pour les questions d'immigration urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'urgence au <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envoyez-nous un message",
@@ -813,6 +887,9 @@ i18n
                 title: "Planifier une consultation gratuite",
                 subtitle: "Réservez une consultation de 30 minutes avec l'un de nos experts en immigration pour discuter de vos besoins spécifiques.",
                 button: "Réserver maintenant"
+              },
+              map:{
+                button:'Voir sur google maps',
               }
             },
             news: {
@@ -822,6 +899,39 @@ i18n
                 read_more: "En savoir plus →",
               }
             },
+            "Solicitud de Cita por WhatsApp": "Demande de rendez-vous via WhatsApp",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "Remplissez le formulaire et vous serez redirigé vers WhatsApp pour confirmer",
+      "Nombre completo": "Nom complet",
+      "Correo electrónico": "Email",
+      "Número de teléfono": "Numéro de téléphone",
+      "Ciudad de residencia": "Ville de résidence",
+      "Número de identificación": "Numéro d'identification",
+      "Seleccione un servicio": "Sélectionnez un service",
+      "Fecha deseada": "Date souhaitée",
+      "Hora deseada": "Heure souhaitée",
+      "Enviar por WhatsApp": "Envoyer via WhatsApp",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "En soumettant ce formulaire, vous serez redirigé vers WhatsApp pour confirmer votre rendez-vous.",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "Formulaire complété! Vous serez redirigé vers WhatsApp.",
+      "Nueva Solicitud de Cita": "Nouvelle demande de rendez-vous",
+      "Nombre": "Nom",
+      "Email": "Email",
+      "Teléfono": "Téléphone",
+      "Ciudad": "Ville",
+      "Identificación": "Identification",
+      "Motivo de la cita": "Motif du rendez-vous",
+      "Por favor confirmar disponibilidad": "Veuillez confirmer la disponibilité",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "Citoyenneté américaine (Formulaire N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "Certificat de citoyenneté (Formulaire N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renouveler le certificat de citoyenneté (Formulaire N-565)",
+      "Renovación de Green Card (Formulario I-90)": "Renouvellement de la carte verte (Formulaire I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "Supprimer les conditions de résidence (Formulaire I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "Ajustement de statut (Formulaire I-485)",
+      "Green Card para familiar (Formulario I-130)": "Carte verte pour un membre de la famille (Formulaire I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "Autorisation de travail (Formulaire I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "Action différée (DACA) (Formulaire I-821D)",
+      "Lotería de Green Card (DV)": "Loterie de la carte verte (DV)"
           },
         },
         zh: {
@@ -868,13 +978,13 @@ i18n
               cards: {
                 phone: {
                   title: "电话联系",
-                  description: "周一至周五上午9点至下午6点可用",
-                  number: "(901) 555-1234"
+                  description: "周一至周五上午9点至下午4:30可用",
+                  number: "+1 530-863-7124"
                 },
                 email: {
                   title: "发送邮件",
                   description: "我们将在24小时内回复",
-                  address: "info@libertasconsulting.com"
+                  address: "marketing.libertaslcs@gmail.com"
                 },
                 appointment: {
                   title: "预约咨询",
@@ -883,13 +993,13 @@ i18n
                 },
                 location: {
                   title: "佛罗里达州杰克逊维尔办公室",
-                  address: "主街123号，456套房",
-                  hours: "营业时间：周一至周五 上午9点至下午6点"
+                  address: "4063 Salisbury Road  Suite 110  Jacksonville FL 32216",
+                  hours: "营业时间：周一至周五 上午9点至下午4:30"
                 }
               }
             },
             footer: {
-              companyName: "Libertas Consulting Services LLC",
+              companyName: "Libertas Consulting Services  LCS",
               description: "拥有20年经验的移民法律专家，为您的美国未来提供可靠和个性化的建议。主要办事处位于佛罗里达州杰克逊维尔。",
               services: {
                 title: "服务项目",
@@ -903,12 +1013,12 @@ i18n
               },
               contact: {
                 title: "联系方式",
-                address: "主街123号，456套房<br />佛罗里达州杰克逊维尔 32256",
-                phone: "(901) 555-1234",
-                email: "info@libertasconsulting.com"
+                address: "4063 Salisbury Road,Suite 110 <br />Jacksonville FL 32216",
+                phone: "+1 5308637124",
+                email: "marketing.libertaslcs@gmail.com"
               },
               legal: {
-                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC。保留所有权利。`,
+                copyright: `&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS。保留所有权利。`,
                 links: [
                   "服务条款",
                   "隐私政策",
@@ -929,9 +1039,10 @@ i18n
               filter: {
                 all: "所有服务",
                 citizenship: "公民身份",
-                employment: "工作许可",
+                employment: "工作授权",
                 greenCard: "绿卡",
-                visas: "签证"
+                visas: "签证",
+                family: "家庭担保",
               },
               servicesTitle: "我们的移民服务",
               serviceItems: [
@@ -1046,15 +1157,15 @@ i18n
               info: {
                 title: "我们的办公室",
                 addressTitle: "地址",
-                address: "移民路123号<br />400室<br />纽约, NY 10001",
+                address: "4063 萨利斯伯里路 <br/> 110 室 <br /> 佛罗里达州杰克逊维尔 32216",
                 phoneTitle: "电话",
-                phone: "主电话: (212) 555-1000<br />传真: (212) 555-1001",
+                phone: "+1 5308637124",
                 emailTitle: "电子邮件",
-                email: "info@immigrationservices.com<br />support@immigrationservices.com",
+                email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "营业时间",
-                hours: "周一 - 周五: 上午9点 - 下午6点<br />周六: 上午10点 - 下午2点<br />周日: 休息",
+                hours: "周一 - 周五: 上午9点 - 下午4:30 <br /> 周六 - 周日: 休息",
                 emergencyTitle: "紧急联系",
-                emergencyText: "对于工作时间以外的紧急移民事务，请拨打我们的紧急热线 <span class='font-semibold'>(212) 555-9111</span>。"
+                emergencyText: "对于工作时间以外的紧急移民事务，请拨打我们的紧急热线 <span class='font-semibold'>+1 5308637124</span>。"
               },
               form: {
                 title: "发送消息给我们",
@@ -1085,16 +1196,51 @@ i18n
                 title: "安排免费咨询",
                 subtitle: "预约30分钟的咨询与我们的一位移民专家讨论您的具体需求。",
                 button: "立即预约"
+              },
+              map:{
+                button:'在谷歌地图上查看',
               }
             },
             news: {
               info: {
-                blog_title: "最新消息",
-                blog_description: "了解美国移民法律和变化的最新动态。",
-                read_more: "阅读更多 →"
+                blog_title: "暂无新闻",
+                blog_description: "当前语言不支持新闻内容。",
+                read_more: "返回首页 →"
               }
-            }
-          
+            },
+            "Solicitud de Cita por WhatsApp": "通过WhatsApp预约",
+      "Complete el formulario y será redirigido a WhatsApp para confirmar": "填写表格后，您将被重定向到WhatsApp进行确认",
+      "Nombre completo": "全名",
+      "Correo electrónico": "电子邮件",
+      "Número de teléfono": "电话号码",
+      "Ciudad de residencia": "居住城市",
+      "Número de identificación": "身份证号码",
+      "Seleccione un servicio": "选择服务",
+      "Fecha deseada": "期望日期",
+      "Hora deseada": "期望时间",
+      "Enviar por WhatsApp": "通过WhatsApp发送",
+      "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "提交此表格后，您将被重定向到WhatsApp确认您的预约。",
+      "¡Formulario completado! Será redirigido a WhatsApp.": "表格已完成！您将被重定向到WhatsApp。",
+      "Nueva Solicitud de Cita": "新的预约请求",
+      "Nombre": "姓名",
+      "Email": "电子邮件",
+      "Teléfono": "电话",
+      "Ciudad": "城市",
+      "Identificación": "身份证",
+      "Motivo de la cita": "预约原因",
+      "Por favor confirmar disponibilidad": "请确认可用性",
+      
+      // Motivos de cita
+      "Ciudadanía Americana (Formulario N-400)": "美国公民身份 (表格 N-400)",
+      "Certificado de Ciudadanía (Formulario N-600)": "公民证书 (表格 N-600)",
+      "Renovar Certificado de Ciudadanía (Formulario N-565)": "更新公民证书 (表格 N-565)",
+      "Renovación de Green Card (Formulario I-90)": "绿卡更新 (表格 I-90)",
+      "Eliminar condiciones de residencia (Formulario I-751)": "取消居住条件 (表格 I-751)",
+      "Ajuste de Estatus (Formulario I-485)": "身份调整 (表格 I-485)",
+      "Green Card para familiar (Formulario I-130)": "家庭成员绿卡 (表格 I-130)",
+      "Permiso de Trabajo (Formulario I-765)": "工作许可 (表格 I-765)",
+      "Acción Diferida (DACA) (Formulario I-821D)": "童年入境暂缓遣返 (DACA) (表格 I-821D)",
+      "Lotería de Green Card (DV)": "绿卡抽签 (DV)"
           }
         }
     },
