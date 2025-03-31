@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import serviceBG from '../assets/images/serviceBG.jpg';
 
 const ServiceDetail = () => {
@@ -46,7 +46,7 @@ const ServiceDetail = () => {
     if (window.location.pathname !== newPath) {
       navigate(newPath, { replace: true });
     }
-  }, [i18n.language, currentService, navigate]);
+  }, [i18n.language, currentService, navigate, t]);
 
   const handleContactClick = () => {
     navigate("/contact", { state: { service: currentService?.form } });
