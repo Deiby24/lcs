@@ -49,9 +49,9 @@ const ServiceDetail = () => {
     }
   }, [i18n.language, currentService, navigate, t]);
 
-  const handleContactClick = () => {
-    navigate("/Appointment", { state: { service: currentService?.form } });
-  };
+  // const handleContactClick = () => {
+  //   navigate("/Appointment", { state: { service: currentService?.form } });
+  // };
 
   const handleServicesClick = () => {
     navigate("/services");
