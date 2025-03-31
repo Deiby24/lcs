@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Para la navegación
+import {React, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom"; // Para la navegación
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -10,9 +10,21 @@ import FloatingButtons from "./components/FloatingButtons";
 import ServiceDetail from "./pages/ServiceDetail";
 // import AgendarCita from "./pages/AgendarCita";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => {
+
   return (
     <Router basename={process.env.PUBLIC_URL || ''}>
+      <ScrollToTop/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

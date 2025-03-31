@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
+import "../i18n";
+import { useTranslation } from "react-i18next";
 
 const FloatingButtons = () => {
   const [showTooltip, setShowTooltip] = useState(true);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const showMessage = () => {
       setShowTooltip(true);
-      setTimeout(() => setShowTooltip(false), 3000);
+      setTimeout(() => setShowTooltip(false), 8000);
     };
 
     showMessage(); // Mostrar inmediatamente
@@ -41,8 +44,8 @@ const FloatingButtons = () => {
       {/* Botón de WhatsApp */}
       <div className="relative">
         {showTooltip && (
-          <div className="absolute right-16 bottom-3 bg-green-500 text-white text-sm py-1 px-3 rounded-lg shadow-md animate-fadeInOut text-center">
-            ¡Chatea con nosotros!
+          <div className="absolute right-16 bottom-3 bg-green-500 text-white text-sm py-1 px-3 rounded-lg shadow-md animate-fadeInOut text-center" style={{width: '170px'}}>
+          {t("wtpButton")}
           </div>
         )}
         <a 
