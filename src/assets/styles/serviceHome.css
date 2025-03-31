@@ -1,0 +1,47 @@
+/* Estilos para tabletas (pantallas de hasta 1024px) */
+@media (max-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en tabletas */
+    }
+  
+    .service-card {
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .service-title {
+      font-size: 1.875rem;
+    }
+  
+    .service-description {
+      font-size: 1rem;
+    }
+  
+    .service-button {
+      font-size: 0.875rem;
+    }
+  }
+  
+  /* Estilos para celulares (pantallas de hasta 640px) */
+  @media (max-width: 640px) {
+    .services-grid {
+      grid-template-columns: 1fr; /* 1 columna en celulares */
+    }
+  
+    .service-card {
+      padding: 1.5rem;
+    }
+  
+    .service-title {
+      font-size: 1.5rem;
+    }
+  
+    .service-description {
+      font-size: 0.875rem;
+    }
+  
+    .service-button {
+      font-size: 0.875rem;
+    }
+  }
+  

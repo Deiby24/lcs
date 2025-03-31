@@ -121,41 +121,49 @@ i18n
             servicesTitle: "Our Immigration Services",
             serviceItems: [
               {
+                id: 1,
                 title: "Citizenship",
                 description: "Assistance with Form N-400 for a seamless citizenship application process.",
                 form: "Form N-400"
               },
               {
+                id: 2,
                 title: "Employment Authorization",
                 description: "Expert guidance on Form I-765 to obtain your Employment Authorization Document.",
                 form: "Form I-765"
               },
               {
+                id: 3,
                 title: "Green Card",
                 description: "Support with Form I-485 for adjusting your status to permanent resident.",
                 form: "Form I-485"
               },
               {
+                id: 4,
                 title: "Visas",
                 description: "Help with Form DS-160 for B1/B2 visitor visas for business or tourism.",
                 form: "Form DS-160"
               },
               {
+                id: 5,
                 title: "Family Sponsorship",
                 description: "Green Card for family members with Form I-130.",
                 form: "Form I-130"
               },
               {
+                id: 6,
                 title: "DACA Renewal",
                 description: "Renew your DACA status with Form I-821D.",
                 form: "Form I-821D"
               },
               {
+                id: 7,
                 title: "Asylum Application",
                 description: "Assistance with Form I-589 for asylum seekers.",
                 form: "Form I-589"
               },
               {
+                id: 8,
                 title: "Certificate of Citizenship",
                 description: "Establish status with Form N-600.",
                 form: "Form N-600"
@@ -239,7 +247,7 @@ i18n
               hoursTitle: "Hours",
               hours: "Monday - Friday: 9am - 4:30pm<br />Saturday: Closed<br />Sunday: Closed",
               emergencyTitle: "Emergency Contact",
-              emergencyText: "For urgent immigration matters outside business hours, please call our emergency line at <span class='font-semibold'>+1 5308637124</span>."
+              emergencyText: "Our only contact line for immigration matters is <span class='font-semibold'>+1 5308637124</span>."
             },
             form: {
               title: "Send Us a Message",
@@ -428,41 +436,60 @@ i18n
               servicesTitle: "Nuestros Servicios Migratorios",
               serviceItems: [
                 {
+                  id: 1,
                   title: "Ciudadanía",
                   description: "Asistencia con el Formulario N-400 para un proceso de ciudadanía sin problemas.",
-                  form: "Formulario N-400"
+                  form: "Formulario N-400",
+                  content: "USCIS Form N-400: Application for U.S. Citizenship",
+                  contentSubtitle: "Do You Qualify?",
+                  contentFirstPoint:"1. Residence",
+                  contentFirstPointText: "To qualify for U.S. citizenship, you must have been a permanent resident (Green Card holder) for at least 5 years. If you are married to a U.S. citizen, this period is reduced to 3 years. During this time, you must have lived continuously in the United States.",
+                  contentSecondPoint: "2. Physical Presence",
+                  contentSecondPointText: "You must have been physically present in the United States for at least 30 months out of the last 5 years before filing your application. If you are married to a U.S. citizen, you must have been present for at least 18 months out of the last 3 years.",
+                  contentThirdPoint:"3. Good Moral Character",
+                  contentThirdPointText:"To be eligible, you must demonstrate good moral character. This includes paying taxes, obeying U.S. laws, and having no serious criminal record. USCIS will evaluate your conduct during the required residency period.",
+                  contentFourPoint:"4. Oath of Allegiance",
+                  contentFourPointText: "One of the final steps to obtaining citizenship is taking the Oath of Allegiance to the United States. By doing so, you pledge to support and defend the Constitution and the laws of the country, renouncing allegiance to other countries.",
+                  contentFinal:"If you meet these basic requirements, you can proceed to complete and submit Form N-400 to begin your path to U.S. citizenship. Good luck!"
                 },
                 {
+                  id: 2,
                   title: "Autorización de Empleo",
                   description: "Orientación experta en el Formulario I-765 para obtener tu Documento de Autorización de Empleo.",
                   form: "Formulario I-765"
                 },
                 {
+                  id: 3,
                   title: "Green Card",
                   description: "Soporte con el Formulario I-485 para ajustar tu estatus a residente permanente.",
                   form: "Formulario I-485"
                 },
                 {
+                  id: 4,
                   title: "Visados",
                   description: "Ayuda con el Formulario DS-160 para visados de visita B1/B2 para negocios o turismo.",
                   form: "Formulario DS-160"
                 },
                 {
+                  id: 5,
                   title: "Patrocinio Familiar",
                   description: "Green Card para familiares con el Formulario I-130.",
                   form: "Formulario I-130"
                 },
                 {
+                  id: 6,
                   title: "Renovación de DACA",
                   description: "Renueva tu estatus DACA con el Formulario I-821D.",
                   form: "Formulario I-821D"
                 },
                 {
+                  id: 7,
                   title: "Solicitud de Asilo",
                   description: "Asistencia con el Formulario I-589 para solicitantes de asilo.",
                   form: "Formulario I-589"
                 },
                 {
+                  id: 8,
                   title: "Certificado de Ciudadanía",
                   description: "Establece tu estatus con el Formulario N-600.",
                   form: "Formulario N-600"
@@ -545,8 +572,8 @@ i18n
                 email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Horario",
                 hours: "Lunes - Viernes: 9am - 4:30pm <br />Sábado: Cerrado<br />Domingo: Cerrado",
-                emergencyTitle: "Contacto de Emergencia",
-                emergencyText: "Para asuntos migratorios urgentes fuera del horario laboral, llame a nuestra línea de emergencia al <span class='font-semibold'>+1 5308637124</span>."
+                 emergencyTitle: "Contacto de Emergencia",
+    emergencyText: "Nuestra única línea de contacto para asuntos de inmigración es <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envíenos un Mensaje",
@@ -734,11 +761,13 @@ i18n
               servicesTitle: "Nos Services d'Immigration",
               serviceItems: [
                 {
+                  id: 1,
                   title: "Citoyenneté",
                   description: "Assistance avec le Formulaire N-400 pour un processus de naturalisation sans heurts.",
                   form: "Formulaire N-400"
                 },
                 {
+                  id: 2,
                   title: "Autorisation de Travail",
                   description: "Conseils d'experts sur le Formulaire I-765 pour obtenir votre document d'autorisation de travail.",
                   form: "Formulaire I-765"
@@ -749,26 +778,31 @@ i18n
                   form: "Formulaire I-485"
                 },
                 {
+                  id: 3,
                   title: "Visas",
                   description: "Aide avec le Formulaire DS-160 pour les visas de visiteur B1/B2 pour affaires ou tourisme.",
                   form: "Formulaire DS-160"
                 },
                 {
+                  id: 4,
                   title: "Parrainage Familial",
                   description: "Carte Verte pour les membres de la famille avec le Formulaire I-130.",
                   form: "Formulaire I-130"
                 },
                 {
+                  id: 5,
                   title: "Renouvellement DACA",
                   description: "Renouvelez votre statut DACA avec le Formulaire I-821D.",
                   form: "Formulaire I-821D"
                 },
                 {
+                  id: 6,
                   title: "Demande d'Asile",
                   description: "Assistance avec le Formulaire I-589 pour les demandeurs d'asile.",
                   form: "Formulaire I-589"
                 },
                 {
+                  id: 7,
                   title: "Certificat de Citoyenneté",
                   description: "Établissez votre statut avec le Formulaire N-600.",
                   form: "Formulaire N-600"
@@ -851,8 +885,8 @@ i18n
                 email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "Heures d'ouverture",
                 hours: "Lundi - Vendredi: 9h - 16:30h<br />Samedi: Fermé<br />Dimanche: Fermé",
-                emergencyTitle: "Contact d'urgence",
-                emergencyText: "Pour les questions d'immigration urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'urgence au <span class='font-semibold'>+1 5308637124</span>."
+                emergencyTitle: "Contact d'Urgence",
+                emergencyText: "Notre seule ligne de contact pour les questions d'immigration est <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "Envoyez-nous un message",
@@ -1041,41 +1075,49 @@ i18n
               servicesTitle: "我们的移民服务",
               serviceItems: [
                 {
+                  id: 1,
                   title: "公民身份",
                   description: "协助填写N-400表格，顺利完成公民身份申请流程。",
                   form: "表格N-400"
                 },
                 {
+                  id: 2,
                   title: "工作授权",
                   description: "专家指导填写I-765表格以获得工作授权文件。",
                   form: "表格I-765"
                 },
                 {
+                  id: 3,
                   title: "绿卡",
                   description: "支持填写I-485表格调整身份成为永久居民。",
                   form: "表格I-485"
                 },
                 {
+                  id: 4,
                   title: "签证",
                   description: "协助填写DS-160表格申请B1/B2商务或旅游访问签证。",
                   form: "表格DS-160"
                 },
                 {
+                  id: 5,
                   title: "家庭担保",
                   description: "通过I-130表格为家人申请绿卡。",
                   form: "表格I-130"
                 },
                 {
+                  id: 6,
                   title: "DACA续签",
                   description: "通过I-821D表格续签您的DACA身份。",
                   form: "表格I-821D"
                 },
                 {
+                  id: 7,
                   title: "庇护申请",
                   description: "协助寻求庇护者填写I-589表格。",
                   form: "表格I-589"
                 },
                 {
+                  id: 8,
                   title: "公民证书",
                   description: "通过N-600表格确立身份。",
                   form: "表格N-600"
@@ -1158,8 +1200,8 @@ i18n
                 email: "marketing.libertaslcs@gmail.com",
                 hoursTitle: "营业时间",
                 hours: "周一 - 周五: 上午9点 - 下午4:30 <br /> 周六 - 周日: 休息",
-                emergencyTitle: "紧急联系",
-                emergencyText: "对于工作时间以外的紧急移民事务，请拨打我们的紧急热线 <span class='font-semibold'>+1 5308637124</span>。"
+                emergencyTitle: "紧急联系方式",
+                emergencyText: "我们唯一的移民事务联系电话是 <span class='font-semibold'>+1 5308637124</span>."
               },
               form: {
                 title: "发送消息给我们",

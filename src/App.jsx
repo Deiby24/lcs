@@ -7,17 +7,17 @@ import Appointment from "./pages/Appointment";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import FloatingButtons from "./components/FloatingButtons";
-
+import ServiceDetail from "./pages/ServiceDetail";
 // import AgendarCita from "./pages/AgendarCita";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL || ''}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
-        {/* <Route path="/sobre-mi" element={<SobreMi />} /> */}
+        <Route path="/services/:form" element={<ServiceDetail />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Appointment" element={<Appointment />} />
       </Routes>

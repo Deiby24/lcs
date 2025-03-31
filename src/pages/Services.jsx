@@ -148,9 +148,9 @@ const Services = () => {
             <p className="text-sm sm:text-base text-gray-700 mb-4 flex-grow">
               {service.description}
             </p>
-            <a href="/services" className="text-sm font-medium text-yellow-600 hover:underline hover:text-yellow-700">
-              {service.form}
-            </a>
+<Link to={`/services/${encodeURIComponent(service.form)}`} className="text-sm font-medium text-yellow-600 hover:underline hover:text-yellow-700">
+{service.form}
+</Link>
           </motion.div>
         ))}
       </div>

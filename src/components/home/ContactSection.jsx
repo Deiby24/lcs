@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const ContactSection = () => {
   const { t } = useTranslation();
@@ -18,46 +19,57 @@ const ContactSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[{
-            icon: <FaPhoneAlt className="text-amber-600 text-xl" />, 
-            title: t('contact.cards.phone.title'), 
-            description: t('contact.cards.phone.description'), 
-            link: "tel:+1 5308637124", 
-            linkText: t('contact.cards.phone.number')
-          }, {
-            icon: <FaEnvelope className="text-amber-600 text-xl" />, 
-            title: t('contact.cards.email.title'), 
-            description: t('contact.cards.email.description'), 
-            link: "mailto:marketing.libertaslcs@gmail.com", 
-            linkText: t('contact.cards.email.address')
-          }, {
-            icon: <FaCalendarAlt className="text-amber-600 text-xl" />, 
-            title: t('contact.cards.appointment.title'), 
-            description: t('contact.cards.appointment.description'), 
-            link: "/appointment", 
-            linkText: t('contact.cards.appointment.button'), 
-            isButton: true
-          }].map((card, index) => (
-            <div key={index} className="bg-amber-50 p-6 rounded-lg border-2 border-amber-500 hover:shadow-lg transition">
-              <div className="flex items-center mb-4">
-                <div className="bg-amber-100 p-3 rounded-full mr-4">
-                  {card.icon}
-                </div>
-                <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
-              </div>
-              <p className="text-gray-600 mb-4">{card.description}</p>
-              {card.isButton ? (
-                <a href={card.link} className="inline-block bg-amber-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-amber-700 hover:shadow-md transition">
-                  {card.linkText}
-                </a>
-              ) : (
-                <a href={card.link} className="text-amber-600 font-medium hover:text-amber-700 transition">
-                  {card.linkText}
-                </a>
-              )}
-            </div>
-          ))}
-        </div>
+  {[
+    {
+      icon: <FaPhoneAlt className="text-amber-600 text-xl" />,
+      title: t("contact.cards.phone.title"),
+      description: t("contact.cards.phone.description"),
+      link: "tel:+1 5308637124",
+      linkText: t("contact.cards.phone.number"),
+    },
+    {
+      icon: <FaEnvelope className="text-amber-600 text-xl" />,
+      title: t("contact.cards.email.title"),
+      description: t("contact.cards.email.description"),
+      link: "mailto:marketing.libertaslcs@gmail.com",
+      linkText: t("contact.cards.email.address"),
+    },
+    {
+      icon: <FaCalendarAlt className="text-amber-600 text-xl" />,
+      title: t("contact.cards.appointment.title"),
+      description: t("contact.cards.appointment.description"),
+      link: "/appointment",
+      linkText: t("contact.cards.appointment.button"),
+      isButton: true,
+    },
+  ].map((card, index) => (
+    <div
+      key={index}
+      className="bg-amber-50 p-6 rounded-lg border-2 border-amber-500 hover:shadow-lg transition"
+    >
+      <div className="flex items-center mb-4">
+        <div className="bg-amber-100 p-3 rounded-full mr-4">{card.icon}</div>
+        <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
+      </div>
+      <p className="text-gray-600 mb-4">{card.description}</p>
+      {card.link.startsWith("/") ? (
+        <Link
+          to={card.link}
+          className="inline-block bg-amber-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-amber-700 hover:shadow-md transition"
+        >
+          {card.linkText}
+        </Link>
+      ) : (
+        <a
+          href={card.link}
+          className="text-amber-600 font-medium hover:text-amber-700 transition"
+        >
+          {card.linkText}
+        </a>
+      )}
+    </div>
+  ))}
+</div>;
 
         <div className="mt-10 bg-white p-6 rounded-lg text-center shadow-md">
           <div className="flex items-center justify-center mb-3">

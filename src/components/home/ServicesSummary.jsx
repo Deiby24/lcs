@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import "../../assets/styles/serviceHome.css"; // Importar los estilos
+import { Link } from "react-router-dom";
 
 const ServicesSummary = () => {
   const { t } = useTranslation();
@@ -65,12 +66,12 @@ const ServicesSummary = () => {
             <p className="service-description text-gray-600 text-md leading-relaxed">
               {service.description}
             </p>
-            <a 
-              href="/Services" 
+            <Link 
+              to="/Services" 
               className="service-button mt-6 inline-block text-yellow-600 font-semibold text-md hover:underline hover:text-yellow-700 transition-all"
             >
               Leer más →
-            </a>
+            </Link>
           </motion.div>
         ))}
       </div>
