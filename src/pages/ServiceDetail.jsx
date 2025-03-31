@@ -152,7 +152,7 @@ const ServiceDetail = () => {
             {["contentFirstPoint", "contentSecondPoint", "contentThirdPoint", "contentFourPoint"].map((key, index) => (
               <motion.div
                 key={index}
-                className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group min-w-[900px]"
+                className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group md:min-w-[900px]"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.15 }}
