@@ -1,0 +1,396 @@
+{
+
+          "wtpButton": "与我们聊天！",
+          "home": "首页",
+          "services_nav": "法律服务",
+          "contact_nav": "联系我们",
+          "appointment": "预约咨询",
+          "hero_title": "专业移民法律服务",
+          "hero_subtitle": "为您提供全面的法律解决方案和个性化的移民指导",
+          "hero_button": "获取您的免费咨询",
+          "about_title": "关于我们",
+          "about_description": "我们的团队在移民局拥有数十年的综合经验，为佛罗里达州杰克逊维尔的各种移民案件提供专业代理。我们致力于帮助西班牙裔社区应对美国移民体系的复杂性。",
+          "title_visa": "工作签证",
+          "description_visa": "为您提供获取美国工作授权和就业签证的战略指导",
+          "title_Residency": "永久居留",
+          "description_Residency": "全面代理家庭或就业为基础的绿卡申请",
+          "title_Citizenship": "入籍归化",
+          "description_Citizenship": "全程协助美国公民身份申请和归化程序",
+          "title_Immigration": "驱逐辩护",
+          "description_Immigration": "在驱逐程序和移民法庭中提供强有力的代理",
+          "services_title": "我们的法律服务",
+          "services_description": "为个人和家庭提供全方位的移民解决方案和专业法律咨询",
+          "process_title": "我们的法律流程",
+          "step1": "案件评估",
+          "description1": "全面分析您的情况以确定最佳移民途径",
+          "step2": "文件准备",
+          "description2": "精心整理所有需要的证明文件和材料",
+          "step3": "申请提交",
+          "description3": "精准向USCIS提交申请并提供优质案件管理",
+          "step4": "案件解决",
+          "description4": "全程代理直至最终裁决及后续事宜",
+          "testimonials": {
+            "title": "客户评价",
+            "subtitle": "信任我们移民服务的客户的真实体验",
+            "review1": "在他们的帮助下，我以创纪录的时间获得了居留权。他们对流程的了解非常宝贵。",
+            "review2": "可靠专业的团队。他们指导我完成公民身份申请的每一步。100%推荐！",
+            "review3": "出色的客户服务。他们迅速解答了我关于工作签证的所有问题。"
+          },
+          "contact": {
+            "title": "需要移民案件帮助吗？",
+            "subtitle": "我们的专家随时准备为您提供帮助。立即联系我们获取个性化咨询。",
+            "cards": {
+              "phone": {
+                "title": "电话联系",
+                "description": "周一至周五上午9点至下午4:30可用",
+                "number": "+1 530-863-7124"
+              },
+              "email": {
+                "title": "发送邮件",
+                "description": "我们将在24小时内回复",
+                "address": "marketing.libertaslcs@gmail.com"
+              },
+              "appointment": {
+                "title": "预约咨询",
+                "description": "首次咨询",
+                "button": "申请预约"
+              },
+              "location": {
+                "title": "佛罗里达州杰克逊维尔办公室",
+                "address": "4063 Salisbury Road  Suite 110  Jacksonville FL 32216",
+                "hours": "营业时间：周一至周五 上午9点至下午4:30"
+              }
+            }
+          },
+          "footer": {
+            "companyName": "Libertas Consulting Services  LCS",
+            "description": "拥有20年经验的移民法律专家，为您的美国未来提供可靠和个性化的建议。主要办事处位于佛罗里达州杰克逊维尔。",
+            "services": {
+              "title": "服务项目",
+              "items": [
+                "政治庇护",
+                "身份调整",
+                "绿卡更新",
+                "美国公民身份",
+                "工作许可"
+              ]
+            },
+            "contact": {
+              "title": "联系方式",
+              "address": "4063 Salisbury Road,Suite 110 <br />Jacksonville FL 32216",
+              "phone": "+1 5308637124",
+              "email": "marketing.libertaslcs@gmail.com"
+            },
+            "legal": {
+              "copyright": "&copy; 2023 Libertas Consulting Services LCS。保留所有权利。",
+              "links": ["服务条款", "隐私政策", "法律声明"]
+            }
+          },
+          "services": {
+            "hero": {
+              "title": "移民服务为您的未来",
+              "subtitle": "指导您完成移民过程的每一步",
+              "cta": "立即开始"
+            },
+            "intro": {
+              "title": "您可信赖的移民合作伙伴",
+              "description": "我们的专家顾问为您所有的移民需求提供个性化协助，确保顺利成功地获得居留权。我们直接与USCIS服务合作，确保每份申请的准确性和效率。"
+            },
+            "filter": {
+              "all": "所有服务",
+              "citizenship": "公民身份",
+              "employment": "工作授权",
+              "greenCard": "绿卡",
+              "visas": "签证",
+              "family": "家庭担保"
+            },
+            "servicesTitle": "我们的移民服务",
+            "serviceItems": [
+              {
+                "id": 1,
+                "title": "公民身份",
+                "description": "协助填写N-400表格，顺利申请美国公民身份。",
+                "form": "N-400表格",
+                "content": "USCIS表格N-400：美国公民身份申请",
+                "contentSubtitle": "您是否符合资格？",
+                "contentFirstPoint": "居住要求",
+                "contentFirstPointText": "申请美国公民身份，您必须持有绿卡至少5年。若配偶为美国公民，此期限缩短为3年。在此期间，您必须持续居住在美国。",
+                "contentSecondPoint": "实际居留时间",
+                "contentSecondPointText": "提交申请前的5年内，您必须在美国实际居留至少30个月。若配偶为美国公民，则需在3年内实际居留至少18个月。",
+                "contentThirdPoint": "良好道德品质",
+                "contentThirdPointText": "申请人需证明具备良好道德品质，包括依法纳税、遵守美国法律且无严重犯罪记录。USCIS将评估您在规定居留期间的行为表现。",
+                "contentFourPoint": "效忠宣誓",
+                "contentFourPointText": "获得公民身份的最后步骤是进行效忠宣誓，承诺支持并捍卫美国宪法和法律，放弃对其他国家的效忠。",
+                "contentFinal": "若满足基本要求，即可填写并提交N-400表格，开启您的美国公民申请之路。祝您顺利！"
+              },
+              {
+                "id": 2,
+                "title": "工作许可",
+                "description": "专业指导I-765表格申请，获取就业授权文件(EAD)。",
+                "form": "I-765表格",
+                "content": "EAD工卡全面指南",
+                "contentSubtitle": "允许在美国合法工作的就业授权文件",
+                "contentFirstPoint": "什么是EAD？",
+                "contentFirstPointText": "就业授权文件(EAD)是由USCIS签发的工作许可证，证明您在美国的合法工作权利。通过提交I-765表格获得，卡面包含：姓名、照片、A号码、移民类别及有效期。",
+                "contentSecondPoint": "适用人群",
+                "contentSecondPointText": "非公民或永久居民但需合法工作者，包括：\n- 庇护申请者/难民\n- 留学生(特定工作类型)\n- 身份调整申请人\n- TPS受益者\n- 签证持有人配偶(K/J-2/E/L类)",
+                "contentThirdPoint": "申请类型与流程",
+                "contentThirdPointText": "1. 首次申请：初次办理EAD\n2. 续期：有效期届满前120天内提交\n3. 补办：遗失/损坏补发\n\n流程：提交I-765表格获取临时工作授权(有效期因移民身份而异)。获批后可不受雇主限制自由工作。",
+                "contentFourPoint": "核心优势",
+                "contentFourPointText": "- 合法工作许可\n- 无雇主限制 \n- 可用于填写I-9表格\n- 工作选择灵活\n\n注意：处理时间可能变化，建议提前续期以避免工作中断。",
+                "contentFinal": "请始终查阅USCIS官网获取最新申请要求与处理时间。"
+              },
+              {
+                "id": 3,
+                "title": "绿卡",
+                "description": "协助办理I-485表格调整身份成为永久居民。",
+                "form": "I-485表格",
+                "content": "永久居民身份调整申请",
+                "contentSubtitle": "在美国境内申请绿卡",
+                "contentFirstPoint": "什么是I-485表格？",
+                "contentFirstPointText": "I-485表格允许特定在美外国人将移民身份调整为永久居民(获得绿卡)。需向USCIS提交，适用人群需满足：\n- 移民申请已获批\n- 优先日期当前\n- 在美身份合法有效",
+                "contentSecondPoint": "资格要求",
+                "contentSecondPointText": "1. 实际居住在美国境内\n2. 持有已批准的移民申请(庇护/难民除外)\n3. 签证名额可用(当前优先日期)\n4. 无严重移民违规记录\n5. 符合美国入境许可条件",
+                "contentThirdPoint": "适用类别",
+                "contentThirdPointText": "1. 亲属移民：美国公民的配偶/父母/子女\n2. 职业移民：雇主担保\n3. 庇护/难民：获得身份满1年后\n4. 特殊类别：VAWA家暴受害者、SIV特殊移民等\n\n*境外申请人需通过领事处理程序",
+                "contentFourPoint": "优势与流程",
+                "contentFourPointText": "优势：\n- 审理期间可凭EAD工作\n- 可申请Advance Parole旅行许可\n- 3-5年后可申请公民身份\n\n流程：\n1. 提交I-485及证明材料\n2. 完成生物识别采集\n3. 参加面谈(多数情况)\n4. 等待USCIS裁决\n\n*难民可豁免申请费用",
+                "contentFinal": "具体申请要求及文件清单，请查阅USCIS官网或咨询专业移民律师。"
+              },
+              {
+                "id": 4,
+                "title": "签证",
+                "description": "协助填写DS-160表格申请B1/B2商务旅游签证。",
+                "form": "DS-160表格",
+                "content": "B1/B2签证申请指南",
+                "contentSubtitle": "商务(B1)或旅游(B2)签证在线申请",
+                "contentFirstPoint": "什么是DS-160表格？",
+                "contentFirstPointText": "DS-160是申请以下签证的必填电子表格：\n\n• 商务签证(B1)\n• 旅游签证(B2)\n• B1/B2组合签证\n\n完成此表是预约领事面谈的前提条件。",
+                "contentSecondPoint": "核心材料",
+                "contentSecondPointText": "需准备文件：\n\n1. 有效护照(剩余有效期6个月以上)\n2. 近期白底电子照片(5x5厘米)\n3. 行程计划(机票/酒店预订)\n4. 本国经济/社会联系证明\n5. B1签证需附加公司说明信(详述出行目的)",
+                "contentThirdPoint": "申请步骤",
+                "contentThirdPointText": "1. 在线填写DS-160表格：\n   - 个人信息\n   - 旅行历史\n   - 工作经历\n   - 美国联系人\n\n2. 支付MRV签证费(160美元)\n\n3. 预约使领馆面谈\n\n4. 携带全套材料出席面谈",
+                "contentFourPoint": "关键技巧",
+                "contentFourPointText": "提高通过率要点：\n\n• 三重核对所有信息\n• 回答内容需与证明材料一致\n• 面谈准备：\n  - 明确说明出行目的\n  - 证明您会返回本国\n  - 携带原件及复印件\n\n• 避免提及工作或留学意图",
+                "contentFinal": "重要提示：DS-160不保证签证获批。最终决定权在领事官员。常规处理时间2-3周。"
+              },
+              {
+                "id": 5,
+                "title": "亲属移民",
+                "description": "通过I-130表格为家人申请绿卡。",
+                "form": "I-130表格",
+                "content": "亲属移民申请指南",
+                "contentSubtitle": "帮助亲属获得美国永久居留权",
+                "contentFirstPoint": "什么是I-130表格？",
+                "contentFirstPointText": "I-130表格用于：\n\n• 建立合格亲属关系\n• 启动亲属移民程序\n• 为符合条件亲属获取签证名额\n\n这是为家人申请绿卡的第一步。",
+                "contentSecondPoint": "可申请对象",
+                "contentSecondPointText": "美国公民可为以下亲属申请：\n- 配偶\n- 父母\n- 子女(不限年龄/婚姻状况)\n- 兄弟姐妹\n\n绿卡持有者可申请：\n- 配偶\n- 未婚子女(不限年龄)\n\n注：每位亲属需单独提交I-130表格",
+                "contentThirdPoint": "所需材料",
+                "contentThirdPointText": "基本证据包括：\n\n1. 申请人身份证明：\n   - 出生证明(公民)\n   - 入籍证书\n   - 绿卡(永久居民)\n\n2. 亲属关系证明：\n   - 结婚证\n   - 出生证明\n   - 收养文件\n\n3. 经济担保材料(后续需提交I-864表格)",
+                "contentFourPoint": "流程概览",
+                "contentFourPointText": "1. 向USCIS提交I-130表格\n2. 等待申请批准\n3. 亲属申请签证：\n   - 境外：通过领事处理\n   - 境内：提交I-485调整身份\n\n处理时间：\n• 直系亲属：无排期\n• 其他类别：视类别/国家而定(1-10+年)\n\n注：所有申请人需通过体检及背景调查",
+                "contentFinal": "重要说明：I-130批准不保证签证获批。亲属仍需满足所有资格要求。复杂案例建议咨询移民律师。"
+              },
+              {
+                "id": 6,
+                "title": "DACA续签",
+                "description": "使用I-821D表格续签童年入境暂缓遣返身份。",
+                "form": "I-821D表格",
+                "content": "DACA计划详解",
+                "contentSubtitle": "为童年抵美者提供临时保护",
+                "contentFirstPoint": "当前政策状态",
+                "contentFirstPointText": "• 仅受理续签：USCIS目前只处理DACA续签申请\n• 暂停新申请：不接受首次申请\n• 有限窗口期：仅2017年9月5日至2018年3月5日期间到期者可续签\n\n注：从未获得DACA者目前无法申请",
+                "contentSecondPoint": "资格标准",
+                "contentSecondPointText": "申请人需满足：\n\n1. 16岁前入境美国\n2. 2012年6月15日时未满31岁\n3. 2007年6月15日起持续居住美国\n4. 2012年6月15日实际在美\n5. 2012年6月15日无合法身份\n6. 满足教育/军事要求：\n   - 在读或\n   - 高中毕业/GED证书或\n   - 荣誉退伍军人\n7. 无重大犯罪记录",
+                "contentThirdPoint": "申请材料",
+                "contentThirdPointText": "需提交证明：\n\n• 身份文件：\n  - 护照/出生证明\n  - 政府签发身份证件\n\n• 持续居住证明：\n  - 学校/医疗记录\n  - 工作证明\n  - 财务记录\n\n• 教育/军事证明：\n  - 毕业证/成绩单\n  - GED证书\n  - 服役记录",
+                "contentFourPoint": "申请流程",
+                "contentFourPointText": "符合条件者续签步骤：\n\n1. 提交I-821D表格\n2. 同时提交I-765工卡申请\n3. 缴纳495美元费用\n4. 完成生物识别\n5. 等待USCIS审核\n\n处理时间：通常4-6个月\n\n权益：\n• 免遭遣返\n• 工作许可\n• 社会安全号\n\n注：DACA不提供：\n• 永久居民身份\n• 入籍途径\n• 联邦助学金资格",
+                "contentFinal": "重要提示：若您的DACA在2018年3月后过期，请立即咨询移民律师。法院裁决可能影响计划有效性，提交前请查阅USCIS官网最新政策。"
+              },
+              {
+                "id": 7,
+                "title": "庇护申请",
+                "description": "协助填写I-589表格申请政治庇护。",
+                "form": "I-589表格",
+                "content": "美国庇护保护计划",
+                "contentSubtitle": "为母国遭受迫害者提供法律保护",
+                "contentFirstPoint": "I-589表格用途",
+                "contentFirstPointText": "该表格用于：\n\n• 申请庇护(永久保护)\n• 请求暂缓遣返\n• 根据《禁止酷刑公约》寻求保护\n\n是基于迫害恐惧申请美国保护的核心表格。",
+                "contentSecondPoint": "申请条件",
+                "contentSecondPointText": "申请人需证明：\n\n1. 有充分理由恐惧因以下原因遭受迫害：\n   - 种族/宗教\n   - 国籍\n   - 政治观点\n   - 特定社会群体身份\n\n2. 实际身处美国(不论入境方式)\n3. 抵达后1年内提交(特殊情况例外)\n4. 无：\n   - 先前驱逐令\n   - 庇护申请被拒记录",
+                "contentThirdPoint": "证据材料",
+                "contentThirdPointText": "关键证据包括：\n\n• 完整填写的I-589表格\n• 详细个人陈述：\n  - 具体迫害经历\n  - 母国现状\n  - 无法返回的原因\n\n• 辅助证据：\n  - 医疗/心理报告\n  - 警方记录\n  - 新闻报道\n  - 证人陈述\n  - 外文文件认证翻译件\n\n• 2张护照规格照片",
+                "contentFourPoint": "流程与权益",
+                "contentFourPointText": "申请步骤：\n1. 填写签署I-589表格\n2. 整理证据材料\n3. 提交USCIS\n4. 完成生物识别\n5. 参加庇护官面谈\n6. 等待裁决\n\n可能权益：\n• 免遭驱逐\n• 工作授权\n• 转绿卡途径\n• 申请家人团聚\n• 享受社会服务",
+                "contentFinal": "重要提醒：庇护案件复杂性强，强烈建议：\n• 咨询专业移民律师\n• 把握1年申请时限\n• 提供详实一致证据\n• 查询USCIS最新处理时间"
+              },
+              {
+                "id": 8,
+                "title": "公民证书",
+                "description": "通过N-600表格确认美国公民身份。",
+                "form": "N-600表格",
+                "content": "美国公民证书申请指南",
+                "contentSubtitle": "为海外出生的美国公民子女提供身份证明",
+                "contentFirstPoint": "适用人群",
+                "contentFirstPointText": "以下情况可提交N-600申请：\n• 根据法律自动获得公民身份者\n• 美国公民父母在海外出生的子女\n\n用于通过血统关系证明公民身份。",
+                "contentSecondPoint": "自动获得条件",
+                "contentSecondPointText": "满足以下条件自动成为公民：\n- 父母至少一方为美国公民(出生或归化)\n- 子女与公民父母共同在美居住\n- 持有合法永久居民身份\n- 年龄未满18岁\n- 16岁前处于公民父母法定监护下",
+                "contentThirdPoint": "海外出生情形",
+                "contentThirdPointText": "海外出生者若符合：\n• 父母双方为公民且一方在美居住过\n或\n• 父母一方为公民且满足：\n  - 子女出生前在美居住满5年\n  - 其中2年在14岁之后\n可自动获得公民身份",
+                "contentFourPoint": "特殊要求",
+                "contentFourPointText": "2001年2月27日前未满18岁且满足：\n- 持绿卡持续在美居住\n- 父母双方/监护父母/单亲通过归化成为公民\n也可申请公民证书",
+                "contentFivePoint": "监护人申请",
+                "contentFivePointText": "18岁以下收养/亲生子女符合《移民国籍法》要求时，申请须由具有法定监护权的美国公民父母或监护人提交。",
+                "contentSixPoint": "申请方式",
+                "contentSixPointText": "启动流程需提交N-600表格及相关证明材料。该证书是官方公民身份证明文件。"
+              }
+            ],
+            "whyChooseUs": {
+              "title": "为什么选择我们的移民服务？",
+              "subtitle": "我们将复杂的移民过程变得简单、透明且成功。",
+              "items": [
+                {
+                  "icon": "🏛️",
+                  "title": "USCIS专业知识",
+                  "description": "我们的团队直接与USCIS服务合作，确保您的申请符合所有要求。"
+                },
+                {
+                  "icon": "👨‍⚖️",
+                  "title": "个性化指导",
+                  "description": "来自理解您独特情况的经验丰富的专业人士的一对一支持。"
+                },
+                {
+                  "icon": "📈",
+                  "title": "高成功率",
+                  "description": "帮助客户高效实现移民目标的良好记录。"
+                }
+              ]
+            },
+            "forms": {
+              "title": "我们处理所有USCIS服务",
+              "subtitle": "选择您需要的表格获取相关信息。我们的顾问很乐意帮助您完成申请。",
+              "commonForms": "常见USCIS表格",
+              "formItems": [
+                {
+                  "name": "表格N-400",
+                  "description": "入籍申请"
+                },
+                {
+                  "name": "表格I-485",
+                  "description": "永久居留登记申请"
+                },
+                {
+                  "name": "表格I-765",
+                  "description": "工作许可申请"
+                },
+                {
+                  "name": "表格I-130",
+                  "description": "外籍亲属申请"
+                },
+                {
+                  "name": "表格I-751",
+                  "description": "解除居留条件申请"
+                },
+                {
+                  "name": "表格I-821D",
+                  "description": "童年入境暂缓遣返考虑"
+                }
+              ],
+              "cta": "需要特定表格的帮助？"
+            },
+            "cta": {
+              "title": "准备好开始您的移民之旅了吗？",
+              "subtitle": "不要独自应对复杂的移民流程。让我们的专家处理文书工作，您只需专注于未来。",
+              "buttons": ["预约咨询", "了解更多服务"]
+            }
+          },
+          "contact_pages": {
+            "hero": {
+              "title": "联系我们",
+              "subtitle": "立即与我们的移民专家取得联系"
+            },
+            "info": {
+              "title": "我们的办公室",
+              "addressTitle": "地址",
+              "address": "4063 萨利斯伯里路 <br/> 110 室 <br /> 佛罗里达州杰克逊维尔 32216",
+              "phoneTitle": "电话",
+              "phone": "+1 5308637124",
+              "emailTitle": "电子邮件",
+              "email": "marketing.libertaslcs@gmail.com",
+              "hoursTitle": "营业时间",
+              "hours": "周一 - 周五: 上午9点 - 下午4:30 <br /> 周六 - 周日: 休息",
+              "emergencyTitle": "紧急联系方式",
+              "emergencyText": "我们唯一的移民事务联系电话是 <span class='font-semibold'>+1 5308637124</span>."
+            },
+            "form": {
+              "title": "发送消息给我们",
+              "nameLabel": "全名",
+              "emailLabel": "电子邮件地址",
+              "phoneLabel": "电话号码",
+              "serviceLabel": "感兴趣的服务",
+              "serviceDefault": "选择服务",
+              "serviceOptions": [
+                "公民身份",
+                "绿卡",
+                "工作签证",
+                "家庭担保",
+                "DACA",
+                "庇护",
+                "其他"
+              ],
+              "messageLabel": "您的消息",
+              "consentLabel": "我同意本网站存储我提交的信息以便他们可以回复我的咨询。",
+              "submitButton": "发送消息",
+              "successTitle": "谢谢您!",
+              "successMessage": "您的消息已成功发送。我们的团队将在24小时内回复您。"
+            },
+            "map": {
+              "title": "办公室位置",
+              "button": "在谷歌地图上查看"
+            },
+            "cta": {
+              "title": "安排免费咨询",
+              "subtitle": "预约30分钟的咨询与我们的一位移民专家讨论您的具体需求。",
+              "button": "立即预约"
+            }
+          },
+          "news": {
+            "info": {
+              "blog_title": "暂无新闻",
+              "blog_description": "当前语言不支持新闻内容。",
+              "read_more": "返回首页 →"
+            }
+          },
+          "Solicitud de Cita por WhatsApp": "通过WhatsApp预约",
+          "Complete el formulario y será redirigido a WhatsApp para confirmar": "填写表格后，您将被重定向到WhatsApp进行确认",
+          "Nombre completo": "全名",
+          "Correo electrónico": "电子邮件",
+          "Número de teléfono": "电话号码",
+          "Ciudad de residencia": "居住城市",
+          "Número de identificación": "身份证号码",
+          "Seleccione un servicio": "选择服务",
+          "Fecha deseada": "期望日期",
+          "Hora deseada": "期望时间",
+          "Enviar por WhatsApp": "通过WhatsApp发送",
+          "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "提交此表格后，您将被重定向到WhatsApp确认您的预约。",
+          "¡Formulario completado! Será redirigido a WhatsApp.": "表格已完成！您将被重定向到WhatsApp。",
+          "Nueva Solicitud de Cita": "新的预约请求",
+          "Nombre": "姓名",
+          "Email": "电子邮件",
+          "Teléfono": "电话",
+          "Ciudad": "城市",
+          "Identificación": "身份证",
+          "Motivo de la cita": "预约原因",
+          "Por favor confirmar disponibilidad": "请确认可用性",
+          "Ciudadanía Americana (Formulario N-400)": "美国公民身份 (表格 N-400)",
+          "Certificado de Ciudadanía (Formulario N-600)": "公民证书 (表格 N-600)",
+          "Renovar Certificado de Ciudadanía (Formulario N-565)": "更新公民证书 (表格 N-565)",
+          "Renovación de Green Card (Formulario I-90)": "绿卡更新 (表格 I-90)",
+          "Eliminar condiciones de residencia (Formulario I-751)": "取消居住条件 (表格 I-751)",
+          "Ajuste de Estatus (Formulario I-485)": "身份调整 (表格 I-485)",
+          "Green Card para familiar (Formulario I-130)": "家庭成员绿卡 (表格 I-130)",
+          "Permiso de Trabajo (Formulario I-765)": "工作许可 (表格 I-765)",
+          "Acción Diferida (DACA) (Formulario I-821D)": "童年入境暂缓遣返 (DACA) (表格 I-821D)",
+          "Lotería de Green Card (DV)": "绿卡抽签 (DV)"
+        }

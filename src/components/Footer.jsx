@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const services = t('footer.services.items', { returnObjects: true });
+  const legalLinks = t('footer.legal.links', { returnObjects: true });
 
   return (
     <footer className="bg-gradient-to-t from-[#0F172A] to-[#1C1F2A] text-white pt-12 pb-6">
@@ -28,11 +30,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-[#D4AF37] mb-4 border-b border-[#D4AF37] pb-2">{t('footer.services.title')}</h3>
             <ul className="space-y-2">
-              {t('footer.services.items', { returnObjects: true }).map((item, index) => (
-                <li key={index}>
-                  <Link to="/services" className="text-[#E0E0E0] hover:text-[#C99E4D] transition text-sm">{item}</Link>
-                </li>
-              ))}
+                {Array.isArray(services) &&
+                  services.map((item, index) => (
+                    <li key={index}>
+                      <Link to="/services" className="text-[#E0E0E0] hover:text-[#C99E4D] transition text-sm">
+                        {item}
+                      </Link>
+                    </li>
+                  ))
+                }
             </ul>
           </div>
 
@@ -60,9 +66,9 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-xs mb-4 md:mb-0" dangerouslySetInnerHTML={{ __html: t('footer.legal.copyright') }} />
           <div className="flex space-x-4">
-            {t('footer.legal.links', { returnObjects: true }).map((link, index) => (
-              <Link key={index} to="/legal" className="text-gray-400 hover:text-[#C99E4D] transition text-xs">{link}</Link>
-            ))}
+          {Array.isArray(legalLinks) && legalLinks.map((link, index) => (
+            <Link key={index} to="/legal" className="text-gray-400 hover:text-[#C99E4D] transition text-xs">{link}</Link>
+          ))}
           </div>
         </div>
       </div>
