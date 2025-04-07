@@ -1,5 +1,5 @@
 [build]
-  command = "npm install --legacy-peer-deps && npm run build"
+  command = "npm ci --legacy-peer-deps && npm run build"
   functions = "netlify/functions"  # Ruta a tus funciones
   publish = "build"
 
