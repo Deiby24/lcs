@@ -26,7 +26,7 @@ const App = () => {
   return (
     <>
     <Helmet>
-      <title>Immigration consulting | LCS Libertas Consulting Services</title>
+      <title>LCS Libertas Consulting Services</title>
       <meta name="description" content="Comprehensive Libertas solutions and personalized advice for all your immigration needs. Get your free consultation today." />
       {/* SEO Open Graph */}
       <meta property="og:title" content="Immigration Law Experts | LCS Libertas Consulting Services" />
