@@ -7,6 +7,8 @@ import "../../i18n";
 
 const Hero = () => {
   const { t } = useTranslation();
+  const whatsappMessage = encodeURIComponent(t("floatingButtons.whatsapp.whatsappMessage"));
+  const whatsappUrl = `https://wa.me/15308637124?text=${whatsappMessage}`;
   const [scrollY, setScrollY] = useState(0);
   const navigate = useNavigate();
 
@@ -54,15 +56,17 @@ const Hero = () => {
             {t("hero_subtitle")}
           </motion.p>
 
-          <motion.button
+          <motion.a
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors hero-button"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            onClick={() => navigate("/appointment")}
+            href={whatsappUrl}
           >
             {t("hero_button")}
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </section>

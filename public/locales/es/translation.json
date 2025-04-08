@@ -399,5 +399,10 @@
       "Green Card para familiar (Formulario I-130)": "Green Card para familiar (Formulario I-130)",
       "Permiso de Trabajo (Formulario I-765)": "Permiso de Trabajo (Formulario I-765)",
       "Acción Diferida (DACA) (Formulario I-821D)": "Acción Diferida (DACA) (Formulario I-821D)",
-      "Lotería de Green Card (DV)": "Lotería de Green Card (DV)"
+      "Lotería de Green Card (DV)": "Lotería de Green Card (DV)",
+      "floatingButtons":{
+        "whatsapp": {
+          "whatsappMessage": "Buenos días, he visitado su sitio web y estoy interesado(a) en recibir más información sobre la consulta gratuita."
+        }
+      }
     }

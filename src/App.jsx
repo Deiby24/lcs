@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import FloatingButtons from "./components/FloatingButtons";
 import ServiceDetail from "./pages/ServiceDetail";
+import { Helmet } from "react-helmet"; // Para SEO
 // import AgendarCita from "./pages/AgendarCita";
 
 const ScrollToTop = () => {
@@ -23,6 +24,18 @@ const ScrollToTop = () => {
 const App = () => {
 
   return (
+    <>
+    <Helmet>
+      <title>Immigration consulting | LCS Libertas Consulting Services</title>
+      <meta name="description" content="Comprehensive Libertas solutions and personalized advice for all your immigration needs. Get your free consultation today." />
+      {/* SEO Open Graph */}
+      <meta property="og:title" content="Immigration Law Experts | LCS Libertas Consulting Services" />
+      <meta property="og:description" content="Trusted and personalized Libertas assistance for immigration matters. Citizenship, residence, visas and more." />
+      <meta property="og:url" content="https://libertasconsultingservice.com" />
+      <meta property="og:type" content="website" />
+      {/* Language */}
+      <html lang="en" />
+    </Helmet>
     <Router basename={process.env.PUBLIC_URL || ''}>
       <ScrollToTop/>
       <Header />
@@ -36,6 +49,7 @@ const App = () => {
       <FloatingButtons />
       <Footer />
     </Router>
+    </>
   );
 };
 

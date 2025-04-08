@@ -4,8 +4,11 @@ import "../i18n";
 import { useTranslation } from "react-i18next";
 
 const FloatingButtons = () => {
-  const [showTooltip, setShowTooltip] = useState(true);
   const { t } = useTranslation();
+  const whatsappMessage = encodeURIComponent(t("floatingButtons.whatsapp.whatsappMessage"));
+  const whatsappUrl = `https://wa.me/15308637124?text=${whatsappMessage}`;
+  const [showTooltip, setShowTooltip] = useState(true);
+  
 
   useEffect(() => {
     const showMessage = () => {
@@ -49,7 +52,7 @@ const FloatingButtons = () => {
           </div>
         )}
         <a 
-          href="https://wa.me/15308637124" 
+          href={whatsappUrl}
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition flex items-center justify-center"

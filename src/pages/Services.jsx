@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import serviceBG from "../assets/images/serviceBG.jpg";
-
+import { Helmet } from "react-helmet";
 import "../i18n";
 import "../assets/styles/servicesPages.css";
 
@@ -36,7 +36,6 @@ const Services = () => {
 
   return (
     <>
-    
       <div className="font-sans">
         {/* HERO SECTION */}
         <section className="relative h-[70vh] sm:h-[500px] bg-blue-900 text-white overflow-hidden hro">

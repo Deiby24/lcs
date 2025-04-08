@@ -392,5 +392,10 @@
           "Green Card para familiar (Formulario I-130)": "家庭成员绿卡 (表格 I-130)",
           "Permiso de Trabajo (Formulario I-765)": "工作许可 (表格 I-765)",
           "Acción Diferida (DACA) (Formulario I-821D)": "童年入境暂缓遣返 (DACA) (表格 I-821D)",
-          "Lotería de Green Card (DV)": "绿卡抽签 (DV)"
+          "Lotería de Green Card (DV)": "绿卡抽签 (DV)",
+          "floatingButtons":{
+            "whatsapp": {
+              "whatsappMessage": "您好，我浏览了您们的网站，希望了解更多有关免费咨询的信息。"
+            }
+          }
         }
