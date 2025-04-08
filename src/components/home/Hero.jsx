@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../../assets/styles/hero.css";
-import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -10,7 +9,7 @@ const Hero = () => {
   const whatsappMessage = encodeURIComponent(t("floatingButtons.whatsapp.whatsappMessage"));
   const whatsappUrl = `https://wa.me/15308637124?text=${whatsappMessage}`;
   const [scrollY, setScrollY] = useState(0);
-  const navigate = useNavigate();
+
 
   useEffect(() => {
     const handleScroll = () => {

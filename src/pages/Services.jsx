@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import serviceBG from "../assets/images/serviceBG.jpg";
-import { Helmet } from "react-helmet";
 import "../i18n";
 import "../assets/styles/servicesPages.css";
 
