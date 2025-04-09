@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaCheckCircle, FaUser } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -38,6 +39,11 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Helmet>
+        <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
+        <title>Contacto | Libertas Consulting</title>
+    </Helmet>
     <div className="font-sans bg-gray-50">
       <section className="relative h-96 bg-blue-900 text-white overflow-hidden hro">
       <div 
@@ -291,6 +297,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
