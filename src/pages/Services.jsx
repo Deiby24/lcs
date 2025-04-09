@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import serviceBG from "../assets/images/serviceBG.jpg";
+import { Helmet } from "react-helmet";
 import "../i18n";
 import "../assets/styles/servicesPages.css";
 
@@ -35,7 +36,14 @@ const Services = () => {
 
   return (
     <>
-      <div className="font-sans">
+      <Helmet>
+        <title>Servicios | Libertas Consulting Service</title>
+        <meta 
+          name="description" 
+          content="Descubre nuestros servicios de asesoría  migratoria. Brindamos soluciones personalizadas para tus necesidades de inmigración en EE.UU." 
+        />
+      </Helmet>
+      <div className="font-sans" id="services-section">
         {/* HERO SECTION */}
         <section className="relative h-[70vh] sm:h-[500px] bg-blue-900 text-white overflow-hidden hro">
           <div
