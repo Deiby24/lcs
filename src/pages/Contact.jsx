@@ -42,7 +42,16 @@ const Contact = () => {
     <>
     <Helmet>
         <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
-        <title>Contacto | Libertas Consulting</title>
+        <title>Contáctanos | Libertas Consulting Service</title>
+        <meta name="description" content="Estamos para ayudarte. Escríbenos y recibe asesoría personalizada sobre tus procesos migratorios." />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Contáctanos | Libertas Consulting Service" />
+        <meta property="og:description" content="Conversa con nuestros consultores y aclara tus dudas sobre inmigración." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://libertasconsultingservice.com/contact" />
+        <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
     </Helmet>
     <div className="font-sans bg-gray-50">
       <section className="relative h-96 bg-blue-900 text-white overflow-hidden hro">
