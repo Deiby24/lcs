@@ -1,374 +1,373 @@
 {
-
-      "wtpButton": "Discutez avec nous !",
-      "home": "Accueil",
-      "services_nav": "Services Juridiques",
-      "contact_nav": "Contact",
-      "appointment": "Planifier une Consultation",
-      "hero_title": "Experts en Droit de l'Immigration",
-      "hero_subtitle": "Solutions juridiques complètes et conseils personnalisés pour tous vos besoins en matière d'immigration.",
-      "hero_button": "Obtenez une consultation gratuite",
-      "about_title": "Notre Cabinet",
-      "about_description": "Notre équipe cumule des décennies d'expérience dans les services d'immigration, offrant une représentation spécialisée pour toutes les affaires d'immigration à Jacksonville, Floride. Nous nous engageons à guider la communauté hispanique à travers les complexités du système d'immigration américain.",
-      "title_visa": "Visas de Travail",
-      "description_visa": "Conseils stratégiques pour obtenir une autorisation de travail et des visas professionnels aux États-Unis.",
-      "title_Residency": "Résidence Permanente",
-      "description_Residency": "Représentation complète pour les demandes de carte verte familiale ou professionnelle.",
-      "title_Citizenship": "Naturalisation",
-      "description_Citizenship": "Assistance complète pour les demandes de citoyenneté américaine et les procédures de naturalisation.",
-      "title_Immigration": "Défense contre l'Expulsion",
-      "description_Immigration": "Représentation vigoureuse dans les procédures d'expulsion et les tribunaux d'immigration.",
-      "services_title": "Nos Services Juridiques",
-      "services_description": "Solutions d'immigration complètes avec conseils juridiques experts pour les particuliers et les familles.",
-      "process_title": "Notre Processus Juridique",
-      "step1": "Évaluation du Cas",
-      "description1": "Analyse approfondie de votre situation pour déterminer les meilleures options d'immigration.",
-      "step2": "Préparation des Documents",
-      "description2": "Compilation méticuleuse de toutes les preuves et documents requis.",
-      "step3": "Dépôt de la Demande",
-      "description3": "Soumission précise des dossiers à l'USCIS avec gestion premium de votre cas.",
-      "step4": "Résolution Finale",
-      "description4": "Représentation dédiée jusqu'à la décision finale et au-delà.",
-      "testimonials": {
-        "title": "Ce que disent nos clients",
-        "subtitle": "Expériences réelles de personnes qui ont fait confiance à nos services d'immigration",
-        "review1": "Grâce à leur aide, j'ai obtenu ma résidence en un temps record. Leur connaissance du processus a été inestimable.",
-        "review2": "Une équipe fiable et professionnelle. Ils m'ont guidé à chaque étape de mon processus de citoyenneté. 100% recommandé !",
-        "review3": "Excellente service client. Ils ont rapidement répondu à toutes mes questions sur mon visa de travail."
+  "wtpButton": "Discutez avec nous !",
+  "home": "Accueil",
+  "services_nav": "Services",
+  "contact_nav": "Contact",
+  "appointment": "Vérifier la disponibilité",
+  "hero_title": "Experts en Procédures d'Immigration",
+  "hero_subtitle": "Solutions juridiques complètes et conseils personnalisés pour tous vos besoins en matière d'immigration.",
+  "hero_button": "Obtenez votre consultation gratuite",
+  "about_title": "Notre Cabinet",
+  "about_description": "Notre équipe cumule des décennies d'expérience combinée dans les bureaux d'immigration, offrant des conseils spécialisés pour tous types de procédures d'immigration à Jacksonville, Floride. Nous nous engageons à guider la communauté hispanophone à travers les complexités du système d'immigration américain.",
+  "title_visa": "Visas de Travail",
+  "description_visa": "Conseils stratégiques pour obtenir une autorisation de travail et des visas d'emploi aux États-Unis.",
+  "title_Residency": "Résidence Permanente",
+  "description_Residency": "Gestion complète des demandes de carte verte basées sur la famille ou l'emploi.",
+  "title_Citizenship": "Naturalisation",
+  "description_Citizenship": "Guide spécialisé pour les demandes de citoyenneté et de naturalisation.",
+  "title_Immigration": "Conseil pour les Cas d'Expulsion",
+  "description_Immigration": "Orientation experte dans les procédures d'expulsion et les tribunaux d'immigration.",
+  "services_title": "Nos Services d'Immigration",
+  "services_description": "Solutions migratoires complètes avec des conseils spécialisés pour les démarches des particuliers et des familles.",
+  "process_title": "Notre Processus de Conseil",
+  "step1": "Évaluation de Cas",
+  "description1": "Analyse approfondie de votre situation pour déterminer les meilleures options migratoires.",
+  "step2": "Préparation Documentaire",
+  "description2": "Collecte minutieuse de toutes les preuves et documents requis.",
+  "step3": "Dépôt de Pétition",
+  "description3": "Soumission précise des demandes à l'USCIS avec gestion premium de votre dossier.",
+  "step4": "Résolution Finale",
+  "description4": "Accompagnement spécialisé jusqu'à la résolution finale de votre démarche.",
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Expériences réelles de personnes qui ont fait confiance à nos services migratoires",
+    "review1": "Grâce à leur aide, j'ai pu obtenir ma résidence en un temps record. Leur connaissance du processus a été inestimable.",
+    "review2": "Une équipe fiable et professionnelle. Ils m'ont guidé à chaque étape de mon processus de citoyenneté. Je les recommande à 100% !",
+    "review3": "Excellent service client. Ils ont répondu rapidement à toutes mes questions sur mon visa de travail."
+  },
+  "contact": {
+    "title": "Besoin d'aide pour votre cas d'immigration ?",
+    "subtitle": "Nos experts sont prêts à vous conseiller. Contactez-nous dès aujourd'hui pour une consultation personnalisée.",
+    "cards": {
+      "phone": {
+        "title": "Appelez-nous",
+        "description": "Disponible du lundi au vendredi de 9h à 16h30",
+        "number": "+1 5308637124"
       },
-      "contact": {
-        "title": "Besoin d'aide pour votre dossier d'immigration ?",
-        "subtitle": "Nos experts sont prêts à vous aider. Contactez-nous dès aujourd'hui pour une consultation personnalisée.",
-        "cards": {
-          "phone": {
-            "title": "Appelez-nous",
-            "description": "Disponible du lundi au vendredi de 9h à 18h",
-            "number": "+1 5308637124"
-          },
-          "email": {
-            "title": "Écrivez-nous",
-            "description": "Nous répondrons dans les 24 heures",
-            "address": "marketing.libertaslcs@gmail.com"
-          },
-          "appointment": {
-            "title": "Prendre Rendez-vous",
-            "description": "Première consultation",
-            "button": "Demander un Rendez-vous"
-          },
-          "location": {
-            "title": "Bureau à Jacksonville, FL 32216",
-            "address": "4063 Salisbury Road, Suite 110",
-            "hours": "Heures d'ouverture : Lundi au Vendredi 9h-16:30h"
-          }
+      "email": {
+        "title": "Écrivez-nous",
+        "description": "Nous répondrons en moins de 24 heures",
+        "address": "marketing.libertaslcs@gmail.com"
+      },
+      "appointment": {
+        "title": "Prenez Rendez-vous",
+        "description": "Première consultation",
+        "button": "Demander un Rendez-vous"
+      },
+      "location": {
+        "title": "Bureau à Jacksonville, FL 32216",
+        "address": "4063 Salisbury Road, Suite 110",
+        "hours": "Horaires : Lundi à Vendredi 9h-16h30"
+      }
+    }
+  },
+  "footer": {
+    "companyName": "Libertas Consulting Services LCS",
+    "description": "Experts en procédures d'immigration avec plus de 20 ans d'expérience, offrant des conseils fiables et personnalisés pour votre avenir aux États-Unis. Bureau principal à Jacksonville, FL.",
+    "services": {
+      "title": "Services",
+      "items": [
+        "Asile Politique",
+        "Ajustement de Statut",
+        "Renouvellement de Carte Verte",
+        "Citoyenneté Américaine",
+        "Permis de Travail"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
+      "phone": "+1 5308637124",
+      "email": "marketing.libertaslcs@gmail.com"
+    },
+    "legal": {
+      "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Tous droits réservés.",
+      "links": [
+        "Conditions d'Utilisation",
+        "Politique de Confidentialité",
+        "Mentions Légales"
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services d'Immigration pour Votre Avenir",
+      "subtitle": "Vous guider à chaque étape du processus migratoire",
+      "cta": "Commencez Aujourd'hui"
+    },
+    "intro": {
+      "title": "Votre Partenaire de Confiance en Immigration",
+      "description": "Nos conseillers experts fournissent une assistance personnalisée pour tous vos besoins en matière d'immigration, garantissant un parcours réussi vers la résidence. Nous travaillons directement avec les services de l'USCIS, assurant précision et efficacité pour chaque demande."
+    },
+    "filter": {
+      "all": "Tous les Services",
+      "citizenship": "Citoyenneté",
+      "employment": "Emploi",
+      "greenCard": "Carte Verte",
+      "visas": "Visas",
+      "family": "Famille"
+    },
+    "servicesTitle": "Nos Services Migratoires",
+    "serviceItems": [
+      {
+        "id": 1,
+        "title": "Citoyenneté",
+        "description": "Assistance avec le Formulaire N-400 pour un processus de citoyenneté sans problèmes.",
+        "form": "Formulaire N-400",
+        "content": "Formulaire N-400 de l'USCIS : Demande de Citoyenneté Américaine",
+        "contentSubtitle": "Répondez-vous aux exigences ?",
+        "contentFirstPoint": "Résidence",
+        "contentFirstPointText": "Pour être éligible à la citoyenneté américaine, vous devez être résident permanent (titulaire d'une carte verte) depuis au moins 5 ans. Si vous êtes marié à un citoyen américain, cette période est réduite à 3 ans. Pendant cette période, vous devez avoir résidé en continu aux États-Unis.",
+        "contentSecondPoint": "Présence Physique",
+        "contentSecondPointText": "Vous devez avoir été physiquement présent aux États-Unis pendant au moins 30 mois des 5 dernières années avant de soumettre votre demande. Si vous êtes marié à un citoyen américain, vous devez avoir été présent pendant au moins 18 mois des 3 dernières années.",
+        "contentThirdPoint": "Bon Caractère Moral",
+        "contentThirdPointText": "Pour être éligible, vous devez démontrer un bon caractère moral. Cela inclut le paiement des impôts, le respect des lois américaines et l'absence de casier judiciaire grave. L'USCIS évaluera votre conduite pendant la période de résidence requise.",
+        "contentFourPoint": "Serment d'Allégeance",
+        "contentFourPointText": "L'une des dernières étapes pour obtenir la citoyenneté est de prêter serment d'allégeance aux États-Unis. Ce faisant, vous promettez de soutenir et défendre la Constitution et les lois du pays, en renonçant à votre allégeance à d'autres pays.",
+        "contentFinal": "Si vous répondez à ces exigences de base, vous pouvez procéder au remplissage et à la soumission du Formulaire N-400 pour commencer votre chemin vers la citoyenneté américaine. Bonne chance !"
+      },
+      {
+        "id": 2,
+        "title": "Autorisation d'Emploi",
+        "description": "Conseils d'experts sur le Formulaire I-765 pour obtenir votre Document d'Autorisation de Travail.",
+        "form": "Formulaire I-765",
+        "content": "Tout ce que vous devez savoir sur l'EAD",
+        "contentSubtitle": "Document d'Autorisation de Travail permettant de travailler légalement aux États-Unis",
+        "contentFirstPoint": "Qu'est-ce que l'EAD ?",
+        "contentFirstPointText": "L'Employment Authorization Document (EAD) est un permis de travail délivré par l'USCIS qui prouve votre droit légal de travailler aux États-Unis. Il est obtenu via le Formulaire I-765 et contient : votre nom, photo, numéro A, catégorie migratoire et dates de validité.",
+        "contentSecondPoint": "Qui doit en faire la demande ?",
+        "contentSecondPointText": "Personnes qui ne sont ni citoyennes ni résidentes permanentes mais qui ont besoin de travailler légalement, y compris :\n- Demandeurs d'asile/réfugiés\n- Étudiants (certains types d'emploi)\n- Demandeurs d'ajustement de statut\n- Bénéficiaires du TPS\n- Conjoints de titulaires de visa (K, J-2, E, L)",
+        "contentThirdPoint": "Types et processus de demande",
+        "contentThirdPointText": "1. EAD initial : Première demande\n2. Renouvellement : Soumettre ≤120 jours avant expiration\n3. Remplacement : Pour cartes perdues/endommagées\n\nProcessus : Soumettre le Formulaire I-765 pour recevoir une autorisation temporaire (la durée varie selon le statut migratoire). L'approbation permet de travailler pour tout employeur sans besoin de parrainage.",
+        "contentFourPoint": "Avantages clés",
+        "contentFourPointText": "- Autorisation légale de travailler\n- Sans restriction d'employeur\n- Valable pour compléter le Formulaire I-9\n- Flexibilité professionnelle\n\nNote : Les délais de traitement varient. Renouvelez à l'avance pour éviter des interruptions dans votre emploi.",
+        "contentFinal": "Pour des informations actualisées sur les exigences et délais de traitement, consultez toujours le site officiel de l'USCIS."
+      },
+      {
+        "id": 3,
+        "title": "Carte Verte",
+        "description": "Assistance avec le Formulaire I-485 pour ajuster votre statut en résident permanent.",
+        "form": "Formulaire I-485",
+        "content": "Ajustement de Statut pour Résidence Permanente",
+        "contentSubtitle": "Demande de Carte Verte depuis l'intérieur des États-Unis",
+        "contentFirstPoint": "Qu'est-ce que le Formulaire I-485 ?",
+        "contentFirstPointText": "Le Formulaire I-485 permet à certains étrangers aux États-Unis de changer leur statut migratoire en résident permanent (obtenir une Carte Verte). Il doit être soumis à l'USCIS et est disponible pour les personnes avec :\n- Une pétition d'immigrant approuvée\n- Une date de priorité valide\n- Un statut valide dans le pays",
+        "contentSecondPoint": "Exigences d'Éligibilité",
+        "contentSecondPointText": "1. Être physiquement présent aux États-Unis\n2. Avoir une pétition d'immigrant approuvée (sauf pour les demandeurs d'asile/réfugiés)\n3. Visa disponible (date de priorité actuelle)\n4. Ne pas avoir de violations graves des lois migratoires\n5. Être admissible aux États-Unis",
+        "contentThirdPoint": "Catégories Éligibles",
+        "contentThirdPointText": "1. Famille : Conjoints, parents ou enfants de citoyens américains\n2. Emploi : Parrainés par un employeur\n3. Demandeurs d'asile/Réfugiés : Après 1 an de statut\n4. Cas Spéciaux : VAWA, SIV, entre autres\n\n*Les personnes hors des États-Unis doivent suivre le processus consulaire",
+        "contentFourPoint": "Avantages et Processus",
+        "contentFourPointText": "Avantages :\n- Permet de travailler avec un EAD pendant le traitement\n- Possibilité de voyager avec Advance Parole\n- Chemin vers la citoyenneté (après 3-5 ans)\n\nProcessus :\n1. Soumettre I-485 + documents\n2. Assister à la biométrie\n3. Entretien (dans la plupart des cas)\n4. Décision de l'USCIS\n\n*Les réfugiés sont exemptés de frais",
+        "contentFinal": "Pour plus d'informations sur les exigences spécifiques et la documentation requise, visitez le site officiel de l'USCIS ou consultez un avocat en immigration qualifié."
+      },
+      {
+        "id": 4,
+        "title": "Visas",
+        "description": "Aide avec le Formulaire DS-160 pour les visas de visite B1/B2 pour affaires ou tourisme.",
+        "form": "Formulaire DS-160",
+        "content": "Processus de Demande de Visa B1/B2",
+        "contentSubtitle": "Demande en ligne pour visas d'affaires (B1) ou tourisme (B2)",
+        "contentFirstPoint": "Qu'est-ce que le Formulaire DS-160 ?",
+        "contentFirstPointText": "Le DS-160 est le formulaire électronique obligatoire pour demander :\n\n• Visas d'affaires (B1)\n• Visas de tourisme (B2)\n• Visas combinés B1/B2\n\nIl doit être complété avant de programmer l'entretien au consulat.",
+        "contentSecondPoint": "Exigences Clés",
+        "contentSecondPointText": "Documents nécessaires :\n\n1. Passeport valide (6+ mois de validité)\n2. Photo numérique récente (5x5 cm, fond blanc)\n3. Itinéraire de voyage (vols, hébergement)\n4. Preuve de liens économiques/sociaux dans votre pays\n5. Pour B1 : Lettre de l'entreprise détaillant le but du voyage",
+        "contentThirdPoint": "Processus Étape par Étape",
+        "contentThirdPointText": "1. **Compléter le DS-160** en ligne :\n   - Données personnelles\n   - Historique de voyages\n   - Informations professionnelles\n   - Contacts aux États-Unis\n\n2. **Payer les frais** MRV ($160 USD)\n\n3. **Programmer l'entretien** au consulat\n\n4. **Assister au rendez-vous** avec tous les documents",
+        "contentFourPoint": "Conseils Clés",
+        "contentFourPointText": "Pour augmenter vos chances d'approbation :\n\n• Vérifiez 3 fois toutes les données\n• Les réponses doivent être cohérentes avec votre documentation\n• Préparez pour l'entretien :\n  - Expliquez clairement le but du voyage\n  - Démontrez que vous retournerez dans votre pays\n  - Apportez les originaux et copies des documents\n\n• Évitez de mentionner l'intention de travailler ou étudier",
+        "contentFinal": "Important : Le DS-160 ne garantit pas l'approbation du visa. La décision finale est prise par l'officier consulaire pendant l'entretien. Délai de traitement typique : 2-3 semaines."
+      },
+      {
+        "id": 5,
+        "title": "Parrainage Familial",
+        "description": "Carte Verte pour membres de la famille avec le Formulaire I-130.",
+        "form": "Formulaire I-130",
+        "content": "Pétition d'Immigration Basée sur la Famille",
+        "contentSubtitle": "Aidez votre membre de famille à obtenir une résidence permanente légale aux États-Unis.",
+        "contentFirstPoint": "Qu'est-ce que le Formulaire I-130 ?",
+        "contentFirstPointText": "Le Formulaire I-130 est utilisé par les citoyens et résidents permanents des États-Unis pour :\n\n• Établir une relation familiale qualifiée\n• Initier le processus d'immigration basé sur la famille\n• Obtenir un numéro de visa pour les membres de famille éligibles\n\nC'est la première étape pour obtenir une Carte Verte pour votre membre de famille.",
+        "contentSecondPoint": "Qui Pouvez-Vous Parrainer ?",
+        "contentSecondPointText": "Citoyens Américains Peuvent Pétitionner :\n- Conjoint\n- Parents\n- Enfants (tout âge/état civil)\n- Frères et sœurs\n\nRésidents Permanents Peuvent Pétitionner :\n- Conjoint\n- Enfants célibataires (tout âge)\n\nNote : Vous devez soumettre des formulaires I-130 séparés pour chaque membre de famille.",
+        "contentThirdPoint": "Documentation Requise",
+        "contentThirdPointText": "Preuves essentielles incluent :\n\n1. Preuve de votre statut :\n   - Acte de naissance (citoyens)\n   - Certificat de naturalisation\n   - Carte Verte (résidents permanents)\n\n2. Preuve de relation familiale :\n   - Certificats de mariage\n   - Actes de naissance\n   - Décrets d'adoption\n\n3. Preuve de soutien financier (pour le Formulaire I-864 ultérieur)",
+        "contentFourPoint": "Résumé du Processus",
+        "contentFourPointText": "1. Soumettre le Formulaire I-130 à l'USCIS\n2. Attendre l'approbation de la pétition\n3. Le membre de famille demande le visa :\n   - À l'étranger : Via le traitement consulaire\n   - Aux États-Unis : Par ajustement de statut (Formulaire I-485)\n\nDélais de Traitement :\n• Membres de famille immédiats : Sans attente\n• Autres : Varie selon catégorie/pays (1-10+ ans)\n\nNote : Tous les demandeurs doivent passer des examens médicaux et de casier judiciaire",
+        "contentFinal": "Important : L'approbation du I-130 ne garantit pas le visa. Votre membre de famille doit encore remplir toutes les exigences d'éligibilité. Consultez un avocat en immigration pour les cas complexes."
+      },
+      {
+        "id": 6,
+        "title": "Renouvellement de DACA",
+        "description": "Renouvelez votre statut DACA avec le Formulaire I-821D.",
+        "form": "Formulaire I-821D",
+        "content": "Résumé du Programme DACA",
+        "contentSubtitle": "Protection temporaire pour les personnes éligibles arrivées aux États-Unis étant enfants",
+        "contentFirstPoint": "Statut Actuel de DACA",
+        "contentFirstPointText": "• Renouvellements Uniquement : L'USCIS ne traite actuellement que les demandes de renouvellement de DACA\n• Pas de Nouvelles Demandes : Les demandes initiales ne sont pas acceptées\n• Fenêtre Limitée : Seuls peuvent renouveler ceux dont le statut expire entre le 5 septembre 2017 et le 5 mars 2018\n\nNote : Ceux qui n'ont jamais eu de DACA ne peuvent pas postuler actuellement",
+        "contentSecondPoint": "Exigences d'Éligibilité",
+        "contentSecondPointText": "Pour être éligible à DACA, vous devez :\n\n1. Être entré aux États-Unis avant 16 ans\n2. Avoir moins de 31 ans au 15 juin 2012\n3. Avoir résidé en continu aux États-Unis depuis le 15 juin 2007\n4. Être physiquement présent le 15 juin 2012\n5. Ne pas avoir de statut légal au 15 juin 2012\n6. Remplir les exigences éducatives/militaires :\n   - Être actuellement à l'école OU\n   - Avoir un diplôme d'études secondaires/GED OU\n   - Être vétéran avec une libération honorable\n7. Ne pas avoir d'antécédents criminels graves",
+        "contentThirdPoint": "Documentation Requise",
+        "contentThirdPointText": "Preuves nécessaires incluent :\n\n• Documents d'Identité :\n  - Passeport/acte de naissance\n  - Pièces d'identité gouvernementales\n\n• Preuve de Résidence Continue :\n  - Dossiers scolaires/médicaux\n  - Historique professionnel\n  - Relevés financiers\n\n• Preuve Éducative/Militaire :\n  - Diplômes/relevés de notes\n  - Certificat de GED\n  - Dossiers de service militaire",
+        "contentFourPoint": "Processus de Demande",
+        "contentFourPointText": "Pour les renouvellements éligibles :\n\n1. Soumettre le Formulaire I-821D\n2. Envoyer le Formulaire I-765 pour l'autorisation de travail\n3. Payer les frais de $495\n4. Fournir les données biométriques\n5. Attendre le traitement de l'USCIS\n\nDélai de Traitement : Typiquement 4-6 mois\n\nAvantages :\n• Protection contre l'expulsion\n• Autorisation de travail\n• Numéro de Sécurité Sociale\n\nNote : DACA NE fournit PAS :\n• Statut de résident permanent\n• Chemin vers la citoyenneté\n• Éligibilité à l'aide financière fédérale",
+        "contentFinal": "Important : Si votre DACA a expiré après mars 2018, consultez immédiatement un avocat en immigration. Les décisions judiciaires peuvent affecter la disponibilité du programme - vérifiez le site web de l'USCIS pour les mises à jour avant de postuler."
+      },
+      {
+        "id": 7,
+        "title": "Demande d'Asile",
+        "description": "Assistance avec le Formulaire I-589 pour les demandeurs d'asile.",
+        "form": "Formulaire I-589",
+        "content": "Protection contre la Persécution aux États-Unis",
+        "contentSubtitle": "Processus migratoire pour les personnes craignant la persécution dans leur pays d'origine",
+        "contentFirstPoint": "Qu'est-ce que le Formulaire I-589 ?",
+        "contentFirstPointText": "Le Formulaire I-589 sert à trois objectifs clés :\n\n• Demande d'asile (protection permanente)\n• Pétition pour suspension d'expulsion (protection contre la déportation)\n• Protection sous la Convention contre la Torture (CAT)\n\nC'est le formulaire principal pour chercher une protection aux États-Unis basée sur la crainte de persécution.",
+        "contentSecondPoint": "Exigences d'Éligibilité",
+        "contentSecondPointText": "Pour être éligible, vous devez :\n\n1. Démontrer une crainte fondée de persécution pour :\n   - Race/Religion\n   - Nationalité\n   - Opinion politique\n   - Appartenance à un groupe social\n\n2. Être physiquement présent aux États-Unis (peu importe la méthode d'entrée)\n3. Soumettre dans l'année suivant l'arrivée (avec exceptions pour circonstances extraordinaires)\n4. Ne pas avoir :\n   - D'ordres d'expulsion précédents\n   - De demande d'asile refusée après audition complète",
+        "contentThirdPoint": "Documentation Requise",
+        "contentThirdPointText": "Preuves essentielles incluent :\n\n• Formulaire I-589 complété\n• Déclaration personnelle détaillée :\n  - Incidents spécifiques de persécution\n  - Conditions du pays\n  - Pourquoi vous ne pouvez pas retourner\n\n• Preuves à l'appui :\n  - Rapports médicaux/psychologiques\n  - Rapports de police\n  - Articles de presse\n  - Déclarations de témoins\n  - Traductions certifiées de documents étrangers\n\n• Deux photos type passeport",
+        "contentFourPoint": "Processus de Demande et Avantages",
+        "contentFourPointText": "Étapes pour Soumettre :\n1. Compléter et signer le Formulaire I-589\n2. Compiler les preuves à l'appui\n3. Envoyer à l'USCIS\n4. Assister au rendez-vous biométrique\n5. Entretien avec un officier d'asile\n6. Recevoir la décision\n\nAvantages Potentiels :\n• Protection contre l'expulsion\n• Autorisation de travail\n• Chemin vers la résidence permanente\n• Capacité de pétitionner pour les membres de famille\n• Accès aux services sociaux",
+        "contentFinal": "Important : Les cas d'asile sont complexes. Il est fortement recommandé :\n• De consulter un avocat en immigration\n• De soumettre la demande dans le délai d'un an\n• De fournir des preuves détaillées et cohérentes\n• De vérifier le site web de l'USCIS pour les délais de traitement actuels"
+      },
+      {
+        "id": 8,
+        "title": "Certificat de Citoyenneté",
+        "description": "Établissez votre statut avec le Formulaire N-600.",
+        "form": "Formulaire N-600",
+        "content": "Certificat de Citoyenneté Américaine : Formulaire N-600",
+        "contentSubtitle": "Une personne née à l'étranger de parents citoyens américains peut avoir déjà acquis la citoyenneté. Pour documenter son statut de citoyenneté basé sur son ascendance, elle peut soumettre le Formulaire N-600, Demande de Certificat de Citoyenneté.",
+        "contentFirstPoint": "Qui Doit Soumettre le Formulaire N-600 ?",
+        "contentFirstPointText": "Une personne peut soumettre le Formulaire N-600 si elle cherche à revendiquer la citoyenneté américaine par la loi alors qu'elle est aux États-Unis ou si elle est née à l'étranger de parents citoyens américains.",
+        "contentSecondPoint": "Citoyenneté Automatique par la Loi",
+        "contentSecondPointText": "Deviendront automatiquement citoyens américains s'ils remplissent les exigences suivantes :\n- Parent Citoyen : Au moins un parent est citoyen par naissance ou naturalisation.\n- Résidence aux États-Unis : L'individu vit aux États-Unis avec son parent citoyen.\n- Admission Légale comme Résident Permanent : L'individu a été légalement admis comme résident permanent.\n- Mineur : L'individu a moins de 18 ans.\n- Garde Légale : L'individu est l'enfant biologique sous garde légale du parent citoyen avant 16 ans.",
+        "contentThirdPoint": "Citoyenneté par Naissance à l'Étranger",
+        "contentThirdPointText": "Un individu né à l'étranger de parents citoyens peut revendiquer la citoyenneté automatique à la naissance s'il remplit :\n- Les deux parents sont citoyens, et l'un a résidé aux États-Unis avant la naissance.\n- Ou, si un parent est étranger et l'autre citoyen qui, avant la naissance, était physiquement présent aux États-Unis pendant au moins 5 ans (2 après 14 ans).",
+        "contentFourPoint": "Exigences Supplémentaires",
+        "contentFourPointText": "Une personne peut aussi postuler si avant 18 ans et avant le 27/02/2001 :\n- A vécu en continu aux États-Unis comme résident permanent légal ; et\n- Les deux parents, le parent ayant la garde, ou le seul parent survivant s'est naturalisé comme citoyen.",
+        "contentFivePoint": "Demande par Parent ou Tuteur",
+        "contentFivePointText": "Pour les enfants adoptés ou biologiques de moins de 18 ans remplissant les exigences sous l'INA, la demande doit être soumise par le parent citoyen ou le tuteur légal ayant la garde.",
+        "contentSixPoint": "Comment Soumettre le Formulaire N-600 ?",
+        "contentSixPointText": "Pour commencer le processus, vous devez compléter et soumettre le Formulaire N-600 avec la documentation requise prouvant que vous remplissez les critères spécifiés. Ce certificat sert de preuve officielle de votre statut de citoyen américain."
+      }
+    ],
+    "whyChooseUs": {
+      "title": "Pourquoi Choisir Nos Services Migratoires ?",
+      "subtitle": "Nous simplifions le processus migratoire complexe, le rendant transparent et réussi.",
+      "items": [
+        {
+          "icon": "🏛️",
+          "title": "Expérience avec l'USCIS",
+          "description": "Notre équipe travaille directement avec les services de l'USCIS, assurant que vos demandes remplissent toutes les exigences."
+        },
+        {
+          "icon": "👨‍⚖️",
+          "title": "Orientation Personnalisée",
+          "description": "Soutien personnalisé de professionnels expérimentés qui comprennent votre situation unique."
+        },
+        {
+          "icon": "📈",
+          "title": "Taux de Réussite Élevé",
+          "description": "Historique prouvé d'aide aux clients pour atteindre leurs objectifs migratoires efficacement."
         }
-      },
-      "footer": {
-        "companyName": "Libertas Consulting Services LCS",
-        "description": "Experts en droit de l'immigration avec 20 ans d'expérience, fournissant des conseils fiables et personnalisés pour votre avenir aux États-Unis. Bureaux principaux à Jacksonville, FL.",
-        "services": {
-          "title": "Services",
-          "items": [
-            "Asile Politique",
-            "Ajustement de Statut",
-            "Renouvellement de Carte Verte",
-            "Citoyenneté Américaine",
-            "Permis de Travail"
-          ]
+      ]
+    },
+    "forms": {
+      "title": "Nous Travaillons avec Tous les Services de l'USCIS",
+      "subtitle": "Sélectionnez le formulaire de votre choix pour obtenir des informations sur votre demande. Nos agents seront prêts à vous aider avec votre démarche.",
+      "commonForms": "Formulaires Courants de l'USCIS",
+      "formItems": [
+        {
+          "name": "Formulaire N-400",
+          "description": "Demande de Naturalisation"
         },
-        "contact": {
-          "title": "Contact",
-          "address": "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
-          "phone": "+1 5308637124",
-          "email": "marketing.libertaslcs@gmail.com"
+        {
+          "name": "Formulaire I-485",
+          "description": "Demande de Résidence Permanente"
         },
-        "legal": {
-          "copyright": "&copy; 2023 Libertas Consulting Services LCS. Tous droits réservés.",
-          "links": [
-            "Conditions d'Utilisation",
-            "Politique de Confidentialité",
-            "Mentions Légales"
-          ]
+        {
+          "name": "Formulaire I-765",
+          "description": "Demande d'Autorisation de Travail"
+        },
+        {
+          "name": "Formulaire I-130",
+          "description": "Pétition pour Membre de Famille Étranger"
+        },
+        {
+          "name": "Formulaire I-751",
+          "description": "Pétition pour Supprimer les Conditions de Résidence"
+        },
+        {
+          "name": "Formulaire I-821D",
+          "description": "Demande d'Action Différée pour Arrivées dans l'Enfance"
         }
-      },
-      "services": {
-        "hero": {
-          "title": "Services d'Immigration pour Votre Avenir",
-          "subtitle": "Vous Guider à Chaque Étape du Processus d'Immigration",
-          "cta": "Commencez Aujourd'hui"
-        },
-        "intro": {
-          "title": "Votre Partenaire de Confiance en Immigration",
-          "description": "Nos conseillers experts fournissent une assistance personnalisée pour tous vos besoins en matière d'immigration, garantissant un parcours fluide et réussi vers la résidence. Nous travaillons directement avec les services de l'USCIS, assurant précision et efficacité dans chaque demande."
-        },
-        "filter": {
-          "all": "Tous les Services",
-          "citizenship": "Citoyenneté",
-          "employment": "Travail",
-          "greenCard": "Carte Verte",
-          "visas": "Visas",
-          "family": "Familial"
-        },
-        "servicesTitle": "Nos Services d'Immigration",
-        "serviceItems": [
-          {
-            "id": 1,
-            "title": "Citoyenneté",
-            "description": "Assistance avec le formulaire N-400 pour un processus de citoyenneté sans problème.",
-            "form": "Formulaire N-400",
-            "content": "Formulaire USCIS N-400 : Demande de citoyenneté américaine",
-            "contentSubtitle": "Êtes-vous éligible ?",
-            "contentFirstPoint": "Résidence",
-            "contentFirstPointText": "Pour être éligible à la citoyenneté américaine, vous devez être résident permanent (titulaire d'une Green Card) depuis au moins 5 ans. Si vous êtes marié à un citoyen américain, cette période est réduite à 3 ans. Pendant ce temps, vous devez avoir vécu continuellement aux États-Unis.",
-            "contentSecondPoint": "Présence physique",
-            "contentSecondPointText": "Vous devez avoir été physiquement présent aux États-Unis pendant au moins 30 mois sur les 5 dernières années avant de déposer votre demande. Si vous êtes marié à un citoyen américain, vous devez avoir été présent pendant au moins 18 mois sur les 3 dernières années.",
-            "contentThirdPoint": "Bon caractère moral",
-            "contentThirdPointText": "Pour être éligible, vous devez faire preuve d'un bon caractère moral. Cela inclut le paiement des impôts, le respect des lois américaines et l'absence de casier judiciaire grave. L'USCIS évaluera votre conduite pendant la période de résidence requise.",
-            "contentFourPoint": "Serment d'allégeance",
-            "contentFourPointText": "L'une des dernières étapes pour obtenir la citoyenneté est de prêter serment d'allégeance aux États-Unis. Ce faisant, vous promettez de soutenir et de défendre la Constitution et les lois du pays, en renonçant à votre allégeance à d'autres pays.",
-            "contentFinal": "Si vous remplissez ces conditions de base, vous pouvez remplir et soumettre le formulaire N-400 pour commencer votre parcours vers la citoyenneté américaine. Bonne chance !"
-          },
-          {
-            "id": 2,
-            "title": "Autorisation de travail",
-            "description": "Conseils d'experts sur le formulaire I-765 pour obtenir votre document d'autorisation de travail.",
-            "form": "Formulaire I-765",
-            "content": "Tout ce que vous devez savoir sur l'EAD",
-            "contentSubtitle": "Document d'autorisation de travail permettant de travailler légalement aux États-Unis",
-            "contentFirstPoint": "Qu'est-ce que l'EAD ?",
-            "contentFirstPointText": "Le Document d'Autorisation de Travail (EAD) est un permis de travail délivré par l'USCIS qui prouve votre droit légal de travailler aux États-Unis. Il est obtenu via le formulaire I-765 et contient : votre nom, photo, numéro A, catégorie d'immigration et dates de validité.",
-            "contentSecondPoint": "Qui doit en faire la demande ?",
-            "contentSecondPointText": "Les personnes qui ne sont pas citoyennes ou résidentes permanentes mais qui ont besoin de travailler légalement, y compris :\n- Demandeurs d'asile/réfugiés\n- Étudiants (certains types d'emploi)\n- Demandeurs d'ajustement de statut\n- Bénéficiaires du TPS\n- Conjoints de titulaires de visa (K, J-2, E, L)",
-            "contentThirdPoint": "Types et processus de demande",
-            "contentThirdPointText": "1. EAD initial : Première demande\n2. Renouvellement : Soumettre ≤120 jours avant expiration\n3. Remplacement : Pour cartes perdues/endommagées\n\nProcessus : Soumettre le formulaire I-765 pour recevoir une autorisation temporaire (la durée varie selon le statut migratoire). L'approbation permet de travailler pour tout employeur sans parrainage.",
-            "contentFourPoint": "Avantages clés",
-            "contentFourPointText": "- Autorisation légale de travailler\n- Aucune restriction d'employeur\n- Valide pour compléter le formulaire I-9\n- Flexibilité professionnelle\n\nRemarque : Les délais de traitement varient. Renouvelez à l'avance pour éviter les interruptions d'emploi.",
-            "contentFinal": "Pour des informations actualisées sur les exigences et les délais de traitement, consultez toujours le site officiel de l'USCIS."
-          },
-          {
-            "id": 3,
-            "title": "Carte verte",
-            "description": "Aide avec le formulaire I-485 pour ajuster votre statut à résident permanent.",
-            "form": "Formulaire I-485",
-            "content": "Ajustement de statut pour résidence permanente",
-            "contentSubtitle": "Demande de carte verte depuis les États-Unis",
-            "contentFirstPoint": "Qu'est-ce que le formulaire I-485 ?",
-            "contentFirstPointText": "Le formulaire I-485 permet à certains étrangers aux États-Unis de changer leur statut migratoire en résident permanent (obtenir une carte verte). Il doit être déposé auprès de l'USCIS et est disponible pour les personnes ayant :\n- Une pétition d'immigrant approuvée\n- Une date de priorité actuelle\n- Un statut valide dans le pays",
-            "contentSecondPoint": "Exigences d'éligibilité",
-            "contentSecondPointText": "1. Être physiquement présent aux États-Unis\n2. Avoir une pétition d'immigrant approuvée (sauf réfugié/demandeur d'asile)\n3. Visa disponible (date de priorité actuelle)\n4. Aucune violation grave des lois d'immigration\n5. Être admissible aux États-Unis",
-            "contentThirdPoint": "Catégories éligibles",
-            "contentThirdPointText": "1. Famille : Conjoints, parents ou enfants de citoyens américains\n2. Emploi : Parrainés par un employeur\n3. Réfugiés/Demandeurs d'asile : Après 1 an de statut\n4. Cas spéciaux : VAWA, SIV, entre autres\n\n*Les personnes hors des États-Unis doivent suivre le processus consulaire",
-            "contentFourPoint": "Avantages et processus",
-            "contentFourPointText": "Avantages :\n- Permet de travailler avec EAD pendant le traitement\n- Possibilité de voyager avec Advance Parole\n- Chemin vers la citoyenneté (après 3-5 ans)\n\nProcessus :\n1. Soumettre I-485 + documents\n2. Assister à la prise d'empreintes biométriques\n3. Entretien (dans la plupart des cas)\n4. Décision de l'USCIS\n\n*Les réfugiés sont exemptés de frais",
-            "contentFinal": "Pour plus d'informations sur les exigences spécifiques et la documentation nécessaire, visitez le site officiel de l'USCIS ou consultez un avocat spécialisé en immigration qualifié."
-          },
-          {
-            "id": 4,
-            "title": "Visas",
-            "description": "Aide avec le formulaire DS-160 pour les visas de visiteur B1/B2 pour affaires ou tourisme.",
-            "form": "Formulaire DS-160",
-            "content": "Processus de demande de visa B1/B2",
-            "contentSubtitle": "Demande en ligne pour visas d'affaires (B1) ou de tourisme (B2)",
-            "contentFirstPoint": "Qu'est-ce que le formulaire DS-160 ?",
-            "contentFirstPointText": "Le DS-160 est le formulaire électronique obligatoire pour demander :\n\n• Visas d'affaires (B1)\n• Visas de tourisme (B2)\n• Visas combinés B1/B2\n\nIl doit être complété avant de programmer l'entretien consulaire.",
-            "contentSecondPoint": "Exigences clés",
-            "contentSecondPointText": "Documents nécessaires :\n\n1. Passeport valide (6+ mois de validité)\n2. Photo numérique récente (5x5 cm, fond blanc)\n3. Itinéraire de voyage (vols, hébergement)\n4. Preuve de liens économiques/sociaux dans votre pays\n5. Pour B1 : Lettre de l'entreprise détaillant l'objet du voyage",
-            "contentThirdPoint": "Processus étape par étape",
-            "contentThirdPointText": "1. **Compléter le DS-160** en ligne :\n   - Données personnelles\n   - Historique de voyages\n   - Informations professionnelles\n   - Contacts aux États-Unis\n\n2. **Payer les frais** MRV (160 USD)\n\n3. **Programmer l'entretien** au consulat\n\n4. **Assister au rendez-vous** avec tous les documents",
-            "contentFourPoint": "Conseils clés",
-            "contentFourPointText": "Pour augmenter vos chances d'approbation :\n\n• Vérifiez toutes les données 3 fois\n• Les réponses doivent correspondre à votre documentation\n• Préparez-vous pour l'entretien :\n  - Expliquez clairement l'objet du voyage\n  - Démontrez que vous retournerez dans votre pays\n  - Apportez les documents originaux et copies\n\n• Évitez de mentionner l'intention de travailler ou étudier",
-            "contentFinal": "Important : Le DS-160 ne garantit pas l'approbation du visa. La décision finale est prise par l'officier consulaire pendant l'entretien. Délai de traitement typique : 2-3 semaines."
-          },
-          {
-            "id": 5,
-            "title": "Parrainage familial",
-            "description": "Carte verte pour les membres de la famille avec le formulaire I-130.",
-            "form": "Formulaire I-130",
-            "content": "Pétition d'immigration basée sur la famille",
-            "contentSubtitle": "Aidez votre parent à obtenir une résidence permanente légale aux États-Unis",
-            "contentFirstPoint": "Qu'est-ce que le formulaire I-130 ?",
-            "contentFirstPointText": "Le formulaire I-130 est utilisé par les citoyens et résidents permanents américains pour :\n\n• Établir une relation familiale qualifiante\n• Lancer le processus d'immigration basé sur la famille\n• Obtenir un numéro de visa pour les parents éligibles\n\nC'est la première étape pour obtenir une carte verte pour votre membre de la famille.",
-            "contentSecondPoint": "Qui pouvez-vous parrainer ?",
-            "contentSecondPointText": "Les citoyens américains peuvent parrainer :\n- Conjoint\n- Parents\n- Enfants (tout âge/état civil)\n- Frères et sœurs\n\nLes résidents permanents peuvent parrainer :\n- Conjoint\n- Enfants célibataires (tout âge)\n\nRemarque : Vous devez déposer des formulaires I-130 séparés pour chaque parent.",
-            "contentThirdPoint": "Documents requis",
-            "contentThirdPointText": "Les preuves essentielles incluent :\n\n1. Preuve de votre statut :\n   - Acte de naissance (citoyens)\n   - Certificat de naturalisation\n   - Carte verte (résidents permanents)\n\n2. Preuve de relation familiale :\n   - Certificats de mariage\n   - Actes de naissance\n   - Décrets d'adoption\n\n3. Preuve de soutien financier (pour le futur formulaire I-864)",
-            "contentFourPoint": "Aperçu du processus",
-            "contentFourPointText": "1. Déposer le formulaire I-130 auprès de l'USCIS\n2. Attendre l'approbation de la pétition\n3. Le parent demande le visa :\n   - À l'étranger : Par traitement consulaire\n   - Aux États-Unis : Via ajustement de statut (formulaire I-485)\n\nDélais de traitement :\n• Parents immédiats : Pas d'attente\n• Autres : Varie selon catégorie/pays (1-10+ ans)\n\nRemarque : Tous les demandeurs doivent passer des examens médicaux et de vérification des antécédents",
-            "contentFinal": "Important : L'approbation du I-130 ne garantit pas le visa. Votre parent doit toujours remplir toutes les conditions d'éligibilité. Consultez un avocat spécialisé en immigration pour les cas complexes."
-          },
-          {
-            "id": 6,
-            "title": "Renouvellement DACA",
-            "description": "Renouvelez votre statut DACA avec le formulaire I-821D.",
-            "form": "Formulaire I-821D",
-            "content": "Aperçu du programme DACA",
-            "contentSubtitle": "Protection temporaire pour les personnes éligibles arrivées aux États-Unis enfants",
-            "contentFirstPoint": "Statut actuel de DACA",
-            "contentFirstPointText": "• Renouvellements uniquement : L'USCIS ne traite actuellement que les demandes de renouvellement DACA\n• Pas de nouvelles demandes : Les demandes initiales ne sont pas acceptées\n• Fenêtre limitée : Seuls les bénéficiaires dont le statut expire entre le 5 septembre 2017 et le 5 mars 2018 peuvent renouveler\n\nRemarque : Ceux qui n'ont jamais eu de DACA ne peuvent pas actuellement faire de demande",
-            "contentSecondPoint": "Exigences d'éligibilité",
-            "contentSecondPointText": "Pour être éligible à DACA, vous devez :\n\n1. Être entré aux États-Unis avant 16 ans\n2. Avoir moins de 31 ans au 15 juin 2012\n3. Avoir vécu continuellement aux États-Unis depuis le 15 juin 2007\n4. Être physiquement présent le 15 juin 2012\n5. Ne pas avoir de statut légal au 15 juin 2012\n6. Remplir les exigences éducatives/militaires :\n   - Être actuellement à l'école OU\n   - Avoir un diplôme d'études secondaires/GED OU\n   - Être vétéran avec congé honorable\n7. Ne pas avoir d'antécédents criminels graves",
-            "contentThirdPoint": "Documents requis",
-            "contentThirdPointText": "Les preuves nécessaires incluent :\n\n• Documents d'identité :\n  - Passeport/acte de naissance\n  - Pièces d'identité gouvernementales\n\n• Preuve de résidence continue :\n  - Dossiers scolaires/médicaux\n  - Historique d'emploi\n  - Dossiers financiers\n\n• Preuve éducative/militaire :\n  - Diplômes/relevés de notes\n  - Certificat GED\n  - Dossiers de service militaire",
-            "contentFourPoint": "Processus de demande",
-            "contentFourPointText": "Pour les renouvellements éligibles :\n\n1. Déposer le formulaire I-821D\n2. Soumettre le formulaire I-765 pour l'autorisation de travail\n3. Payer les frais de 495$\n4. Fournir des données biométriques\n5. Attendre le traitement par l'USCIS\n\nDélai de traitement : Typiquement 4-6 mois\n\nAvantages :\n• Protection contre la déportation\n• Autorisation de travail\n• Numéro de sécurité sociale\n\nRemarque : DACA ne fournit PAS :\n• Statut de résident permanent\n• Chemin vers la citoyenneté\n• Éligibilité à l'aide financière fédérale",
-            "contentFinal": "Important : Si votre DACA a expiré après mars 2018, consultez immédiatement un avocat spécialisé en immigration. Les décisions judiciaires peuvent affecter la disponibilité du programme - vérifiez le site Web de l'USCIS pour les mises à jour avant de faire une demande."
-          },
-          {
-            "id": 7,
-            "title": "Demande d'asile",
-            "description": "Assistance avec le formulaire I-589 pour les demandeurs d'asile.",
-            "form": "Formulaire I-589",
-            "content": "Protection contre la persécution aux États-Unis",
-            "contentSubtitle": "Processus juridique pour les personnes craignant la persécution dans leur pays d'origine",
-            "contentFirstPoint": "Qu'est-ce que le formulaire I-589 ?",
-            "contentFirstPointText": "Le formulaire I-589 sert à trois objectifs clés :\n\n• Demande d'asile (protection permanente)\n• Demande de suspension d'expulsion (protection contre la déportation)\n• Protection sous la Convention contre la torture (CAT)\n\nC'est le formulaire principal pour demander une protection aux États-Unis basée sur la crainte de persécution.",
-            "contentSecondPoint": "Exigences d'éligibilité",
-            "contentSecondPointText": "Pour être éligible, vous devez :\n\n1. Démontrer une crainte fondée de persécution en raison de :\n   - Race/Religion\n   - Nationalité\n   - Opinion politique\n   - Appartenance à un groupe social\n\n2. Être physiquement présent aux États-Unis (quelle que soit la méthode d'entrée)\n3. Déposer la demande dans l'année suivant l'arrivée (avec exceptions pour circonstances extraordinaires)\n4. Ne pas avoir :\n   - D'ordres d'expulsion précédents\n   - De demande d'asile refusée après audience complète",
-            "contentThirdPoint": "Documents requis",
-            "contentThirdPointText": "Les preuves essentielles incluent :\n\n• Formulaire I-589 complété\n• Déclaration personnelle détaillée :\n  - Incidents spécifiques de persécution\n  - Conditions du pays\n  - Pourquoi vous ne pouvez pas retourner\n\n• Preuves à l'appui :\n  - Rapports médicaux/psychologiques\n  - Rapports de police\n  - Articles de journaux\n  - Déclarations de témoins\n  - Traductions certifiées de tous documents étrangers\n\n• Deux photos d'identité",
-            "contentFourPoint": "Processus de demande et avantages",
-            "contentFourPointText": "Étapes de dépôt :\n1. Compléter et signer le formulaire I-589\n2. Compiler les preuves à l'appui\n3. Soumettre à l'USCIS\n4. Assister au rendez-vous biométrique\n5. Entretien avec un officier d'asile\n6. Recevoir la décision\n\nAvantages potentiels :\n• Protection contre la déportation\n• Autorisation de travail\n• Chemin vers la résidence permanente\n• Possibilité de parrainer des membres de la famille\n• Accès aux services sociaux",
-            "contentFinal": "Important : Les cas d'asile sont complexes. Il est fortement recommandé de :\n• Consulter un avocat spécialisé en immigration\n• Soumettre la demande dans le délai d'un an\n• Fournir des preuves détaillées et cohérentes\n• Vérifier le site Web de l'USCIS pour les délais de traitement actuels"
-          },
-          {
-            "id": 8,
-            "title": "Certificat de citoyenneté",
-            "description": "Établissez votre statut avec le formulaire N-600.",
-            "form": "Formulaire N-600",
-            "content": "Certificat de citoyenneté américaine : Formulaire N-600",
-            "contentSubtitle": "Une personne née hors des États-Unis de parents citoyens américains peut avoir déjà acquis la citoyenneté. Pour documenter leur statut de citoyenneté basé sur leur ascendance, ils peuvent déposer le formulaire N-600, Demande de certificat de citoyenneté.",
-            "contentFirstPoint": "Qui doit déposer le formulaire N-600 ?",
-            "contentFirstPointText": "Une personne peut déposer le formulaire N-600 si elle cherche à revendiquer la citoyenneté américaine par la loi tout en étant aux États-Unis ou si elle est née à l'étranger de parents citoyens américains.",
-            "contentSecondPoint": "Citoyenneté automatique par la loi",
-            "contentSecondPointText": "Ils deviennent automatiquement citoyens américains s'ils remplissent les conditions suivantes :\n- Parent citoyen : Au moins un parent est citoyen par naissance ou naturalisation.\n- Résidence aux États-Unis : La personne vit aux États-Unis avec son parent citoyen.\n- Admission légale comme résident permanent : La personne a été légalement admise comme résidente permanente.\n- Mineur : La personne a moins de 18 ans.\n- Garde légale : La personne est l'enfant biologique sous la garde légale d'un parent citoyen avant 16 ans.",
-            "contentThirdPoint": "Citoyenneté par naissance à l'étranger",
-            "contentThirdPointText": "Une personne née hors des États-Unis de parents citoyens peut revendiquer la citoyenneté automatique à la naissance si elle remplit :\n- Les deux parents sont citoyens, et l'un a résidé aux États-Unis avant la naissance.\n- Ou, si un parent est étranger et l'autre citoyen qui, avant la naissance, était physiquement présent aux États-Unis pendant au moins 5 ans (dont 2 après 14 ans).",
-            "contentFourPoint": "Exigences supplémentaires",
-            "contentFourPointText": "Une personne peut aussi demander un certificat si avant 18 ans et avant le 27/02/2001 :\n- Elle a vécu continuellement aux États-Unis comme résidente permanente légale ; et\n- Ses deux parents, le parent ayant la garde, ou le seul parent survivant est devenu citoyen par naturalisation.",
-            "contentFivePoint": "Demande par un parent ou tuteur",
-            "contentFivePointText": "Pour les enfants adoptés ou biologiques de moins de 18 ans remplissant les conditions sous l'INA, la demande doit être soumise par le parent citoyen ou tuteur légal ayant la garde.",
-            "contentSixPoint": "Comment déposer le formulaire N-600 ?",
-            "contentSixPointText": "Pour commencer le processus, vous devez compléter et soumettre le formulaire N-600 avec les documents requis démontrant que vous remplissez les critères spécifiés. Ce certificat sert de preuve officielle de votre statut de citoyen américain."
-          }
-        ],
-        "whyChooseUs": {
-          "title": "Pourquoi Choisir Nos Services d'Immigration?",
-          "subtitle": "Nous rendons le processus complexe d'immigration simple, transparent et réussi.",
-          "items": [
-            {
-              "icon": "🏛️",
-              "title": "Expertise USCIS",
-              "description": "Notre équipe travaille directement avec les services de l'USCIS, garantissant que vos demandes répondent à toutes les exigences."
-            },
-            {
-              "icon": "👨‍⚖️",
-              "title": "Conseil Personnalisé",
-              "description": "Un soutien personnalisé de professionnels expérimentés qui comprennent votre situation unique."
-            },
-            {
-              "icon": "📈",
-              "title": "Taux de Réussite Élevé",
-              "description": "Antécédents prouvés d'aide aux clients pour atteindre efficacement leurs objectifs d'immigration."
-            }
-          ]
-        },
-        "forms": {
-          "title": "Nous Travaillons avec Tous les Services de l'USCIS",
-          "subtitle": "Sélectionnez le formulaire de votre choix pour obtenir des informations sur votre demande. Nos agents seront heureux de vous aider avec votre demande.",
-          "commonForms": "Formulaires USCIS Courants",
-          "formItems": [
-            {
-              "name": "Formulaire N-400",
-              "description": "Demande de Naturalisation"
-            },
-            {
-              "name": "Formulaire I-485",
-              "description": "Demande d'Enregistrement de Résidence Permanente"
-            },
-            {
-              "name": "Formulaire I-765",
-              "description": "Demande d'Autorisation de Travail"
-            },
-            {
-              "name": "Formulaire I-130",
-              "description": "Pétition pour un Parent Étranger"
-            },
-            {
-              "name": "Formulaire I-751",
-              "description": "Pétition pour Lever les Conditions de Résidence"
-            },
-            {
-              "name": "Formulaire I-821D",
-              "description": "Examen de l'Action Différée pour les Arrivées dans l'Enfance"
-            }
-          ],
-          "cta": "Besoin d'Aide avec un Formulaire Spécifique?"
-        },
-        "cta": {
-          "title": "Prêt à Commencer Votre Parcours d'Immigration?",
-          "subtitle": "Ne naviguez pas seul dans le processus complexe d'immigration. Laissez nos experts gérer les formalités administratives pendant que vous vous concentrez sur votre avenir.",
-          "buttons": [
-            "Planifier une Consultation",
-            "En Savoir Plus sur Nos Services"
-          ]
-        }
-      },
-      "contact_pages": {
-        "hero": {
-          "title": "Contactez-nous",
-          "subtitle": "Contactez nos experts en immigration dès aujourd'hui"
-        },
-        "info": {
-          "title": "Notre Bureau",
-          "addressTitle": "Adresse",
-          "address": "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
-          "phoneTitle": "Téléphone",
-          "phone": "+1 5308637124",
-          "emailTitle": "Email",
-          "email": "marketing.libertaslcs@gmail.com",
-          "hoursTitle": "Heures d'ouverture",
-          "hours": "Lundi - Vendredi: 9h - 16:30h<br />Samedi: Fermé<br />Dimanche: Fermé",
-          "emergencyTitle": "Contact d'Urgence",
-          "emergencyText": "Notre seule ligne de contact pour les questions d'immigration est <span class='font-semibold'>+1 5308637124</span>."
-        },
-        "form": {
-          "title": "Envoyez-nous un message",
-          "nameLabel": "Nom complet",
-          "emailLabel": "Adresse e-mail",
-          "phoneLabel": "Numéro de téléphone",
-          "serviceLabel": "Service intéressé",
-          "serviceDefault": "Sélectionnez un service",
-          "serviceOptions": [
-            "Citoyenneté",
-            "Carte Verte",
-            "Visa de Travail",
-            "Parrainage Familial",
-            "DACA",
-            "Asile",
-            "Autre"
-          ],
-          "messageLabel": "Votre message",
-          "consentLabel": "Je consens à ce que ce site Web stocke mes informations soumises afin qu'ils puissent répondre à ma demande.",
-          "submitButton": "Envoyer le message",
-          "successTitle": "Merci!",
-          "successMessage": "Votre message a été envoyé avec succès. Notre équipe vous répondra dans les 24 heures."
-        },
-        "map": {
-          "title": "Emplacement du bureau",
-          "button": "Voir sur google maps"
-        },
-        "cta": {
-          "title": "Planifier une consultation gratuite",
-          "subtitle": "Réservez une consultation de 30 minutes avec l'un de nos experts en immigration pour discuter de vos besoins spécifiques.",
-          "button": "Réserver maintenant"
-        }
-      },
-      "news": {
-        "info": {
-          "blog_title": "Dernières nouvelles",
-          "blog_description": "Restez informé sur les lois et les changements en matière d'immigration aux États-Unis.",
-          "read_more": "En savoir plus →"
-        }
-      },
+      ],
+      "cta": "Besoin d'Aide avec un Formulaire Spécifique ?"
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Processus Migratoire ?",
+      "subtitle": "Ne naviguez pas seul dans le processus complexe d'immigration. Laissez nos experts gérer les formalités pendant que vous vous concentrez sur votre avenir.",
+      "buttons": [
+        "Prendre un Rendez-vous",
+        "En Savoir Plus sur Nos Services"
+      ]
+    }
+  },
+  "contact_pages": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Communiquez avec nos experts en immigration dès aujourd'hui"
+    },
+    "info": {
+      "title": "Notre Bureau",
+      "addressTitle": "Adresse",
+      "address": "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
+      "phoneTitle": "Téléphone",
+      "phone": "+1 5308637124",
+      "emailTitle": "Email",
+      "email": "marketing.libertaslcs@gmail.com",
+      "hoursTitle": "Horaires",
+      "hours": "Lundi - Vendredi : 9h - 16h30 <br />Samedi : Fermé<br />Dimanche : Fermé",
+      "emergencyTitle": "Contact d'Urgence",
+      "emergencyText": "Notre seule ligne de contact pour les questions d'immigration est <span class='font-semibold'>+1 5308637124</span>."
+    },
+    "form": {
+      "title": "Envoyez-Nous un Message",
+      "nameLabel": "Nom Complet",
+      "emailLabel": "Adresse Email",
+      "phoneLabel": "Numéro de Téléphone",
+      "serviceLabel": "Service d'Intérêt",
+      "serviceDefault": "Sélectionnez un service",
+      "serviceOptions": [
+        "Citoyenneté",
+        "Carte Verte",
+        "Visa de Travail",
+        "Parrainage Familial",
+        "DACA",
+        "Asile",
+        "Autre"
+      ],
+      "messageLabel": "Votre Message",
+      "consentLabel": "Je consens à ce que ce site web stocke mes informations envoyées afin qu'ils puissent répondre à ma demande.",
+      "submitButton": "Envoyer le Message",
+      "successTitle": "Merci !",
+      "successMessage": "Votre message a été envoyé avec succès. Notre équipe vous contactera dans les 24 heures."
+    },
+    "map": {
+      "title": "Localisation du Bureau",
+      "button": "Voir sur Google Maps"
+    },
+    "cta": {
+      "title": "Planifiez une Consultation Gratuite",
+      "subtitle": "Réservez une consultation de 30 minutes avec l'un de nos experts en immigration pour discuter de vos besoins spécifiques.",
+      "button": "Réserver Maintenant"
+    }
+  },
+  "news": {
+    "info": {
+      "blog_title": "Dernières Actualités",
+      "blog_description": "Restez informé sur les lois et changements en matière d'immigration aux États-Unis.",
+      "read_more": "Lire plus →"
+    }
+  },
       "Solicitud de Cita por WhatsApp": "Demande de rendez-vous via WhatsApp",
       "Complete el formulario y será redirigido a WhatsApp para confirmar": "Remplissez le formulaire et vous serez redirigé vers WhatsApp pour confirmer",
       "Nombre completo": "Nom complet",
