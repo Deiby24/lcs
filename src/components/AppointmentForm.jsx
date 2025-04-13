@@ -2,6 +2,17 @@ import React, { useState } from "react";
 import { FaWhatsapp,  FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt, FaIdCard, FaClipboardList } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import "../i18n";
+import Select from 'react-select';
+import callingCodes from 'country-calling-code';
+
+const sortedCountries = callingCodes
+  .sort((a, b) => a.country.localeCompare(b.country))
+  .map(item => ({
+    value: `+${item.countryCodes[0]}`,
+    label: `+${item.countryCodes[0]} (${item.country})`
+  }));
+
+
 
 const ReservaCita = () => {
   const { t } = useTranslation();
@@ -134,24 +145,18 @@ const ReservaCita = () => {
           </div>
 
           <div className="grid grid-cols-3 gap-2">
-            <div className="col-span-1">
-              <select
-                name="prefijo"
-                value={form.prefijo}
-                onChange={handleChange}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition"
-              >
-                <option value="+1">+1 (USA)</option>
-                <option value="+52">+52 (MX)</option>
-                <option value="+57">+57 (CO)</option>
-                <option value="+58">+58 (VE)</option>
-                <option value="+51">+51 (PE)</option>
-                <option value="+56">+56 (CL)</option>
-                <option value="+54">+54 (AR)</option>
-                <option value="+593">+593 (EC)</option>
-                <option value="+507">+507 (PA)</option>
-              </select>
-            </div>
+          <div className="col-span-1">
+  <Select
+    name="prefijo"
+    options={sortedCountries}
+    value={sortedCountries.find(opt => opt.value === form.prefijo)}
+    onChange={(selectedOption) => handleChange({ target: { name: 'prefijo', value: selectedOption.value } })}
+    className="basic-single"
+    classNamePrefix="select"
+    placeholder="Selecciona un prefijo"
+    isSearchable
+  />
+</div>
             <div className="col-span-2 relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <FaPhone className="text-gray-400" />
