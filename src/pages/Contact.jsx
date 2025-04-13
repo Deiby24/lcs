@@ -169,140 +169,142 @@ const Contact = () => {
 
           {/* Contact Form - Columna derecha con tamaños controlados */}
           <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="bg-yellow-100 rounded-xl shadow-xl p-8 sm:p-10 border-2 border-yellow-300">
-              <h2 className="text-2xl md:text-3xl font-bold text-yellow-900 mb-8 whitespace-nowrap overflow-hidden text-ellipsis">
-                {t("contact_pages.form.title")}
-              </h2>
-              
-              {submitted ? (
-                <motion.div
-                  className="bg-green-50 border-2 border-green-300 rounded-lg p-8 text-center shadow-md"
-                  initial={{ scale: 0.9, opacity: 0 }}
-                  animate={{ scale: 1, opacity: 1 }}
-                >
-                  <FaCheckCircle className="text-green-600 text-5xl mx-auto mb-6" />
-                  <h3 className="text-xl md:text-2xl font-semibold text-green-800 mb-4 line-clamp-2">
-                    {t("contact_pages.form.successTitle")}
-                  </h3>
-                  <p className="text-gray-700 text-lg line-clamp-3">
-                    {t("contact_pages.form.successMessage")}
-                  </p>
-                </motion.div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div className="min-w-[250px]">
-                      <label htmlFor="name" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-                        {t("contact_pages.form.nameLabel")} *
-                      </label>
-                      <div className="relative">
-                        <FaUser className="absolute left-4 top-4 text-yellow-700 text-xl" />
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          value={formData.name}
-                          onChange={handleChange}
-                          className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="min-w-[250px]">
-                      <label htmlFor="email" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-                        {t("contact_pages.form.emailLabel")} *
-                      </label>
-                      <div className="relative">
-                        <FaEnvelope className="absolute left-4 top-4 text-yellow-700 text-xl" />
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
+  initial={{ opacity: 0, x: 20 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.6 }}
+>
+  <div className="bg-yellow-100 rounded-xl shadow-xl p-8 sm:p-10 border-2 border-yellow-300">
+    <h2 className="text-2xl md:text-3xl font-bold text-yellow-900 mb-8 whitespace-nowrap overflow-hidden text-ellipsis">
+      {t("contact_pages.form.title")}
+    </h2>
+    
+    {submitted ? (
+      <motion.div
+        className="bg-green-50 border-2 border-green-300 rounded-lg p-8 text-center shadow-md"
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+      >
+        <FaCheckCircle className="text-green-600 text-5xl mx-auto mb-6" />
+        <h3 className="text-xl md:text-2xl font-semibold text-green-800 mb-4 line-clamp-2">
+          {t("contact_pages.form.successTitle")}
+        </h3>
+        <p className="text-gray-700 text-lg line-clamp-3">
+          {t("contact_pages.form.successMessage")}
+        </p>
+      </motion.div>
+    ) : (
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="min-w-[250px]">
+            <label htmlFor="name" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
+              {t("contact_pages.form.nameLabel")} *
+            </label>
+            <div className="relative">
+              <FaUser className="absolute left-4 top-4 text-yellow-700 text-xl" />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
+                required
+              />
+            </div>
+          </div>
+          <div className="min-w-[250px]">
+            <label htmlFor="email" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
+              {t("contact_pages.form.emailLabel")} *
+            </label>
+            <div className="relative">
+              <FaEnvelope className="absolute left-4 top-4 text-yellow-700 text-xl" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
+                required
+              />
+            </div>
+          </div>
+        </div>
 
-                  <div className="min-w-[250px]">
-                    <label htmlFor="phone" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-                      {t("contact_pages.form.phoneLabel")} *
-                    </label>
-                    <div className="relative">
-                      <FaPhone className="absolute left-4 top-4 text-yellow-700 text-xl" />
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
-                        required
-                      />
-                    </div>
-                  </div>
+        <div className="min-w-[250px]">
+          <label htmlFor="phone" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
+            {t("contact_pages.form.phoneLabel")} *
+          </label>
+          <div className="relative">
+            <FaPhone className="absolute left-4 top-4 text-yellow-700 text-xl" />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              className="w-full pl-12 pr-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
+              required
+            />
+          </div>
+        </div>
 
-                  <div className="min-w-full">
-                    <label htmlFor="message" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
-                      {t("contact_pages.form.messageLabel")} *
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows="6"
-                      value={formData.message}
-                      onChange={handleChange}
-                      className="w-full min-h-[200px] px-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
-                      required
-                    />
-                  </div>
-                  <a
-  href={`mailto:destino@example.com?subject=Nuevo mensaje de ${formData.name}&body=${encodeURIComponent(
+        <div className="min-w-full">
+          <label htmlFor="message" className="block text-yellow-900 font-medium mb-3 text-lg whitespace-nowrap overflow-hidden text-ellipsis">
+            {t("contact_pages.form.messageLabel")} *
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            value={formData.message}
+            onChange={handleChange}
+            className="w-full min-h-[200px] px-4 py-3 border-2 border-yellow-400 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition bg-yellow-50 text-lg"
+            required
+          />
+        </div>
+        <a
+  href={`https://wa.me/15308637124?text=${encodeURIComponent(
     `Nombre: ${formData.name}\nEmail: ${formData.email}\nTeléfono: ${formData.phone}\nMensaje: ${formData.message}`
   )}`}
+  target="_blank"
+  rel="noopener noreferrer"
   className="w-full py-4 px-6 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold text-xl rounded-lg transition duration-300 shadow-md whitespace-nowrap text-center block"
 >
   {t("contact_pages.form.submitButton")}
 </a>
-                </form>
-              )}
-            </div>
-            
-            {/* Mapa */}
-            <div className="mt-10 bg-white rounded-xl shadow-xl overflow-hidden border-2 border-gray-200">
-              <h2 className="text-xl md:text-2xl font-semibold text-gray-800 p-6 border-b-2 whitespace-nowrap overflow-hidden text-ellipsis">
-                {t('contact_pages.map.title')}
-              </h2>
-              <iframe
-  title={t('contact_pages.map.title')}
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.103509212077!2d-81.59103098487849!3d30.25227898181248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b61b5fdf5b6b%3A0xe8e54e5b3f9279!2s4063%20Salisbury%20Rd%20Suite%20110%2C%20Jacksonville%2C%20FL%2032216%2C%20EE.%20UU.!5e0!3m2!1ses!2sus!4v1711651281091!5m2!1ses!2sus"
-  width="100%"
-  height="450"
-  style={{ border: 0 }}
-  allowFullScreen=""
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  className="min-h-[400px]"
-></iframe>
-              <div className="p-6 bg-gray-100 text-center">
-                <a 
-                  href="https://goo.gl/maps/2v5y3" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300 text-lg whitespace-nowrap"
-                >
-                  {t('contact_pages.map.button')}
-                </a>
-              </div>
-            </div>
-          </motion.div>
+      </form>
+    )}
+  </div>
+  
+  {/* Mapa */}
+  <div className="mt-10 bg-white rounded-xl shadow-xl overflow-hidden border-2 border-gray-200">
+    <h2 className="text-xl md:text-2xl font-semibold text-gray-800 p-6 border-b-2 whitespace-nowrap overflow-hidden text-ellipsis">
+      {t('contact_pages.map.title')}
+    </h2>
+    <iframe
+      title={t('contact_pages.map.title')}
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.103509212077!2d-81.59103098487849!3d30.25227898181248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5b61b5fdf5b6b%3A0xe8e54e5b3f9279!2s4063%20Salisbury%20Rd%20Suite%20110%2C%20Jacksonville%2C%20FL%2032216%2C%20EE.%20UU.!5e0!3m2!1ses!2sus!4v1711651281091!5m2!1ses!2sus"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      className="min-h-[400px]"
+    ></iframe>
+    <div className="p-6 bg-gray-100 text-center">
+      <a 
+        href="https://goo.gl/maps/2v5y3" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300 text-lg whitespace-nowrap"
+      >
+        {t('contact_pages.map.button')}
+      </a>
+    </div>
+  </div>
+</motion.div>
         </div>
       </div>
     </div>

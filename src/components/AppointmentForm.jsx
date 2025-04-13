@@ -42,8 +42,8 @@ const ReservaCita = () => {
     e.preventDefault();
     
     // Número de WhatsApp de la empresa (cambiar por el número real)
-    const whatsappNumber = "3108947847"; // Reemplaza con tu número
-    const prefijoWhatsapp = "+57".replace('+', ''); // Quitar el + para el link
+    const whatsappNumber = "5308637124"; // Reemplaza con tu número
+    const prefijoWhatsapp = "+1".replace('+', ''); // Quitar el + para el link
     
     // Crear mensaje con los datos del formulario
     const message = `*${t("Nueva Solicitud de Cita")}*%0A%0A
