@@ -60,12 +60,11 @@ const ReservaCita = () => {
     const message = `*${t("Nueva Solicitud de Cita")}*%0A%0A
 *${t("Nombre")}:* ${form.nombre}%0A
 *${t("Email")}:* ${form.email}%0A
-*${t("Teléfono")}:* ${form.prefijo} ${form.telefono}%0A
+*${t("Teléfono")}:* +${form.prefijo} ${form.telefono}%0A
 *${t("Ciudad")}:* ${form.ciudad}%0A
 *${t("Identificación")}:* ${form.identificacion}%0A
 *${t("Motivo de la cita")}:* ${form.motivo}%0A
-*${t("Fecha deseada")}:* ${form.fecha}%0A
-*${t("Hora deseada")}:* ${form.hora}%0A%0A
+
 *${t("Por favor confirmar disponibilidad")}.*`;
     
     // Crear enlace de WhatsApp con prefijo internacional
@@ -145,19 +144,19 @@ const ReservaCita = () => {
           </div>
 
           <div className="grid grid-cols-3 gap-2">
-          <div className="col-span-1">
-  <Select
-    name="prefijo"
-    options={sortedCountries}
-    value={sortedCountries.find(opt => opt.value === form.prefijo)}
-    onChange={(selectedOption) => handleChange({ target: { name: 'prefijo', value: selectedOption.value } })}
-    className="basic-single"
-    classNamePrefix="select"
-    placeholder="Selecciona un prefijo"
-    isSearchable
-  />
-</div>
-            <div className="col-span-2 relative">
+            <div className="col-span-3">
+              <Select
+                name="prefijo"
+                options={sortedCountries}
+                value={sortedCountries.find(opt => opt.value === form.prefijo)}
+                onChange={(selectedOption) => handleChange({ target: { name: 'prefijo', value: selectedOption.value } })}
+                className="basic-single"
+                classNamePrefix="select"
+                placeholder="Selecciona un prefijo"
+                isSearchable
+              />
+            </div>
+            <div className="col-span-3 relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <FaPhone className="text-gray-400" />
               </div>
