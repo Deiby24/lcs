@@ -62,17 +62,17 @@
     }
   },
   "footer": {
-    "companyName": "Libertas Consulting Services LCS",
+    "companyName": "Libertas Consulting Services LLC",
     "description": "Experts en procédures d'immigration avec plus de 20 ans d'expérience, offrant des conseils fiables et personnalisés pour votre avenir aux États-Unis. Bureau principal à Jacksonville, FL.",
     "services": {
       "title": "Services",
-      "items": [
-        "Asile Politique",
-        "Ajustement de Statut",
-        "Renouvellement de Carte Verte",
-        "Citoyenneté Américaine",
-        "Permis de Travail"
-      ]
+"items": [
+  { "label": "Asile Politique", "url": "/services/Formulaire%20I-589" },
+  { "label": "Autorisation de Travail", "url": "/services/Formulaire%20I-765" },
+  { "label": "Carte Verte", "url": "/services/Formulaire%20I-485" },
+  { "label": "Citoyenneté Américaine", "url": "/services/Formulaire%20N-400" },
+  { "label": "Parrainage Familial", "url": "/services/Formulaire%20I-130" }
+]
     },
     "contact": {
       "title": "Contact",
@@ -81,7 +81,7 @@
       "email": "marketing.libertaslcs@gmail.com"
     },
     "legal": {
-      "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Tous droits réservés.",
+      "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Tous droits réservés.",
       "links": [
         "Conditions d'Utilisation",
         "Politique de Confidentialité",

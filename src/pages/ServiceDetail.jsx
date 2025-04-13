@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import serviceBG from '../assets/images/serviceBG.jpg';
 
-
 const ServiceDetail = () => {
   const { form } = useParams();
   const { t, i18n } = useTranslation();
@@ -133,8 +132,8 @@ const ServiceDetail = () => {
       </section>
 
       {/* Main Content - Mejor estructura visual */}
-      <section className="py-20 bg-gray-50 " >
-      <motion.div 
+      <section className="py-20 bg-gray-50 ">
+        <motion.div 
             className="mb-16 text-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -146,13 +145,11 @@ const ServiceDetail = () => {
             <div className="w-24 h-1.5 bg-gradient-to-r from-yellow-800 to-yellow-600 mx-auto rounded-full"></div>
           </motion.div>
         <div className="container mx-auto px-6 max-w-5xl">
-         
-
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
             {["contentFirstPoint", "contentSecondPoint", "contentThirdPoint", "contentFourPoint"].map((key, index) => (
               <motion.div
                 key={index}
-                className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group md:min-w-[900px]"
+                className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.15 }}
@@ -176,13 +173,6 @@ const ServiceDetail = () => {
                       className="text-gray-600 leading-relaxed flex-grow"
                       dangerouslySetInnerHTML={{ __html: currentService[`${key}Text`].replace(/\n/g, '<br/>') }}
                     />
-                    {/* {index % 2 === 0 && (
-                      <div className="mt-6 pt-6 border-t border-gray-100">
-                        <span className="inline-block px-3 py-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
-                          {index === 0 ? "Estrategia" : index === 2 ? "Implementación" : "Solución"}
-                        </span>
-                      </div>
-                    )} */}
                   </div>
                 </div>
               </motion.div>
@@ -219,42 +209,6 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* CTA Section - Más profesional */}
-      {/* <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-6 max-w-3xl text-center justify-center">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-            className="bg-white rounded-xl shadow-sm p-10"
-          >
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-              {t("readyToTransform") || "¿Listo para transformar tu negocio?"}
-            </h3>
-            <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg">
-              {t("serviceCTA.description") || "Nuestro equipo de expertos está listo para ayudarte a alcanzar tus objetivos con soluciones personalizadas a tus necesidades."}
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={handleContactClick}
-                className="px-8 py-4 bg-gradient-to-r from-yellow-800 to-yellow-600 text-white font-medium rounded-xl hover:from-yellow-700 hover:to-yellow-600 transition-all duration-300 shadow-lg"
-              >
-                {t("requestConsultation") || "Solicitar consulta gratuita"}
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={handleServicesClick}
-                className="px-8 py-4 bg-white text-blue-600 font-medium rounded-xl border border-blue-200 hover:bg-blue-50 transition-all duration-300 shadow-sm"
-              >
-                {t("viewAllServices") || "Ver todos los servicios"}
-              </motion.button>
-            </div>
-          </motion.div>
-        </div>
-      </section> */}
     </div>
   );
 };

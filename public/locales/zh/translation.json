@@ -63,17 +63,17 @@
             }
           },
           "footer": {
-            "companyName": "Libertas Consulting Services  LCS",
+            "companyName": "Libertas Consulting Services  LLC",
             "description": "拥有20年经验的移民法律专家，为您的美国未来提供可靠和个性化的建议。主要办事处位于佛罗里达州杰克逊维尔。",
             "services": {
               "title": "服务项目",
-              "items": [
-                "政治庇护",
-                "身份调整",
-                "绿卡更新",
-                "美国公民身份",
-                "工作许可"
-              ]
+"items": [
+  { "label": "政治庇护", "url": "/services/I-589表格" },
+  { "label": "工作许可", "url": "/services/I-765表格" },
+  { "label": "绿卡", "url": "/services/I-485表格" },
+  { "label": "美国公民身份", "url": "/services/N-400表格" },
+  { "label": "家庭担保", "url": "/services/I-130表格" }
+]
             },
             "contact": {
               "title": "联系方式",
@@ -82,7 +82,7 @@
               "email": "marketing.libertaslcs@gmail.com"
             },
             "legal": {
-              "copyright": "&copy; 2023 Libertas Consulting Services LCS。保留所有权利。",
+              "copyright": "&copy; 2023 Libertas Consulting Services LLC。保留所有权利。",
               "links": ["服务条款", "隐私政策", "法律声明"]
             }
           },

@@ -30,15 +30,15 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-[#D4AF37] mb-4 border-b border-[#D4AF37] pb-2">{t('footer.services.title')}</h3>
             <ul className="space-y-2">
-                {Array.isArray(services) &&
-                  services.map((item, index) => (
-                    <li key={index}>
-                      <Link to="/services" className="text-[#E0E0E0] hover:text-[#C99E4D] transition text-sm">
-                        {item}
-                      </Link>
-                    </li>
-                  ))
-                }
+              {Array.isArray(services) &&
+                services.map((item, index) => (
+                  <li key={index}>
+                    <Link to={item.url} className="text-[#E0E0E0] hover:text-[#C99E4D] transition text-sm">
+                      {item.label}
+                    </Link>
+                  </li>
+                ))
+              }
             </ul>
           </div>
 

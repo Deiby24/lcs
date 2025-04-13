@@ -9,7 +9,8 @@ const languageMap = {
   en: 'en',
   es: 'es',
   fr: 'fr',
-  zh: 'zh'
+  zh: 'zh',
+  ar: 'ar',
 };
 const searchTerms = {
     en: 'US immigration',
@@ -19,10 +20,16 @@ const searchTerms = {
 
 
 
-  const fetchNews = async (language = 'es') => {
+  const fetchNews = async (language = 'en') => {
     const term = encodeURIComponent(searchTerms[language] || searchTerms.es);
     try {
       const { data } = await axios.get(`/.netlify/functions/fetchNews?term=${term}&language=${language}`);
+
+      if (data.length === 0 && language !== 'en') {
+        // Si no hay noticias y no estamos ya en inglés, intenta con inglés
+        console.warn(`No se encontraron noticias en '${language}', intentando en inglés...`);
+        return await fetchNews('en');
+      }
       console.log("Noticias obtenidas:", data);
       // Cambia el retorno: en lugar de data.articles, retorna data directamente.
       return data.slice(0, 4) || [];
@@ -51,6 +58,7 @@ const BlogSection = () => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
+      id="blog-section"
     >
       <h2 className="text-4xl font-semibold text-gray-800 mb-6 tracking-wide">
       {i18n.t("news.info.blog_title")}
@@ -59,8 +67,8 @@ const BlogSection = () => {
         {i18n.t("news.info.blog_description")}
       </p>
 
-      {isLoading && <p className="text-gray-600">Cargando noticias...</p>}
-      {error && <p className="text-red-600">Error al cargar noticias</p>}
+      {isLoading && <p className="text-gray-600">...</p>}
+      {error && <p className="text-red-600">Error</p>}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
       {noticias &&

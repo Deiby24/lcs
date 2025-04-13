@@ -62,16 +62,16 @@
         }
       },
       "footer": {
-        "companyName": "Libertas Consulting Services  LCS",
+        "companyName": "Libertas Consulting Services LLC",
         "description": "Expertos en trámites migratorios con mas de 20 años de experiencia, brindando asesoría confiable y personalizada para tu futuro en Estados Unidos. Oficinas principales en Jacksonville, FL.",
         "services": {
           "title": "Servicios",
           "items": [
-            "Asilo Político",
-            "Ajuste de Estatus",
-            "Renovación de Green Card",
-            "Ciudadanía Americana",
-            "Permisos de Trabajo"
+            { "label": "Asilo Político", "url": "/services/Formulario%20I-589" },
+            { "label": "Autorización de Empleo", "url": "/services/Formulario%20I-765" },
+            { "label": "Green Card", "url": "/services/Formulario%20I-485" },
+            { "label": "Ciudadanía Americana", "url": "/services/Formulario%20N-400" },
+            { "label": "Patrocinio Familiar", "url": "/services/Formulario%20I-130" }
           ]
         },
         "contact": {
@@ -81,7 +81,7 @@
           "email": "marketing.libertaslcs@gmail.com"
         },
         "legal": {
-          "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LCS. Todos los derechos reservados.",
+          "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Todos los derechos reservados.",
           "links": [
             "Términos de Servicio",
             "Política de Privacidad",
