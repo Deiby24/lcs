@@ -6,19 +6,19 @@ const Appointment = () => {
   return (
     <>
       <Helmet>
-        <title>Agenda tu cita | Libertas Consulting Service</title>
+        <title>Schedule Your Appointment | Libertas Consulting Service - Expert Immigration Consulting</title>
         <meta
           name="description"
-          content="Programa una reunión con nuestro equipo de consultoría para recibir orientación clara y profesional sobre procesos migratorios."
+          content="Book an appointment with our expert immigration consultants to receive professional guidance on your U.S. immigration process."
         />
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="Agenda tu cita | Libertas Consulting Service"
+          content="Schedule Your Appointment | Libertas Consulting Service - Expert Immigration Consulting"
         />
         <meta
           property="og:description"
-          content="Haz tu cita y empieza tu proceso de inmigración con acompañamiento profesional."
+          content="Schedule your consultation today and start your immigration process with expert guidance from our team."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -29,6 +29,8 @@ const Appointment = () => {
           property="og:image"
           content="https://libertasconsultingservice.com/libertaswhite.png"
         />
+        <meta property="og:site_name" content="Libertas Consulting Service" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
       <AppointmentForm />
     </>

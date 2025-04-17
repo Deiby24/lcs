@@ -40,19 +40,21 @@ const Contact = () => {
 
   return (
     <>
-    <Helmet>
-        <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
-        <title>Contáctanos | Libertas Consulting Service</title>
-        <meta name="description" content="Estamos para ayudarte. Escríbenos y recibe asesoría personalizada sobre tus procesos migratorios." />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+    <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
+    <title>Contact Us | Libertas Consulting Service - Expert Immigration Advisory</title>
+    <meta name="description" content="Get personalized immigration advice from experienced consultants. Contact us today for professional assistance with your U.S. immigration process." />
+    <meta name="robots" content="index, follow" />
 
-        {/* Open Graph */}
-        <meta property="og:title" content="Contáctanos | Libertas Consulting Service" />
-        <meta property="og:description" content="Conversa con nuestros consultores y aclara tus dudas sobre inmigración." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://libertasconsultingservice.com/contact" />
-        <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
-    </Helmet>
+    {/* Open Graph */}
+    <meta property="og:title" content="Contact Us | Libertas Consulting Service - Expert Immigration Advisory" />
+    <meta property="og:description" content="Speak with our immigration consultants for clear, professional guidance on your U.S. immigration process. We're here to help." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://libertasconsultingservice.com/contact" />
+    <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
+    <meta property="og:site_name" content="Libertas Consulting Service" />
+    <meta property="og:locale" content="en_US" />
+</Helmet>
     <div className="font-sans bg-gray-50">
       <section className="relative h-96 bg-blue-900 text-white overflow-hidden hro">
       <div 

@@ -36,15 +36,33 @@ const Services = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Servicios | Libertas Consulting Service</title>
-        <meta 
-          name="description" 
-          content="Descubre nuestros servicios de asesoría  migratoria. Brindamos soluciones personalizadas para tus necesidades de inmigración en EE.UU." 
-        />
-      </Helmet>
+    <Helmet>
+      <title>Our Services | Libertas Consulting - Immigration Solutions</title>
+      <meta 
+        name="description" 
+        content="Discover our range of personalized immigration consulting services. At Libertas, we guide individuals and families through every step of the U.S. immigration process." 
+      />
+
+      {/* Favicon / Logo */}
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" href="/libertaswhite.png" />
+
+      {/* Open Graph (for social sharing) */}
+      <meta property="og:title" content="Our Services | Libertas Consulting" />
+      <meta property="og:description" content="Explore our expert immigration services tailored to your unique needs. We're here to support your journey to the U.S." />
+      <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
+      <meta property="og:url" content="https://libertasconsultingservice.com/services" />
+      <meta property="og:type" content="website" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Our Services | Libertas Consulting" />
+      <meta name="twitter:description" content="Explore personalized immigration consulting services to support your path to the U.S." />
+      <meta name="twitter:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </Helmet>
       <div className="font-sans" id="services-section">
-        {/* HERO SECTION */}
         <section className="relative h-[70vh] sm:h-[500px] bg-blue-900 text-white overflow-hidden hro">
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80"
