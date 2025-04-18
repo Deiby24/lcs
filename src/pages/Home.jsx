@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
     <Helmet>
-        <title>Libertas Consulting Service |</title>
+        <title>Libertas Consulting Service</title>
         <meta name="description" content="We provide comprehensive solutions and personalized guidance for your immigration procedures in the United States." />
         <meta name="robots" content="index, follow" />
 

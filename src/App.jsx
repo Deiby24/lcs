@@ -32,7 +32,7 @@ const App = () => {
     <>
       <Helmet>
         <title>
-          Libertas Consulting Service | Experts in immigration consulting
+          Libertas Consulting Service 
         </title>
 
         <meta
