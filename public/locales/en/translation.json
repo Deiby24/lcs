@@ -4,55 +4,55 @@
   "services_nav": "Services",
   "contact_nav": "Contact",
   "appointment": "Check Availability",
-  "hero_title": "Immigration Process Experts",
-  "hero_subtitle": "Comprehensive legal solutions and personalized advice for all your immigration needs.",
-  "hero_button": "Get your free consultation",
-  "about_title": "Our Firm",
-  "about_description": "Our team has decades of combined experience in immigration offices, offering specialized guidance for all types of immigration processes in Jacksonville, Florida. We are committed to guiding the community through the complexities of the U.S. immigration system.",
-  "title_visa": "Work Visas",
-  "description_visa": "Strategic advice to obtain work authorization and employment visas in the United States.",
-  "title_Residency": "Permanent Residency",
-  "description_Residency": "Comprehensive management of green card applications based on family or employment.",
-  "title_Citizenship": "Naturalization",
-  "description_Citizenship": "Specialized guidance on citizenship and naturalization applications.",
-  "title_Immigration": "Deportation Case Advisory",
-  "description_Immigration": "Expert guidance in deportation proceedings and immigration courts.",
-  "services_title": "Our Immigration Services",
-  "services_description": "Comprehensive immigration solutions with specialized advice on processes for individuals and families.",
-  "process_title": "Our Advisory Process",
-  "step1": "Case Evaluation",
-  "description1": "Thorough analysis of your circumstances to determine the best immigration options.",
+  "hero_title": "Immigration Process Experts in the United States",
+  "hero_subtitle": "Professional guidance and personalized support for your immigration processes",
+  "hero_button": "Get your consultation",
+  "about_title": "Our Team of Immigration Advisors",
+  "about_description": "We have extensive experience with USCIS procedures, offering specialized guidance for all immigration processes in Jacksonville, Florida. Our commitment is to help you navigate the U.S. immigration system with clear and up-to-date information.",
+  "title_visa": "Work Visas for the U.S.",
+  "description_visa": "We guide you through the process to obtain work visas and employment authorization in the United States.",
+  "title_Residency": "Permanent Residency (Green Card)",
+  "description_Residency": "We assist with permanent residency applications through family or employment.",
+  "title_Citizenship": "Citizenship Process",
+  "description_Citizenship": "We guide you step by step on your path to U.S. naturalization.",
+  "title_Immigration": "Advisory for Complex Cases",
+  "description_Immigration": "We provide guidance for challenging immigration situations.",
+  "services_title": "Immigration Guidance Services",
+  "services_description": "Comprehensive solutions with professional support for individuals and families looking to establish themselves in the U.S.",
+  "process_title": "Our Advisory Method",
+  "step1": "Initial Assessment",
+  "description1": "We analyze your specific situation to identify the best immigration alternatives.",
   "step2": "Document Preparation",
-  "description2": "Meticulous gathering of all required evidence and documentation.",
-  "step3": "Petition Filing",
-  "description3": "Precise submission of applications to USCIS with premium case management.",
-  "step4": "Final Resolution",
-  "description4": "Specialized support until the final resolution of your process.",
+  "description2": "We help you organize all required documentation for your process.",
+  "step3": "USCIS Submission",
+  "description3": "We manage the proper filing of your immigration applications.",
+  "step4": "Ongoing Follow-up",
+  "description4": "We keep you informed throughout the entire process until completion.",
   "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Real experiences from people who have trusted our immigration services",
-    "review1": "Thanks to their help, I was able to get my residency in record time. Their knowledge of the process was invaluable.",
-    "review2": "A reliable and professional team. They guided me through every step of my citizenship process. I 100% recommend them!",
-    "review3": "Excellent customer service. They quickly resolved all my questions about my work visa."
+    "title": "Our Clients' Experiences",
+    "subtitle": "Real stories from people who have trusted our immigration guidance",
+    "review1": "Thanks to their support, I obtained my residency efficiently. Their knowledge of the process was fundamental.",
+    "review2": "A professional team that guided me through every stage of my citizenship process. Highly recommended!",
+    "review3": "Excellent service. They answered all my questions about my work visa clearly and quickly."
   },
   "contact": {
-    "title": "Need help with your immigration case?",
-    "subtitle": "Our experts are ready to advise you. Contact us today for a personalized consultation.",
+    "title": "Do you need guidance for your immigration process?",
+    "subtitle": "Our specialists are available to assist you. Contact us today for a personalized consultation.",
     "cards": {
       "phone": {
-        "title": "Call Us",
-        "description": "Available Monday to Friday from 9am to 4:30pm",
+        "title": "Phone",
+        "description": "Monday to Friday from 9am to 4:30pm",
         "number": "+1 5308637124"
       },
       "email": {
-        "title": "Email Us",
-        "description": "We'll respond in less than 24 hours",
-        "address": "marketing.libertaslcs@gmail.com"
+        "title": "Email",
+        "description": "We respond in less than 24 hours",
+        "address": "info@libertasconsultingservice.com"
       },
       "appointment": {
-        "title": "Schedule Consultation",
-        "description": "First consultation",
-        "button": "Request Appointment"
+        "title": "Schedule a consultation",
+        "description": "First consultation at no cost",
+        "button": "Request appointment"
       },
       "location": {
         "title": "Office in Jacksonville, FL 32216",
@@ -63,23 +63,22 @@
   },
   "footer": {
     "companyName": "Libertas Consulting Services LLC",
-    "description": "Immigration process experts with over 20 years of experience, providing reliable and personalized advice for your future in the United States. Main offices in Jacksonville, FL.",
+    "description": "Immigration specialists with over 20 years of experience, providing reliable and personalized guidance for your future in the United States. Main office in Jacksonville, FL.",
     "services": {
       "title": "Services",
-"items": [
-  { "label": "Political Asylum", "url": "/services/Form%20I-589" },
-  { "label": "Employment Authorization", "url": "/services/Form%20I-765" },
-  { "label": "Green Card", "url": "/services/Form%20I-485" },
-  { "label": "American Citizenship", "url": "/services/Form%20N-400" },
-  { "label": "Family Sponsorship", "url": "/services/Form%20I-130" }
-]
-
+      "items": [
+        { "label": "Asylum", "url": "/services/Form%20I-589" },
+        { "label": "Work Permit", "url": "/services/Form%20I-765" },
+        { "label": "Permanent Residency", "url": "/services/Form%20I-485" },
+        { "label": "U.S. Citizenship", "url": "/services/Form%20N-400" },
+        { "label": "Family Reunification", "url": "/services/Form%20I-130" }
+      ]
     },
     "contact": {
       "title": "Contact",
       "address": "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
       "phone": "+1 5308637124",
-      "email": "marketing.libertaslcs@gmail.com"
+      "email": "info@libertasconsultingservice.com"
     },
     "legal": {
       "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. All rights reserved.",
@@ -92,284 +91,284 @@
   },
   "services": {
     "hero": {
-      "title": "Immigration Services for Your Future",
-      "subtitle": "Guiding You Through Every Step of the Immigration Process",
-      "cta": "Start Today"
+      "title": "Immigration Guidance Services for Your Future",
+      "subtitle": "Professional support at every stage of your process",
+      "cta": "Get started today"
     },
     "intro": {
-      "title": "Your Trusted Immigration Partner",
-      "description": "Our expert advisors provide personalized assistance for all your immigration needs, ensuring a successful journey toward residency. We work directly with USCIS services, guaranteeing accuracy and efficiency in every application."
+      "title": "Your ally in immigration processes",
+      "description": "Our specialized consultants provide personalized support for all your immigration needs, facilitating your path to U.S. residency. We work with USCIS requirements, ensuring your applications meet all established parameters."
     },
     "filter": {
-      "all": "All Services",
+      "all": "All services",
       "citizenship": "Citizenship",
       "employment": "Employment",
-      "greenCard": "Green Card",
+      "greenCard": "Residency",
       "visas": "Visas",
       "family": "Family"
     },
-    "servicesTitle": "Our Immigration Services",
+    "servicesTitle": "Our Immigration Guidance Services",
     "serviceItems": [
       {
         "id": 1,
-        "title": "Citizenship",
-        "description": "Assistance with Form N-400 for a smooth citizenship process.",
+        "title": "U.S. Citizenship",
+        "description": "We assist with Form N-400 for a smooth naturalization process.",
         "form": "Form N-400",
-        "content": "USCIS Form N-400: Application for U.S. Citizenship",
-        "contentSubtitle": "Do you meet the requirements?",
-        "contentFirstPoint": "Residency",
-        "contentFirstPointText": "To qualify for U.S. citizenship, you must have been a permanent resident (Green Card holder) for at least 5 years. If you're married to a U.S. citizen, this period is reduced to 3 years. During this time, you must have continuously lived in the United States.",
-        "contentSecondPoint": "Physical Presence",
-        "contentSecondPointText": "You must have been physically present in the U.S. for at least 30 months of the last 5 years before applying. If married to a U.S. citizen, you must have been present for at least 18 months of the last 3 years.",
-        "contentThirdPoint": "Good Moral Character",
-        "contentThirdPointText": "To be eligible, you must demonstrate good moral character. This includes paying taxes, obeying U.S. laws, and not having serious criminal records. USCIS will evaluate your conduct during the required residency period.",
-        "contentFourPoint": "Oath of Allegiance",
-        "contentFourPointText": "One of the final steps to obtain citizenship is taking the Oath of Allegiance to the United States. By doing so, you pledge to support and defend the Constitution and laws of the country, renouncing allegiance to other nations.",
-        "contentFinal": "If you meet these basic requirements, you can proceed to complete and submit Form N-400 to begin your journey toward U.S. citizenship. Good luck!"
+        "content": "Form N-400: Application for U.S. Citizenship",
+        "contentSubtitle": "Do you qualify?",
+        "contentFirstPoint": "Residency period",
+        "contentFirstPointText": "To apply for U.S. citizenship, you must have been a permanent resident (Green Card holder) for at least 5 years. If married to a U.S. citizen, this period is reduced to 3 years. During this time, you must have maintained continuous residence in the United States.",
+        "contentSecondPoint": "Physical presence requirement",
+        "contentSecondPointText": "You must have been physically present in the U.S. for at least 30 months of the last 5 years before applying. If married to a U.S. citizen, the requirement is 18 months of the last 3 years.",
+        "contentThirdPoint": "Conduct and compliance",
+        "contentThirdPointText": "It's essential to demonstrate good conduct during the required residency period. This includes paying taxes, complying with U.S. laws, and having no relevant criminal record. USCIS will evaluate your conduct during this period.",
+        "contentFourPoint": "Commitment to the U.S.",
+        "contentFourPointText": "The final stage includes taking the Oath of Allegiance to the United States. By doing so, you express your commitment to the country and its laws.",
+        "contentFinal": "If you meet these basic requirements, we can begin the process with Form N-400 to start your path to U.S. citizenship."
       },
       {
         "id": 2,
-        "title": "Employment Authorization",
-        "description": "Expert guidance on Form I-765 to obtain your Employment Authorization Document.",
+        "title": "Work Permit (EAD)",
+        "description": "We guide you through Form I-765 to obtain your Employment Authorization Document.",
         "form": "Form I-765",
-        "content": "Everything You Need to Know About the EAD",
-        "contentSubtitle": "Employment Authorization Document that allows you to work legally in the United States",
+        "content": "All About the Work Permit (EAD)",
+        "contentSubtitle": "Document authorizing legal employment in the United States",
         "contentFirstPoint": "What is the EAD?",
-        "contentFirstPointText": "The Employment Authorization Document (EAD) is a work permit issued by USCIS that demonstrates your legal right to work in the U.S. It is obtained through Form I-765 and contains: your name, photo, A-number, immigration category, and validity dates.",
-        "contentSecondPoint": "Who Needs to Apply?",
-        "contentSecondPointText": "Non-citizens and non-permanent residents who need to work legally, including:\n- Asylum seekers/refugees\n- Students (certain types of employment)\n- Adjustment of status applicants\n- TPS beneficiaries\n- Visa holders' spouses (K, J-2, E, L)",
-        "contentThirdPoint": "Types and Application Process",
-        "contentThirdPointText": "1. Initial EAD: First application\n2. Renewal: Submit ≤120 days before expiration\n3. Replacement: For lost/damaged cards\n\nProcess: Submit Form I-765 to receive temporary authorization (duration varies by immigration status). Approval allows work for any employer without sponsorship.",
-        "contentFourPoint": "Key Benefits",
-        "contentFourPointText": "- Legal work authorization\n- No employer restrictions\n- Valid for completing Form I-9\n- Work flexibility\n\nNote: Processing times vary. Renew early to avoid employment interruptions.",
-        "contentFinal": "For updated information on requirements and processing times, always check the official USCIS website."
+        "contentFirstPointText": "The Employment Authorization Document (EAD) is a work permit issued by USCIS that certifies your legal right to work in the U.S. It's obtained through Form I-765 and contains your personal information, immigration category, and validity period.",
+        "contentSecondPoint": "Who can apply?",
+        "contentSecondPointText": "Individuals who need to work legally in the U.S. but aren't citizens or permanent residents, including:\n- Asylum applicants\n- Students in certain categories\n- People in the process of adjusting status\n- Temporary protection beneficiaries\n- Family members of specific visa holders",
+        "contentThirdPoint": "Types and process",
+        "contentThirdPointText": "1. Initial application: First time\n2. Renewal: Submit up to 120 days before expiration\n3. Replacement: For lost or damaged documents\n\nProcess: Submit Form I-765 to receive temporary authorization (duration varies based on your immigration status). Approval allows you to work for any employer.",
+        "contentFourPoint": "Main benefits",
+        "contentFourPointText": "- Legal employment authorization\n- No restrictions on specific employers\n- Valid document for hiring processes\n- Work flexibility\n\nImportant: Processing times may vary. We recommend starting renewals in advance.",
+        "contentFinal": "For updated information on requirements and processing times, always check official USCIS sources."
       },
       {
         "id": 3,
-        "title": "Green Card",
-        "description": "Support with Form I-485 to adjust your status to permanent resident.",
+        "title": "Permanent Residency (Green Card)",
+        "description": "We advise on Form I-485 to adjust your status to permanent resident.",
         "form": "Form I-485",
-        "content": "Adjustment of Status for Permanent Residence",
-        "contentSubtitle": "Green Card application from within the United States",
+        "content": "Permanent Residency Process",
+        "contentSubtitle": "Green Card application from within the U.S.",
         "contentFirstPoint": "What is Form I-485?",
-        "contentFirstPointText": "Form I-485 allows certain foreigners in the U.S. to change their immigration status to permanent resident (obtain Green Card). It must be filed with USCIS and is available to individuals with:\n- Approved immigrant petition\n- Current priority date\n- Valid status in the country",
-        "contentSecondPoint": "Eligibility Requirements",
-        "contentSecondPointText": "1. Be physically present in the U.S.\n2. Have an approved immigrant petition (unless asylum/refugee)\n3. Visa available (current priority date)\n4. No serious immigration violations\n5. Be admissible to the U.S.",
-        "contentThirdPoint": "Eligible Categories",
-        "contentThirdPointText": "1. Family: Spouses, parents, or children of U.S. citizens\n2. Employment: Employer-sponsored\n3. Asylum/Refugees: After 1 year in status\n4. Special Cases: VAWA, SIV, among others\n\n*Individuals outside the U.S. must follow consular processing",
-        "contentFourPoint": "Benefits and Process",
-        "contentFourPointText": "Advantages:\n- Allows work with EAD while processing\n- Possibility to travel with Advance Parole\n- Path to citizenship (after 3-5 years)\n\nProcess:\n1. Submit I-485 + documents\n2. Attend biometrics appointment\n3. Interview (in most cases)\n4. USCIS decision\n\n*Refugees are exempt from fees",
-        "contentFinal": "For more information on specific requirements and necessary documentation, visit the official USCIS website or consult with a qualified immigration attorney."
+        "contentFirstPointText": "Form I-485 allows certain individuals in the U.S. to change their immigration status to permanent resident (obtain a Green Card). It must be filed with USCIS and is available to those who meet the established requirements.",
+        "contentSecondPoint": "Basic requirements",
+        "contentSecondPointText": "1. Physical presence in the U.S.\n2. Approved immigration petition (except in certain cases)\n3. Visa availability based on category\n4. Compliance with immigration requirements\n5. Eligibility to enter/remain in the U.S.",
+        "contentThirdPoint": "Main categories",
+        "contentThirdPointText": "1. Family: Spouses, parents, or children of U.S. citizens\n2. Employment: Sponsored by employer\n3. Special cases: Asylum, special protection, among others\n\n*Individuals outside the U.S. must follow different processes",
+        "contentFourPoint": "Important aspects",
+        "contentFourPointText": "Benefits:\n- Ability to work with authorization while processing\n- Option to travel with prior authorization\n- Path to citizenship (after 3-5 years)\n\nProcess:\n1. Submit I-485 + documentation\n2. Attend biometrics appointment\n3. Interview (in most cases)\n4. Final USCIS decision",
+        "contentFinal": "For detailed information on specific requirements and necessary documentation, check official sources or request specialized advice."
       },
       {
         "id": 4,
-        "title": "Visas",
-        "description": "Help with Form DS-160 for B1/B2 visitor visas for business or tourism.",
+        "title": "Visa Advisory",
+        "description": "Professional assistance with Form DS-160 for B1/B2 visitor visas (business or tourism).",
         "form": "Form DS-160",
         "content": "B1/B2 Visa Application Process",
-        "contentSubtitle": "Online application for business (B1) or tourism (B2) visas",
+        "contentSubtitle": "Online process for business (B1) or tourism (B2) visas",
         "contentFirstPoint": "What is Form DS-160?",
-        "contentFirstPointText": "The DS-160 is the mandatory electronic form to apply for:\n\n• Business visas (B1)\n• Tourism visas (B2)\n• Combined B1/B2 visas\n\nIt must be completed before scheduling the consular interview.",
-        "contentSecondPoint": "Key Requirements",
-        "contentSecondPointText": "Required documentation:\n\n1. Valid passport (6+ months validity)\n2. Recent digital photo (5x5 cm, white background)\n3. Travel itinerary (flights, accommodation)\n4. Proof of economic/social ties in your country\n5. For B1: Company letter detailing trip purpose",
-        "contentThirdPoint": "Step-by-Step Process",
-        "contentThirdPointText": "1. **Complete the DS-160** online:\n   - Personal data\n   - Travel history\n   - Employment information\n   - U.S. contacts\n\n2. **Pay the MRV fee** ($160 USD)\n\n3. **Schedule interview** at the consulate\n\n4. **Attend the appointment** with all documents",
-        "contentFourPoint": "Key Tips",
-        "contentFourPointText": "To increase your approval chances:\n\n• Verify all data three times\n• Answers must be consistent with your documentation\n• Prepare for the interview:\n  - Clearly explain the trip purpose\n  - Demonstrate you'll return to your country\n  - Bring original documents and copies\n\n• Avoid mentioning intent to work or study",
-        "contentFinal": "Important: The DS-160 does not guarantee visa approval. The final decision is made by the consular officer during the interview. Typical processing: 2-3 weeks."
+        "contentFirstPointText": "The DS-160 is the electronic form required to apply for:\n\n• Business visas (B1)\n• Tourism visas (B2)\n• Combined B1/B2 visas\n\nIt must be completed before scheduling the consulate interview.",
+        "contentSecondPoint": "Required Documentation",
+        "contentSecondPointText": "Main requirements:\n\n1. Valid passport (minimum 6 months validity)\n2. Recent digital photo (5x5 cm, white background)\n3. Travel itinerary (flight tickets, hotel reservations)\n4. Proof of ties to your home country\n5. For B1: Company letter explaining travel purpose",
+        "contentThirdPoint": "Process Steps",
+        "contentThirdPointText": "1. **Complete the DS-160** online:\n   - Personal information\n   - Travel history\n   - Employment data\n   - U.S. contacts\n\n2. **Pay the MRV fee** ($160 USD)\n\n3. **Schedule interview** at the consulate\n\n4. **Attend appointment** with all documentation",
+        "contentFourPoint": "Important Recommendations",
+        "contentFourPointText": "To improve your approval chances:\n\n• Carefully verify all information\n• Answers must match your documentation\n• Prepare for the interview:\n  - Clearly explain your travel purpose\n  - Demonstrate you'll return to your country\n  - Bring original documents and copies\n\n• Avoid mentioning interest in working or studying",
+        "contentFinal": "Note: Completing the DS-160 doesn't guarantee visa approval. The final decision is made by the consular officer during the interview. Average processing time: 2-3 weeks."
       },
       {
         "id": 5,
-        "title": "Family Sponsorship",
-        "description": "Green Card for relatives with Form I-130.",
+        "title": "Family Reunification",
+        "description": "Guidance for permanent residency for family members with Form I-130.",
         "form": "Form I-130",
-        "content": "Family-Based Immigration Petition",
-        "contentSubtitle": "Help your relative obtain legal permanent residence in the U.S.",
+        "content": "Family Immigration Process",
+        "contentSubtitle": "Help your relative obtain permanent residency in the U.S.",
         "contentFirstPoint": "What is Form I-130?",
-        "contentFirstPointText": "Form I-130 is used by U.S. citizens and permanent residents to:\n\n• Establish a qualifying family relationship\n• Initiate the family-based immigration process\n• Obtain a visa number for eligible relatives\n\nThis is the first step to get a Green Card for your relative.",
+        "contentFirstPointText": "Form I-130 is used to:\n\n• Establish a valid family relationship\n• Initiate the family immigration process\n• Obtain a visa number for eligible relatives\n\nIt's the first step for your relative to obtain their residency.",
         "contentSecondPoint": "Who Can You Sponsor?",
-        "contentSecondPointText": "U.S. Citizens Can Petition:\n- Spouse\n- Parents\n- Children (any age/marital status)\n- Siblings\n\nPermanent Residents Can Petition:\n- Spouse\n- Unmarried children (any age)\n\nNote: You must file separate I-130 forms for each relative.",
+        "contentSecondPointText": "U.S. Citizens Can Petition:\n- Spouse\n- Parents\n- Children (any age/marital status)\n- Siblings\n\nPermanent Residents Can Petition:\n- Spouse\n- Unmarried children (any age)\n\nImportant: A separate I-130 form is required for each relative.",
         "contentThirdPoint": "Required Documentation",
-        "contentThirdPointText": "Essential evidence includes:\n\n1. Proof of your status:\n   - Birth certificate (citizens)\n   - Naturalization certificate\n   - Green Card (permanent residents)\n\n2. Proof of family relationship:\n   - Marriage certificates\n   - Birth certificates\n   - Adoption decrees\n\n3. Financial support evidence (for subsequent Form I-864)",
-        "contentFourPoint": "Process Summary",
-        "contentFourPointText": "1. File Form I-130 with USCIS\n2. Wait for petition approval\n3. Relative applies for visa:\n   - Abroad: Through consular processing\n   - In U.S.: Via adjustment of status (Form I-485)\n\nProcessing Times:\n• Immediate relatives: No wait\n• Others: Varies by category/country (1-10+ years)\n\nNote: All applicants must pass medical and background checks",
-        "contentFinal": "Important: I-130 approval doesn't guarantee the visa. Your relative must still meet all eligibility requirements. Consult an immigration attorney for complex cases."
+        "contentThirdPointText": "Essential documents:\n\n1. Proof of your immigration status:\n   - Birth certificate (citizens)\n   - Naturalization certificate\n   - Permanent residency (Green Card)\n\n2. Proof of family relationship:\n   - Marriage certificate\n   - Birth certificates\n   - Adoption documents\n\n3. Evidence of financial support (for subsequent Form I-864)",
+        "contentFourPoint": "Process Stages",
+        "contentFourPointText": "1. File Form I-130 with USCIS\n2. Wait for petition approval\n3. Relative processes the visa:\n   - From abroad: Consular process\n   - In the U.S.: Status adjustment (Form I-485)\n\nProcessing Times:\n• Immediate relatives: No waiting list\n• Other cases: Varies by category/country (1-10+ years)\n\nNote: All applicants must meet medical and background requirements",
+        "contentFinal": "Notice: I-130 approval doesn't guarantee the visa. Your relative must meet all requirements. We recommend professional guidance for complex cases."
       },
       {
         "id": 6,
         "title": "DACA Renewal",
-        "description": "Renew your DACA status with Form I-821D.",
+        "description": "Advisory to renew your DACA status with Form I-821D.",
         "form": "Form I-821D",
-        "content": "DACA Program Overview",
-        "contentSubtitle": "Temporary protection for eligible individuals who arrived in the U.S. as children",
+        "content": "Information About the DACA Program",
+        "contentSubtitle": "Temporary protection for eligible individuals who arrived in the U.S. as minors",
         "contentFirstPoint": "Current DACA Status",
-        "contentFirstPointText": "• Renewals Only: USCIS currently only processes DACA renewal applications\n• No New Applications: Initial applications are not being accepted\n• Limited Window: Only those with status expiring between 9/5/2017 and 3/5/2018 can renew\n\nNote: Those who never had DACA cannot currently apply",
+        "contentFirstPointText": "• Renewals Only: Currently only DACA renewals are processed\n• No New Applications: Initial applications aren't accepted\n• Limited Window: Only those with status expiring between September 2017 and March 2018 can renew\n\nImportant: Those who never had DACA cannot currently apply",
         "contentSecondPoint": "Eligibility Requirements",
-        "contentSecondPointText": "To qualify for DACA you must:\n\n1. Have entered the U.S. before age 16\n2. Be under 31 as of 6/15/2012\n3. Have continuously resided in the U.S. since 6/15/2007\n4. Be physically present on 6/15/2012\n5. Have no legal status on 6/15/2012\n6. Meet education/military requirements:\n   - Currently in school OR\n   - Have high school diploma/GED OR\n   - Be an honorably discharged veteran\n7. Have no serious criminal history",
+        "contentSecondPointText": "To qualify for DACA you need:\n\n1. Arrived in the U.S. before age 16\n2. Were under 31 years old as of June 15, 2012\n3. Lived continuously in the U.S. since June 2007\n4. Were present in the U.S. on June 15, 2012\n5. Had no regularized immigration status in June 2012\n6. Meet education/military requirements:\n   - Currently studying OR\n   - Have a high school diploma/GED OR\n   - Are an honorably discharged veteran\n7. Have no serious criminal record",
         "contentThirdPoint": "Required Documentation",
-        "contentThirdPointText": "Necessary proofs include:\n\n• Identity Documents:\n  - Passport/birth certificate\n  - Government IDs\n\n• Proof of Continuous Residence:\n  - School/medical records\n  - Employment history\n  - Financial records\n\n• Education/Military Proof:\n  - Diplomas/transcripts\n  - GED certificate\n  - Military service records",
-        "contentFourPoint": "Application Process",
-        "contentFourPointText": "For eligible renewals:\n\n1. File Form I-821D\n2. Submit Form I-765 for work authorization\n3. Pay $495 fee\n4. Provide biometrics\n5. Wait for USCIS processing\n\nProcessing Time: Typically 4-6 months\n\nBenefits:\n• Protection from deportation\n• Work authorization\n• Social Security Number\n\nNote: DACA does NOT provide:\n• Permanent resident status\n• Path to citizenship\n• Federal financial aid eligibility",
-        "contentFinal": "Important: If your DACA expired after March 2018, immediately consult an immigration attorney. Court rulings may affect program availability - check USCIS website for updates before applying."
+        "contentThirdPointText": "Required evidence:\n\n• Identification:\n  - Passport/birth certificate\n  - Official IDs\n\n• Proof of Continuous Residence:\n  - School/medical records\n  - Employment history\n  - Bank statements\n\n• Educational/Military Proof:\n  - Diplomas/transcripts\n  - GED certificate\n  - Military service documents",
+        "contentFourPoint": "Application Procedure",
+        "contentFourPointText": "For eligible renewals:\n\n1. Submit Form I-821D\n2. Send Form I-765 for work permit\n3. Pay $495 fee\n4. Provide biometric data\n5. Wait for USCIS processing\n\nProcessing Time: Typically 4-6 months\n\nBenefits:\n• Protection from deportation\n• Work permit\n• Social Security Number\n\nNote: DACA does NOT provide:\n• Permanent residency\n• Path to citizenship\n• Access to federal financial aid",
+        "contentFinal": "Important: If your DACA expired after March 2018, seek professional guidance. Policy changes may affect program availability - check USCIS website for updates before applying."
       },
       {
         "id": 7,
-        "title": "Asylum Application",
-        "description": "Assistance with Form I-589 for asylum seekers.",
+        "title": "Immigration Protection",
+        "description": "Advisory with Form I-589 for international protection applicants.",
         "form": "Form I-589",
-        "content": "Protection Against Persecution in the U.S.",
-        "contentSubtitle": "Immigration process for individuals fearing persecution in their home country",
+        "content": "Protection in the U.S. Due to Persecution in Your Country",
+        "contentSubtitle": "Immigration process for individuals who fear returning to their home country",
         "contentFirstPoint": "What is Form I-589?",
-        "contentFirstPointText": "Form I-589 serves three key purposes:\n\n• Asylum application (permanent protection)\n• Withholding of removal petition (protection against deportation)\n• Protection under the Convention Against Torture (CAT)\n\nThis is the main form to seek protection in the U.S. based on fear of persecution.",
+        "contentFirstPointText": "Form I-589 has three main functions:\n\n• Application for permanent protection\n• Petition to avoid deportation\n• Protection under international agreements\n\nIt's the main form to seek protection in the U.S. due to persecution reasons.",
         "contentSecondPoint": "Eligibility Requirements",
-        "contentSecondPointText": "To qualify you must:\n\n1. Demonstrate well-founded fear of persecution due to:\n   - Race/Religion\n   - Nationality\n   - Political opinion\n   - Membership in particular social group\n\n2. Be physically present in the U.S. (regardless of entry method)\n3. File within 1 year of arrival (with exceptions for extraordinary circumstances)\n4. Not have:\n   - Previous deportation orders\n   - Asylum application denied after full hearing",
+        "contentSecondPointText": "To qualify you need:\n\n1. Demonstrate real risk of persecution due to:\n   - Race/Religion\n   - Nationality\n   - Political opinion\n   - Membership in social group\n\n2. Be physically present in the U.S. (regardless of how you entered)\n3. File within 1 year of arrival (with exceptions for special cases)\n4. Not have:\n   - Previous deportation orders\n   - Previously denied applications",
         "contentThirdPoint": "Required Documentation",
-        "contentThirdPointText": "Essential evidence includes:\n\n• Completed Form I-589\n• Detailed personal statement:\n  - Specific persecution incidents\n  - Country conditions\n  - Why you can't return\n\n• Supporting evidence:\n  - Medical/psychological reports\n  - Police reports\n  - News articles\n  - Witness statements\n  - Certified translations of foreign documents\n\n• Two passport-style photos",
-        "contentFourPoint": "Application Process and Benefits",
-        "contentFourPointText": "Steps to Apply:\n1. Complete and sign Form I-589\n2. Compile supporting evidence\n3. Submit to USCIS\n4. Attend biometrics appointment\n5. Interview with asylum officer\n6. Receive decision\n\nPotential Benefits:\n• Protection from deportation\n• Work authorization\n• Path to permanent residence\n• Ability to petition for relatives\n• Access to social services",
-        "contentFinal": "Important: Asylum cases are complex. It is strongly recommended to:\n• Consult with an immigration attorney\n• File application within the 1-year deadline\n• Provide detailed and consistent evidence\n• Check USCIS website for current processing times"
+        "contentThirdPointText": "Required evidence:\n\n• Completed Form I-589\n• Detailed personal statement:\n  - Specific persecution incidents\n  - Situation in your country\n  - Reasons you can't return\n\n• Supporting evidence:\n  - Medical/psychological reports\n  - Police reports\n  - Relevant news\n  - Witness statements\n  - Certified document translations\n\n• Two passport-style photos",
+        "contentFourPoint": "Process and Benefits",
+        "contentFourPointText": "Filing Steps:\n1. Complete and sign Form I-589\n2. Gather supporting evidence\n3. Submit to USCIS\n4. Attend biometrics appointment\n5. Interview with officer\n6. Receive decision\n\nPotential Benefits:\n• Protection from deportation\n• Work permit\n• Possibility of permanent residency\n• Family reunification\n• Access to basic services",
+        "contentFinal": "Recommendation: International protection cases are complex. It's highly recommended to:\n• Seek professional guidance\n• File within the 1-year deadline\n• Provide clear and consistent evidence\n• Check USCIS processing times"
       },
       {
         "id": 8,
-        "title": "Certificate of Citizenship",
-        "description": "Establish your status with Form N-600.",
+        "title": "Citizenship by Descent",
+        "description": "Guidance to establish your status with Form N-600.",
         "form": "Form N-600",
-        "content": "U.S. Certificate of Citizenship: Form N-600",
-        "contentSubtitle": "A person born outside the U.S. to U.S. citizen parents may have already acquired citizenship. To document their citizenship status based on ancestry, they can file Form N-600, Application for Certificate of Citizenship.",
-        "contentFirstPoint": "Who Should File Form N-600?",
-        "contentFirstPointText": "A person may file Form N-600 if they are claiming U.S. citizenship by law while in the U.S. or if they were born abroad to U.S. citizen parents.",
-        "contentSecondPoint": "Automatic Citizenship by Law",
-        "contentSecondPointText": "You automatically become a U.S. citizen if you meet the following requirements:\n- Citizen Parent: At least one parent is a citizen by birth or naturalization.\n- U.S. Residence: The individual lives in the U.S. with their citizen parent.\n- Legal Admission as Permanent Resident: The individual was legally admitted as a permanent resident.\n- Under 18: The individual is still under 18 years old.\n- Legal Custody: The individual is a biological child under legal custody of citizen parent before turning 16.",
+        "content": "Certificate of U.S. Citizenship: Form N-600",
+        "contentSubtitle": "Individuals born abroad to U.S. citizen parents may have automatically obtained citizenship. Form N-600 documents this status based on ancestry.",
+        "contentFirstPoint": "Who Can File Form N-600?",
+        "contentFirstPointText": "You can file Form N-600 if:\n• You claim U.S. citizenship by law while in the U.S.\n• You were born abroad to U.S. citizen parents.",
+        "contentSecondPoint": "Automatic Citizenship",
+        "contentSecondPointText": "You obtain automatic citizenship if you meet:\n- Citizen Parent: At least one parent is a citizen by birth or naturalization.\n- U.S. Residence: You live in the U.S. with your citizen parent.\n- Legal Permanent Resident: You were legally admitted as a resident.\n- Minor: You're under 18 years old.\n- Legal Custody: You were under legal custody of citizen parent before turning 16.",
         "contentThirdPoint": "Citizenship by Birth Abroad",
-        "contentThirdPointText": "An individual born outside the U.S. to citizen parents may claim automatic citizenship at birth if they meet:\n- Both parents are citizens, and one resided in the U.S. before birth.\n- Or, if one parent is foreign and the other is a citizen who, before birth, was physically present in the U.S. for at least 5 years (2 after age 14).",
+        "contentThirdPointText": "You can claim citizenship at birth if:\n- Both parents are citizens, and one resided in the U.S. before your birth.\n- Or, if one parent is foreign and the other is a citizen who was in the U.S. at least 5 years (2 after age 14).",
         "contentFourPoint": "Additional Requirements",
-        "contentFourPointText": "A person may also apply if before turning 18 and before 2/27/2001:\n- Lived continuously in the U.S. as a legal permanent resident; and\n- Both parents, the custodial parent, or the sole surviving parent naturalized as citizens.",
+        "contentFourPointText": "You can also apply if before turning 18 and before 02/27/2001:\n- You lived continuously in the U.S. as a legal permanent resident; and\n- Your parents or custodial parent naturalized as citizens.",
         "contentFivePoint": "Application by Parent or Guardian",
-        "contentFivePointText": "For adopted or biological children under 18 who meet requirements under INA, the application must be filed by the citizen parent or legal guardian with custody.",
+        "contentFivePointText": "For minors under 18 who meet requirements, the application must be filed by the citizen parent or legal guardian with custody.",
         "contentSixPoint": "How to File Form N-600?",
-        "contentSixPointText": "To begin the process, you must complete and file Form N-600 with the required documentation showing you meet the specified criteria. This certificate serves as official proof of your status as a U.S. citizen."
+        "contentSixPointText": "To begin the process, complete and submit Form N-600 with documentation proving you meet the criteria. This certificate serves as official proof of your U.S. citizenship."
       }
     ],
     "whyChooseUs": {
-      "title": "Why Choose Our Immigration Services?",
-      "subtitle": "We make the complex immigration process simple, transparent, and successful.",
+      "title": "Why Choose Our Immigration Advisory?",
+      "subtitle": "We simplify the immigration process, making it transparent and successful.",
       "items": [
         {
           "icon": "🏛️",
           "title": "USCIS Experience",
-          "description": "Our team works directly with USCIS services, ensuring your applications meet all requirements."
+          "description": "Our team understands USCIS processes, ensuring your applications meet all requirements."
         },
         {
           "icon": "👨‍⚖️",
           "title": "Personalized Guidance",
-          "description": "Personalized support from experienced professionals who understand your unique situation."
+          "description": "We provide personalized service tailored to your specific situation."
         },
         {
           "icon": "📈",
           "title": "High Success Rate",
-          "description": "Proven track record of helping clients achieve their immigration goals efficiently."
+          "description": "We've helped numerous individuals successfully achieve their immigration goals."
         }
       ]
     },
     "forms": {
-      "title": "We Work With All USCIS Services",
-      "subtitle": "Select your preferred form to get information about your application. Our agents will be ready to assist you with your process.",
-      "commonForms": "Common USCIS Forms",
+      "title": "We Work With All USCIS Forms",
+      "subtitle": "Select the form you need for information about your process. Our advisors are ready to help you.",
+      "commonForms": "Most Requested Forms",
       "formItems": [
         {
           "name": "Form N-400",
-          "description": "Naturalization Application"
+          "description": "U.S. Citizenship"
         },
         {
           "name": "Form I-485",
-          "description": "Permanent Residence Application"
+          "description": "Permanent Residency"
         },
         {
           "name": "Form I-765",
-          "description": "Employment Authorization Application"
+          "description": "Work Permit"
         },
         {
           "name": "Form I-130",
-          "description": "Petition for Alien Relative"
+          "description": "Family Reunification"
         },
         {
           "name": "Form I-751",
-          "description": "Petition to Remove Conditions on Residence"
+          "description": "Removal of Residency Conditions"
         },
         {
           "name": "Form I-821D",
-          "description": "Consideration of Deferred Action for Childhood Arrivals"
+          "description": "DACA Renewal"
         }
       ],
       "cta": "Need Help With a Specific Form?"
     },
     "cta": {
       "title": "Ready to Start Your Immigration Process?",
-      "subtitle": "Don't navigate the complex immigration process alone. Let our experts handle the paperwork while you focus on your future.",
+      "subtitle": "Don't face the complex immigration system alone. Our experts will handle the paperwork while you prepare for your future.",
       "buttons": [
         "Schedule a Consultation",
-        "Learn More About Our Services"
+        "Learn About Our Services"
       ]
+    },
+    "contact_pages": {
+      "hero": {
+        "title": "Contact Us",
+        "subtitle": "Speak today with our immigration experts"
+      },
+      "info": {
+        "title": "Our Office",
+        "addressTitle": "Address",
+        "address": "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
+        "phoneTitle": "Phone",
+        "phone": "+1 5308637124",
+        "emailTitle": "Email",
+        "email": "info@libertasconsultingservice.com",
+        "hoursTitle": "Hours",
+        "hours": "Monday - Friday: 9am - 4:30pm <br />Saturday: Closed<br />Sunday: Closed",
+        "emergencyTitle": "Urgent Contact",
+        "emergencyText": "Our number for immigration inquiries is <span class='font-semibold'>+1 5308637124</span>."
+      },
+      "form": {
+        "title": "Write to Us",
+        "nameLabel": "Full Name",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "serviceLabel": "Service of Interest",
+        "serviceDefault": "Select a service",
+        "serviceOptions": [
+          "Citizenship",
+          "Permanent Residency",
+          "Work Visa",
+          "Family Reunification",
+          "DACA",
+          "International Protection",
+          "Other"
+        ],
+        "messageLabel": "Message",
+        "consentLabel": "I authorize this site to store my information to respond to my inquiry.",
+        "submitButton": "Send Message",
+        "successTitle": "Thank You!",
+        "successMessage": "Your message has been sent successfully. We will contact you within 24 hours."
+      },
+      "map": {
+        "title": "Location",
+        "button": "View on Google Maps"
+      },
+      "cta": {
+        "title": "Free Initial Consultation",
+        "subtitle": "Book 30 minutes with our immigration experts to analyze your needs.",
+        "button": "Book Now"
+      }
+    },
+    "news": {
+      "info": {
+        "blog_title": "Immigration Updates",
+        "blog_description": "Stay informed about changes and relevant news regarding U.S. immigration.",
+        "read_more": "Read more →"
+      }
     }
   },
-  "contact_pages": {
-    "hero": {
-      "title": "Contact Us",
-      "subtitle": "Reach out to our immigration experts today"
-    },
-    "info": {
-      "title": "Our Office",
-      "addressTitle": "Address",
-      "address": "4063 Salisbury Road <br/> Suite 110 <br/> Jacksonville FL 32216",
-      "phoneTitle": "Phone",
-      "phone": "+1 5308637124",
-      "emailTitle": "Email",
-      "email": "marketing.libertaslcs@gmail.com",
-      "hoursTitle": "Hours",
-      "hours": "Monday - Friday: 9am - 4:30pm <br />Saturday: Closed<br />Sunday: Closed",
-      "emergencyTitle": "Emergency Contact",
-      "emergencyText": "Our only contact line for immigration matters is <span class='font-semibold'>+1 5308637124</span>."
-    },
-    "form": {
-      "title": "Send Us a Message",
-      "nameLabel": "Full Name",
-      "emailLabel": "Email",
-      "phoneLabel": "Phone Number",
-      "serviceLabel": "Service of Interest",
-      "serviceDefault": "Select a service",
-      "serviceOptions": [
-        "Citizenship",
-        "Green Card",
-        "Work Visa",
-        "Family Sponsorship",
-        "DACA",
-        "Asylum",
-        "Other"
-      ],
-      "messageLabel": "Your Message",
-      "consentLabel": "I consent to this website storing my submitted information so they can respond to my inquiry.",
-      "submitButton": "Send Message",
-      "successTitle": "Thank You!",
-      "successMessage": "Your message has been successfully sent. Our team will contact you within 24 hours."
-    },
-    "map": {
-      "title": "Office Location",
-      "button": "View on Google Maps"
-    },
-    "cta": {
-      "title": "Schedule a Free Consultation",
-      "subtitle": "Book a 30-minute consultation with one of our immigration experts to discuss your specific needs.",
-      "button": "Book Now"
-    }
-  },
-  "news": {
-    "info": {
-      "blog_title": "Latest News",
-      "blog_description": "Stay informed about U.S. immigration laws and changes.",
-      "read_more": "Read more →"
-    }
-  },
-  "Solicitud de Cita por WhatsApp": "WhatsApp Appointment Request",
+  "Solicitud de Cita por WhatsApp": "Appointment Request via WhatsApp",
   "Complete el formulario y será redirigido a WhatsApp para confirmar": "Complete the form and you'll be redirected to WhatsApp to confirm",
   "Nombre completo": "Full Name",
   "Correo electrónico": "Email",
@@ -377,8 +376,8 @@
   "Ciudad de residencia": "City of Residence",
   "Número de identificación": "ID Number",
   "Seleccione un servicio": "Select a Service",
-  "Fecha deseada": "Desired Date",
-  "Hora deseada": "Desired Time",
+  "Fecha deseada": "Preferred Date",
+  "Hora deseada": "Preferred Time",
   "Enviar por WhatsApp": "Send via WhatsApp",
   "Al enviar este formulario, será redirigido a WhatsApp para confirmar su cita.": "When submitting this form, you'll be redirected to WhatsApp to confirm your appointment.",
   "¡Formulario completado! Será redirigido a WhatsApp.": "Form completed! You'll be redirected to WhatsApp.",
@@ -391,19 +390,22 @@
   "Motivo de la cita": "Appointment Reason",
   "Por favor confirmar disponibilidad": "Please confirm availability",
 
-  "Ciudadanía Americana (Formulario N-400)": "U.S. Citizenship (Form N-400)",
-  "Certificado de Ciudadanía (Formulario N-600)": "Certificate of Citizenship (Form N-600)",
-  "Renovar Certificado de Ciudadanía (Formulario N-565)": "Renew Certificate of Citizenship (Form N-565)",
-  "Renovación de Green Card (Formulario I-90)": "Green Card Renewal (Form I-90)",
-  "Eliminar condiciones de residencia (Formulario I-751)": "Remove Conditions on Residence (Form I-751)",
-  "Ajuste de Estatus (Formulario I-485)": "Adjustment of Status (Form I-485)",
-  "Green Card para familiar (Formulario I-130)": "Green Card for Relative (Form I-130)",
-  "Permiso de Trabajo (Formulario I-765)": "Work Permit (Form I-765)",
-  "Acción Diferida (DACA) (Formulario I-821D)": "Deferred Action (DACA) (Form I-821D)",
-  "Lotería de Green Card (DV)": "Green Card Lottery (DV)",
-  "floatingButtons":{
+  "Servicios Disponibles": {
+    "Ciudadanía Americana (Formulario N-400)": "U.S. Citizenship (Form N-400)",
+    "Certificado de Ciudadanía (Formulario N-600)": "Citizenship by Descent (Form N-600)",
+    "Renovar Certificado de Ciudadanía (Formulario N-565)": "Certificate Duplicate (Form N-565)",
+    "Renovación de Green Card (Formulario I-90)": "Residency Renewal (Form I-90)",
+    "Eliminar condiciones de residencia (Formulario I-751)": "Definitive Permanent Residency (Form I-751)",
+    "Ajuste de Estatus (Formulario I-485)": "Residency Obtainment (Form I-485)",
+    "Green Card para familiar (Formulario I-130)": "Family Reunification (Form I-130)",
+    "Permiso de Trabajo (Formulario I-765)": "Work Authorization (Form I-765)",
+    "Acción Diferida (DACA) (Formulario I-821D)": "DACA Renewal (Form I-821D)",
+    "Lotería de Green Card (DV)": "Diversity Visa Program (DV)"
+  },
+
+  "floatingButtons": {
     "whatsapp": {
-      "whatsappMessage": "Good morning, I've visited your website and I'm interested in receiving more information about the free consultation."
+      "whatsappMessage": "Good day, I visited your website and I'm interested in learning more about your free immigration advisory service."
     }
   }
 }
