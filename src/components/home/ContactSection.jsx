@@ -31,7 +31,7 @@ const ContactSection = () => {
       icon: <FaEnvelope className="text-amber-600 text-xl" />,
       title: t("contact.cards.email.title"),
       description: t("contact.cards.email.description"),
-      link: "mailto:marketing.libertaslcs@gmail.com",
+      link: "mailto:info@libertasconsultingservice.com",
       linkText: t("contact.cards.email.address"),
     },
     {
@@ -69,7 +69,7 @@ const ContactSection = () => {
       )}
     </div>
   ))}
-</div>;
+</div>
 
         <div className="mt-10 bg-white p-6 rounded-lg text-center shadow-md">
           <div className="flex items-center justify-center mb-3">

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaCheckCircle, FaUser } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -40,21 +40,28 @@ const Contact = () => {
 
   return (
     <>
-<Helmet>
-    <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
-    <title>Contact Us | Libertas Consulting Service - Expert Immigration Advisory</title>
-    <meta name="description" content="Get personalized immigration advice from experienced consultants. Contact us today for professional assistance with your U.S. immigration process." />
-    <meta name="robots" content="index, follow" />
+    <Helmet>
+      <link rel="canonical" href="https://libertasconsultingservice.com/contact" />
+      <title>Contact Us | Libertas Consulting Service - Expert Immigration Advisory</title>
+      <meta name="description" content="Get personalized immigration advice from experienced consultants. Contact us today for professional assistance with your U.S. immigration process." />
+      <meta name="robots" content="index, follow" />
 
-    {/* Open Graph */}
-    <meta property="og:title" content="Contact Us | Libertas Consulting Service - Expert Immigration Advisory" />
-    <meta property="og:description" content="Speak with our immigration consultants for clear, professional guidance on your U.S. immigration process. We're here to help." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://libertasconsultingservice.com/contact" />
-    <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
-    <meta property="og:site_name" content="Libertas Consulting Service" />
-    <meta property="og:locale" content="en_US" />
-</Helmet>
+      {/* Open Graph */}
+      <meta property="og:title" content="Contact Us | Libertas Consulting Service - Expert Immigration Advisory" />
+      <meta property="og:description" content="Speak with our immigration consultants for clear, professional guidance on your U.S. immigration process. We're here to help." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://libertasconsultingservice.com/contact" />
+      <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
+      <meta property="og:site_name" content="Libertas Consulting Service" />
+      <meta property="og:locale" content="en_US" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Contact Us | Libertas Consulting Service - Expert Immigration Advisory" />
+      <meta name="twitter:description" content="Get professional immigration advice from experienced consultants. Contact us today." />
+      <meta name="twitter:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
+      <meta name="twitter:site" content="@LibertasConsult" />
+    </Helmet>
     <div className="font-sans bg-gray-50">
       <section className="relative h-96 bg-blue-900 text-white overflow-hidden hro">
       <div 
@@ -82,14 +89,14 @@ const Contact = () => {
     </section>
 
       {/* Contact Content */}
-      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-[minmax(500px,500px)_1fr] gap-10">
+      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 justify-center ">
+        <div className="grid grid-cols-1 lg:grid-cols-[minmax(500px,500px)_1fr] gap-10 ">
           {/* Contact Info - Columna izquierda con tamaños fijos */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="self-start lg:sticky lg:top-8"
+            className=" h-fit self-start lg:sticky lg:top-14"
           >
             <div className="bg-white rounded-2xl shadow-xl p-8 h-full border-2 border-yellow-400">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-yellow-400 whitespace-nowrap overflow-hidden text-ellipsis">

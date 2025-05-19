@@ -1,14 +1,18 @@
 {
+  "HERO": {
+    "title": "Immigration Process Experts",
+    "subtitle": "Comprehensive legal solutions and personalized advice for all your immigration needs.",
+    "button": "Get your consultation"
+  },
+  "ABOUT":{
+    "title": "Our Firm",
+    "description": "Our team has decades of combined experience in immigration offices, offering specialized guidance for all types of immigration processes in Jacksonville, Florida. We are committed to guiding the community through the complexities of the U.S. immigration system."
+  },
   "wtpButton": "Chat with us!",
   "home": "Home",
   "services_nav": "Services",
   "contact_nav": "Contact",
   "appointment": "Check Availability",
-  "hero_title": "Immigration Process Experts",
-  "hero_subtitle": "Comprehensive legal solutions and personalized advice for all your immigration needs.",
-  "hero_button": "Get your free consultation",
-  "about_title": "Our Firm",
-  "about_description": "Our team has decades of combined experience in immigration offices, offering specialized guidance for all types of immigration processes in Jacksonville, Florida. We are committed to guiding the community through the complexities of the U.S. immigration system.",
   "title_visa": "Work Visas",
   "description_visa": "Strategic advice to obtain work authorization and employment visas in the United States.",
   "title_Residency": "Permanent Residency",
@@ -47,7 +51,7 @@
       "email": {
         "title": "Email Us",
         "description": "We'll respond in less than 24 hours",
-        "address": "marketing.libertaslcs@gmail.com"
+        "address": "info@libertasconsultingservice.com"
       },
       "appointment": {
         "title": "Schedule Consultation",
@@ -79,7 +83,7 @@
       "title": "Contact",
       "address": "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
       "phone": "+1 5308637124",
-      "email": "marketing.libertaslcs@gmail.com"
+      "email": "info@libertasconsultingservice.com"
     },
     "legal": {
       "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. All rights reserved.",
@@ -324,7 +328,7 @@
       "phoneTitle": "Phone",
       "phone": "+1 5308637124",
       "emailTitle": "Email",
-      "email": "marketing.libertaslcs@gmail.com",
+      "email": "info@libertasconsultingservice.com",
       "hoursTitle": "Hours",
       "hours": "Monday - Friday: 9am - 4:30pm <br />Saturday: Closed<br />Sunday: Closed",
       "emergencyTitle": "Emergency Contact",
@@ -357,7 +361,7 @@
       "button": "View on Google Maps"
     },
     "cta": {
-      "title": "Schedule a Free Consultation",
+      "title": "Schedule a  Consultation",
       "subtitle": "Book a 30-minute consultation with one of our immigration experts to discuss your specific needs.",
       "button": "Book Now"
     }
@@ -403,7 +407,7 @@
   "Lotería de Green Card (DV)": "Green Card Lottery (DV)",
   "floatingButtons":{
     "whatsapp": {
-      "whatsappMessage": "Good morning, I've visited your website and I'm interested in receiving more information about the free consultation."
+      "whatsappMessage": "Good morning, I've visited your website and I'm interested in receiving more information about the consultation."
     }
   }
 }

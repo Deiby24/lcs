@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-[#C99E4D] mr-3" />
-                <a href="mailto:marketing.libertaslcs@gmail.com" className="hover:text-[#C99E4D] transition">{t('footer.contact.email')}</a>
+                <a href="mailto:info@libertasconsultingservice.com" className="hover:text-[#C99E4D] transition">{t('footer.contact.email')}</a>
               </li>
             </ul>
           </div>

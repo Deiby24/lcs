@@ -1,15 +1,18 @@
 {
-
+  "HERO": {
+    "title": "专业移民法律服务",
+    "subtitle": "为您提供全面的法律解决方案和个性化的移民指导",
+    "button": "获取咨询"
+  },
+  "ABOUT":{
+    "title": "关于我们",
+    "description": "我们的团队在移民局拥有数十年的综合经验，为佛罗里达州杰克逊维尔的各种移民案件提供专业代理。我们致力于帮助社区应对美国移民体系的复杂性。"
+  },
           "wtpButton": "与我们聊天！",
           "home": "首页",
           "services_nav": "法律服务",
           "contact_nav": "联系我们",
           "appointment": "预约咨询",
-          "hero_title": "专业移民法律服务",
-          "hero_subtitle": "为您提供全面的法律解决方案和个性化的移民指导",
-          "hero_button": "获取您的免费咨询",
-          "about_title": "关于我们",
-          "about_description": "我们的团队在移民局拥有数十年的综合经验，为佛罗里达州杰克逊维尔的各种移民案件提供专业代理。我们致力于帮助社区应对美国移民体系的复杂性。",
           "title_visa": "工作签证",
           "description_visa": "为您提供获取美国工作授权和就业签证的战略指导",
           "title_Residency": "永久居留",
@@ -48,7 +51,7 @@
               "email": {
                 "title": "发送邮件",
                 "description": "我们将在24小时内回复",
-                "address": "marketing.libertaslcs@gmail.com"
+                "address": "info@libertasconsultingservice.com"
               },
               "appointment": {
                 "title": "预约咨询",
@@ -79,7 +82,7 @@
               "title": "联系方式",
               "address": "4063 Salisbury Road,Suite 110 <br />Jacksonville FL 32216",
               "phone": "+1 5308637124",
-              "email": "marketing.libertaslcs@gmail.com"
+              "email": "info@libertasconsultingservice.com"
             },
             "legal": {
               "copyright": "&copy; 2023 Libertas Consulting Services LLC。保留所有权利。",
@@ -317,7 +320,7 @@
               "phoneTitle": "电话",
               "phone": "+1 5308637124",
               "emailTitle": "电子邮件",
-              "email": "marketing.libertaslcs@gmail.com",
+              "email": "info@libertasconsultingservice.com",
               "hoursTitle": "营业时间",
               "hours": "周一 - 周五: 上午9点 - 下午4:30 <br /> 周六 - 周日: 休息",
               "emergencyTitle": "紧急联系方式",
@@ -395,7 +398,7 @@
           "Lotería de Green Card (DV)": "绿卡抽签 (DV)",
           "floatingButtons":{
             "whatsapp": {
-              "whatsappMessage": "您好，我浏览了您们的网站，希望了解更多有关免费咨询的信息。"
+              "whatsappMessage": "你好，我浏览了你们的网站，想了解更多关于心理咨询的信息。"
             }
           }
         }

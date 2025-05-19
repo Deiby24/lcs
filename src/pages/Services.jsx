@@ -3,14 +3,16 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import serviceBG from "../assets/images/serviceBG.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "../i18n";
 import "../assets/styles/servicesPages.css";
+import { useNavigate } from 'react-router-dom';
 
 const Services = () => {
   const { t } = useTranslation();
   const [scrollY, setScrollY] = useState(0);
   const [activeTab, setActiveTab] = useState("all");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,30 +36,37 @@ const Services = () => {
             .includes(t(`services.filter.${activeTab}`).toLocaleLowerCase())
         );
 
+    const handleClick = (service) => {
+    navigate(`/services/${encodeURIComponent(service.form)}`);
+    };
+
   return (
     <>
     <Helmet>
-      <title>Our Services | Libertas Consulting - Immigration Solutions</title>
+      <title>Expert U.S. Immigration Services | Libertas Consulting</title>
       <meta 
         name="description" 
-        content="Discover our range of personalized immigration consulting services. At Libertas, we guide individuals and families through every step of the U.S. immigration process." 
+        content="Get expert help with U.S. immigration. Libertas Consulting offers family-based, employment-based, and student visa services tailored to your needs." 
       />
+
+      <link rel="canonical" href="https://libertasconsultingservice.com/services" />
+      <meta name="robots" content="index, follow" />
 
       {/* Favicon / Logo */}
       <link rel="icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" href="/libertaswhite.png" />
 
-      {/* Open Graph (for social sharing) */}
-      <meta property="og:title" content="Our Services | Libertas Consulting" />
-      <meta property="og:description" content="Explore our expert immigration services tailored to your unique needs. We're here to support your journey to the U.S." />
+      {/* Open Graph */}
+      <meta property="og:title" content="Expert U.S. Immigration Services | Libertas Consulting" />
+      <meta property="og:description" content="Get expert help with U.S. immigration. Explore our visa consulting services tailored to your goals." />
       <meta property="og:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
       <meta property="og:url" content="https://libertasconsultingservice.com/services" />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Our Services | Libertas Consulting" />
-      <meta name="twitter:description" content="Explore personalized immigration consulting services to support your path to the U.S." />
+      <meta name="twitter:title" content="U.S. Immigration Help | Libertas Consulting" />
+      <meta name="twitter:description" content="Immigration experts helping families, workers, and students navigate the U.S. immigration system." />
       <meta name="twitter:image" content="https://libertasconsultingservice.com/libertaswhite.png" />
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -86,7 +95,7 @@ const Services = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                {t("services.hero.title")}
+                {t("services.hero.title") || "Immigration Consulting Services in the USA" }
               </motion.h1>
 
               <motion.p
@@ -182,12 +191,19 @@ const Services = () => {
                     <p className="text-sm sm:text-base text-gray-700 mb-4 flex-grow">
                       {service.description}
                     </p>
-                    <Link
+                    {/* <Link
                       to={`/services/${encodeURIComponent(service.form)}`}
                       className="text-sm font-medium text-yellow-600 hover:underline hover:text-yellow-700"
                     >
                       {service.form}
-                    </Link>
+                    </Link> */}
+
+                    <button
+                      onClick={() => handleClick(service)}
+                      className="bg-yellow-500 text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-yellow-600 transition-colors"
+                    >
+                      {service.form}
+                    </button>
                   </motion.div>
                 ))}
               </div>
@@ -241,7 +257,7 @@ const Services = () => {
         </section>
 
         {/* FORM SELECTOR SECTION */}
-        <section className="py-12 sm:py-16 bg-white">
+        {/* <section className="py-12 sm:py-16 bg-white">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 sm:mb-6">
@@ -287,11 +303,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* FINAL CTA SECTION */}
         <section className="py-12 sm:py-16 bg-gradient-to-r from-yellow-800 to-yellow-600 text-white">
-          <div className="container mx-auto px-4 sm:px-6 text-center flex flex-col sm:flex-row justify-between h-full">
+          <div className="container mx-auto px-4 sm:px-6 text-center flex flex-col sm:flex-row justify-between ">
             <div className="flex-grow sm:flex-grow-0">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
                 {t("services.cta.title")}

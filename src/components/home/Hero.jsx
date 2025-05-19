@@ -43,7 +43,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {t("hero_title")}
+            {t("HERO.title")}
           </motion.h1>
 
           <motion.p
@@ -52,7 +52,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            {t("hero_subtitle")}
+            {t("HERO.subtitle")}
           </motion.p>
 
           <motion.a
@@ -64,7 +64,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             href={whatsappUrl}
           >
-            {t("hero_button")}
+            {t("HERO.button")}
           </motion.a>
         </motion.div>
       </div>

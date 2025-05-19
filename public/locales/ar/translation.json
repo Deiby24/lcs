@@ -1,14 +1,20 @@
 {
+  "HERO": {
+    "title": "خبراء في إجراءات الهجرة",
+    "subtitle": "حلول قانونية شاملة ونصائح مخصصة لجميع احتياجاتك المتعلقة بالهجرة.",
+    "button": "احصل على استشارتك"
+  },
+  "ABOUT": {
+    "title": "مكتبنا",
+    "description": "يتمتع فريقنا بخبرة مجتمعة تمتد لعقود في مكاتب الهجرة، حيث نقدم إرشادات متخصصة لجميع أنواع إجراءات الهجرة في جاكسونفيل، فلوريدا. نحن ملتزمون بتوجيه المجتمع العربي عبر تعقيدات نظام الهجرة الأمريكي."
+  },
     "wtpButton": "تواصل معنا!",
     "home": "الرئيسية",
     "services_nav": "الخدمات",
     "contact_nav": "اتصل بنا",
     "appointment": "تحقق من التوفر",
-    "hero_title": "خبراء في إجراءات الهجرة",
-    "hero_subtitle": "حلول قانونية شاملة ونصائح مخصصة لجميع احتياجاتك المتعلقة بالهجرة.",
-    "hero_button": "احصل على استشارة مجانية",
-    "about_title": "مكتبنا",
-    "about_description": "يتمتع فريقنا بخبرة مجتمعة تمتد لعقود في مكاتب الهجرة، حيث نقدم إرشادات متخصصة لجميع أنواع إجراءات الهجرة في جاكسونفيل، فلوريدا. نحن ملتزمون بتوجيه المجتمع العربي عبر تعقيدات نظام الهجرة الأمريكي.",
+   
+    
     "title_visa": "تأشيرات العمل",
     "description_visa": "نصائح استراتيجية للحصول على تصريح عمل وتأشيرات عمل في الولايات المتحدة.",
     "title_Residency": "الإقامة الدائمة",
@@ -47,7 +53,7 @@
         "email": {
           "title": "راسلنا عبر البريد الإلكتروني",
           "description": "سوف نرد في أقل من 24 ساعة",
-          "address": "marketing.libertaslcs@gmail.com"
+          "address": "info@libertasconsultingservice.com"
         },
         "appointment": {
           "title": "جدولة استشارة",
@@ -78,7 +84,7 @@
         "title": "اتصل بنا",
         "address": "4063 Salisbury Road، Suite 110<br />جاكسونفيل، FL 32216",
         "phone": "+1 5308637124",
-        "email": "marketing.libertaslcs@gmail.com"
+        "email": "info@libertasconsultingservice.com"
       },
       "legal": {
         "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. جميع الحقوق محفوظة.",
@@ -323,7 +329,7 @@
         "phoneTitle": "الهاتف",
         "phone": "+1 5308637124",
         "emailTitle": "البريد الإلكتروني",
-        "email": "marketing.libertaslcs@gmail.com",
+        "email": "info@libertasconsultingservice.com",
         "hoursTitle": "ساعات العمل",
         "hours": "الاثنين - الجمعة: 9 صباحًا - 4:30 مساءً <br />السبت: مغلق<br />الأحد: مغلق",
         "emergencyTitle": "الاتصال في حالات الطوارئ",
@@ -403,7 +409,7 @@
 
   "floatingButtons": {
     "whatsapp": {
-      "whatsappMessage": "صباح الخير، لقد زرت موقعكم وأرغب في الحصول على مزيد من المعلومات حول الاستشارة المجانية."
+      "whatsappMessage": "صباح الخير، لقد زرت موقعكم الإلكتروني وأرغب في الحصول على مزيد من المعلومات حول الاستشارة."
     }
   }
 }

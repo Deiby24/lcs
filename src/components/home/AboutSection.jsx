@@ -9,7 +9,7 @@ const AboutSection = () => {
     <section className="py-16 bg-gray-100 text-gray-900 about-container">
       <div className="container mx-auto px-4 text-center" style={{ display:"contents" }}>
         <h2 className="text-4xl font-bold text-gray-800 mb-8 relative pb-4 about-title">
-          {t("about_title")}
+          {t("ABOUT.title")}
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-amber-500"></span>
         </h2>
 
@@ -18,7 +18,7 @@ const AboutSection = () => {
             <span className="font-semibold text-amber-600">
               Libertas Consulting Services LLC
             </span>
-            , {t("about_description")}
+            , {t("ABOUT.description")}
           </p>
         </div>
       </div>

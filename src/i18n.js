@@ -11,11 +11,11 @@ i18n
   .init({
 
     detection: {
-      order: ["localStorage", "navigator"],
+      order: ["localStorage"],
       caches: ["localStorage"],
     },
     interpolation: { escapeValue: false },
-    fallbackLng: "es",
+    fallbackLng: "en",
 
   });
 

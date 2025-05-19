@@ -1,14 +1,20 @@
 {
+    "HERO": {
+        "title": "Expertos en Trámites Migratorios",
+        "subtitle": "Soluciones legales integrales y asesoramiento personalizado para todas sus necesidades de inmigración.",
+        "button": "Obtenga su consulta"
+      },
+      "ABOUT": {
+        "title": "Nuestro Despacho",
+        "description": "Nuestro equipo cuenta con décadas de experiencia combinada en oficinas de inmigración, ofreciendo asesoría especializada en todo tipo de trámites migratorios en Jacksonville, Florida. Estamos comprometidos a guiar a la comunidad a través de las complejidades del sistema migratorio estadounidense."
+      },
+
       "wtpButton": "¡Chatea con nosotros!",
       "home": "Inicio",
       "services_nav": "Servicios",
       "contact_nav": "Contacto",
       "appointment": "Consultar Disponibilidad",
-      "hero_title": "Expertos en Trámites Migratorios",
-      "hero_subtitle": "Soluciones legales integrales y asesoramiento personalizado para todas sus necesidades de inmigración.",
-      "hero_button": "Obtenga su consulta gratuita",
-      "about_title": "Nuestro Despacho",
-      "about_description": "Nuestro equipo cuenta con décadas de experiencia combinada en oficinas de inmigración, ofreciendo asesoría especializada en todo tipo de trámites migratorios en Jacksonville, Florida. Estamos comprometidos a guiar a la comunidad a través de las complejidades del sistema migratorio estadounidense.",
+      
       "title_visa": "Visas de Trabajo",
       "description_visa": "Asesoramiento estratégico para obtener autorización laboral y visas de empleo en Estados Unidos.",
       "title_Residency": "Residencia Permanente",
@@ -47,7 +53,7 @@
           "email": {
             "title": "Escríbenos",
             "description": "Responderemos en menos de 24 horas",
-            "address": "marketing.libertaslcs@gmail.com"
+            "address": "info@libertasconsultingservice.com"
           },
           "appointment": {
             "title": "Agenda Consulta",
@@ -78,7 +84,7 @@
           "title": "Contacto",
           "address": "4063 Salisbury Road, Suite 110<br />Jacksonville, FL 32216",
           "phone": "+1 5308637124",
-          "email": "marketing.libertaslcs@gmail.com"
+          "email": "info@libertasconsultingservice.com"
         },
         "legal": {
           "copyright": "&copy; ${new Date().getFullYear()} Libertas Consulting Services LLC. Todos los derechos reservados.",
@@ -323,7 +329,7 @@
           "phoneTitle": "Teléfono",
           "phone": "+1 5308637124",
           "emailTitle": "Correo Electrónico",
-          "email": "marketing.libertaslcs@gmail.com",
+          "email": "info@libertasconsultingservice.com",
           "hoursTitle": "Horario",
           "hours": "Lunes - Viernes: 9am - 4:30pm <br />Sábado: Cerrado<br />Domingo: Cerrado",
           "emergencyTitle": "Contacto de Emergencia",
@@ -356,7 +362,7 @@
           "button": "Ver en google maps"
         },
         "cta": {
-          "title": "Programe una Consulta Gratuita",
+          "title": "Programe una Consulta",
           "subtitle": "Reserve una consulta de 30 minutos con uno de nuestros expertos en inmigración para discutir sus necesidades específicas.",
           "button": "Reservar Ahora"
         }
@@ -402,7 +408,7 @@
       "Lotería de Green Card (DV)": "Lotería de Green Card (DV)",
       "floatingButtons":{
         "whatsapp": {
-          "whatsappMessage": "Buenos días, he visitado su sitio web y estoy interesado(a) en recibir más información sobre la consulta gratuita."
+          "whatsappMessage": "Buenos días, he visitado su sitio web y estoy interesado(a) en recibir más información sobre la consulta."
         }
       }
     }
